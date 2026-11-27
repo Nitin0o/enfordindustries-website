@@ -92,8 +92,8 @@ const imageMap={
     "alt": "Industrial textile yarn production line"
   },
   "Paper, Pulp & Process Chemicals": {
-    "src": "https://images.pexels.com/photos/10119483/pexels-photo-10119483.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Paper mill and industrial paper production site"
+    "src": "https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial process vessels and pipework"
   },
   "Rubber & Elastomer Chemicals": {
     "src": "https://images.pexels.com/photos/14745095/pexels-photo-14745095.jpeg?auto=compress&cs=tinysrgb&w=900",
