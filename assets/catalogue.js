@@ -148,68 +148,68 @@ const verticalRules={
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const productImageMap={
   "whey-protein-concentrate-wpc": {
-    "src": "https://images.pexels.com/photos/13779116/pexels-photo-13779116.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Unbranded protein powder in a container with a scoop"
+    "src": "assets/product-images/whey-protein-concentrate-wpc.webp",
+    "alt": "AI-generated whey protein powder and scoop"
   },
   "whey-protein-isolate-wpi": {
-    "src": "https://images.pexels.com/photos/5078581/pexels-photo-5078581.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "A selection of powdered ingredients in spoons"
+    "src": "assets/product-images/whey-protein-isolate-wpi.webp",
+    "alt": "AI-generated whey protein isolate in a spoon"
   },
   "milk-protein-concentrate-mpc": {
-    "src": "https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Modern dairy milk-processing equipment"
+    "src": "assets/product-images/milk-protein-concentrate-mpc.webp",
+    "alt": "AI-generated milk protein concentrate powder"
   },
   "milk-protein-isolate-mpi": {
-    "src": "https://images.pexels.com/photos/7236108/pexels-photo-7236108.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "White milk-derived powder in a ceramic bowl"
+    "src": "assets/product-images/milk-protein-isolate-mpi.webp",
+    "alt": "AI-generated milk protein powder"
   },
   "sodium-caseinate": {
-    "src": "https://images.pexels.com/photos/5078596/pexels-photo-5078596.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Close-up of fine food powders with a spoon"
+    "src": "assets/product-images/sodium-caseinate.webp",
+    "alt": "AI-generated sodium caseinate powder"
   },
   "skimmed-milk-powder": {
-    "src": "https://images.pexels.com/photos/5734741/pexels-photo-5734741.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Fine white powder in a ceramic bowl"
+    "src": "assets/product-images/skimmed-milk-powder.webp",
+    "alt": "AI-generated skimmed milk powder"
   },
   "whole-milk-powder": {
-    "src": "https://images.pexels.com/photos/10994727/pexels-photo-10994727.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Powdered milk in a measuring spoon"
+    "src": "assets/product-images/whole-milk-powder.webp",
+    "alt": "AI-generated whole milk powder"
   },
   "lactose": {
-    "src": "https://images.pexels.com/photos/37105582/pexels-photo-37105582.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "White sugar crystals in a bowl"
+    "src": "assets/product-images/lactose.webp",
+    "alt": "AI-generated lactose crystals"
   },
   "soy-protein-isolate": {
-    "src": "https://images.pexels.com/photos/4518608/pexels-photo-4518608.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Soybeans and soy milk in a bowl and glass"
+    "src": "assets/product-images/soy-protein-isolate.webp",
+    "alt": "AI-generated soy protein ingredient"
   },
   "pea-protein": {
-    "src": "https://images.pexels.com/photos/32766466/pexels-photo-32766466.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Fresh green peas and open pea pods"
+    "src": "assets/product-images/pea-protein.webp",
+    "alt": "AI-generated pea protein ingredient"
   },
   "xanthan-gum": {
-    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Fine powder being sifted into a glass bowl"
+    "src": "assets/product-images/xanthan-gum.webp",
+    "alt": "AI-generated xanthan gum powder"
   },
   "guar-gum": {
-    "src": "https://images.pexels.com/photos/5947517/pexels-photo-5947517.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "A scoop of flour being placed over a colander"
+    "src": "assets/product-images/guar-gum.webp",
+    "alt": "AI-generated guar gum powder and guar pods"
   },
   "carrageenan": {
-    "src": "https://images.pexels.com/photos/5182584/pexels-photo-5182584.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Natural seaweed on a coastal surface"
+    "src": "assets/product-images/carrageenan.webp",
+    "alt": "AI-generated carrageenan seaweed ingredient"
   },
   "locust-bean-gum": {
-    "src": "https://images.pexels.com/photos/5984480/pexels-photo-5984480.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Mixed beans arranged in a bowl"
+    "src": "assets/product-images/locust-bean-gum.webp",
+    "alt": "AI-generated locust bean gum ingredient"
   },
   "gellan-gum": {
-    "src": "https://images.pexels.com/photos/8282240/pexels-photo-8282240.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Powder in a bowl with a measuring spoon"
+    "src": "assets/product-images/gellan-gum.webp",
+    "alt": "AI-generated gellan gum gel ingredient"
   },
   "pectin": {
-    "src": "https://images.pexels.com/photos/10999009/pexels-photo-10999009.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Fresh apples in a bowl"
+    "src": "assets/product-images/pectin.webp",
+    "alt": "AI-generated pectin and apples"
   },
   "carboxymethyl-cellulose-cmc": {
     "src": "https://images.pexels.com/photos/6088886/pexels-photo-6088886.jpeg?auto=compress&cs=tinysrgb&w=900",
