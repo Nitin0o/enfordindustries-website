@@ -33,56 +33,36 @@ if(siteFooter){
 }
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const header=document.querySelector('.nav');const onScroll=()=>{if(header)header.classList.toggle('scrolled',window.scrollY>12);const b=document.querySelector('.backtop');if(b)b.classList.toggle('show',window.scrollY>500)};window.addEventListener('scroll',onScroll,{passive:true});onScroll();
-let toggle=document.querySelector('.menu-toggle');
-const desktopLinks=document.querySelector('.navlinks');
-const mobileMenu=document.createElement('nav');
-mobileMenu.id='enford-mobile-menu';
-mobileMenu.className='enford-mobile-menu';
-mobileMenu.setAttribute('aria-label','Mobile navigation');
-mobileMenu.setAttribute('aria-hidden','true');
-mobileMenu.innerHTML=
- '<div class="enford-mobile-menu__head"><span>Navigation</span><button type="button" class="enford-mobile-menu__close" aria-label="Close navigation">&times;</button></div>'+
- '<div class="enford-mobile-menu__links">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' aria-current="page"':'')+'>'+label+'<span aria-hidden="true">→</span></a>').join('')+'</div>'+
- '<a class="enford-mobile-menu__cta" href="'+basePath+'contact.html">Discuss a Requirement <span aria-hidden="true">↗</span></a>';
-document.body.appendChild(mobileMenu);
-const menuBackdrop=document.createElement('button');
-menuBackdrop.type='button';
-menuBackdrop.className='nav-menu-backdrop';
-menuBackdrop.setAttribute('aria-label','Close navigation menu');
-menuBackdrop.tabIndex=-1;
-document.body.appendChild(menuBackdrop);
-const closeButton=mobileMenu.querySelector('.enford-mobile-menu__close');
+const toggle=document.querySelector('header.nav .menu-toggle');
+const mobileLinks=document.querySelector('header.nav .navlinks');
 const closeMenu=()=>{
- if(!toggle)return;
- mobileMenu.classList.remove('is-open');
- mobileMenu.setAttribute('aria-hidden','true');
+ if(!toggle||!mobileLinks)return;
+ mobileLinks.classList.remove('open');
  toggle.setAttribute('aria-expanded','false');
  toggle.setAttribute('aria-label','Open navigation');
- toggle.innerHTML='&#9776;';
- menuBackdrop.classList.remove('visible');
- document.body.classList.remove('menu-open');
+ toggle.textContent='☰';
 };
 const openMenu=()=>{
- if(!toggle)return;
- const triggerRect=toggle.getBoundingClientRect();
- const headerRect=headerShell?headerShell.getBoundingClientRect():{bottom:68};
- mobileMenu.style.top=Math.ceil(Math.max(triggerRect.bottom,headerRect.bottom)+9)+'px';
- mobileMenu.style.right=Math.max(8,window.innerWidth-triggerRect.right)+'px';
- mobileMenu.classList.add('is-open');
- mobileMenu.setAttribute('aria-hidden','false');
+ if(!toggle||!mobileLinks)return;
+ mobileLinks.classList.add('open');
  toggle.setAttribute('aria-expanded','true');
  toggle.setAttribute('aria-label','Close navigation');
- toggle.innerHTML='&times;';
- menuBackdrop.classList.add('visible');
- document.body.classList.add('menu-open');
+ toggle.textContent='×';
 };
-if(toggle){
- toggle.addEventListener('click',()=>mobileMenu.classList.contains('is-open')?closeMenu():openMenu());
- closeButton.addEventListener('click',closeMenu);
- menuBackdrop.addEventListener('click',closeMenu);
- mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
- document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
- window.addEventListener('resize',()=>{if(window.innerWidth>1050)closeMenu()},{passive:true});
+if(toggle&&mobileLinks){
+ toggle.addEventListener('click',()=>{
+  mobileLinks.classList.contains('open')?closeMenu():openMenu();
+ });
+ mobileLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
+ document.addEventListener('click',event=>{
+  if(!headerShell?.contains(event.target))closeMenu();
+ });
+ document.addEventListener('keydown',event=>{
+  if(event.key==='Escape')closeMenu();
+ });
+ window.addEventListener('resize',()=>{
+  if(window.innerWidth>1050)closeMenu();
+ },{passive:true});
 }
 if(!reduced&&'IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in-view');obs.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -35px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in-view'));
 document.querySelectorAll('.js-year').forEach(el=>el.textContent=new Date().getFullYear());
