@@ -143,6 +143,8 @@ const verticalRules={
  water:/water & wastewater/i,
  materials:/polymers|paints|construction|adhesives|minerals|rubber/i,
  metal:/metal treatment|aluminium|foundry|metalworking/i,
+ pharma:/pharmaceutical excipients/i,
+ agriculture:/agricultural & fertilizer inputs/i,
  custom:/customized solutions/i
 };
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -314,6 +316,7 @@ function filtered(){
 }
 function card(p,usedImages){
  const im=imageFor(p,usedImages);
+ const detailUrl=p.detailPath||(detailUrl);
  return '<article class="catalogue-product-card reveal in-view">'+
   '<a class="catalogue-product-image" href="products/'+encodeURIComponent(p.slug)+'.html" aria-label="View '+esc(p.name)+' details">'+
    '<img src="'+im.src+'" alt="'+esc(im.alt)+'" loading="lazy"><span class="catalogue-image-note">Illustrative product image</span>'+
