@@ -327,6 +327,26 @@ const productImageMap={
   "soap-noodles": {
     "src": "https://images.pexels.com/photos/17571841/pexels-photo-17571841.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Soap products and raw-material packaging"
+  },
+  "ferric-chloride": {
+    "src": "https://images.pexels.com/photos/5532839/pexels-photo-5532839.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Stainless industrial tank and process hose"
+  },
+  "polyamine-coagulant": {
+    "src": "https://images.pexels.com/photos/25858432/pexels-photo-25858432.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Stainless steel fermentation and process tank"
+  },
+  "pvc-processing-aid": {
+    "src": "https://images.pexels.com/photos/8940464/pexels-photo-8940464.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Stainless industrial pipe and pressure gauge"
+  },
+  "drilling-grade-barite": {
+    "src": "https://images.pexels.com/photos/257770/pexels-photo-257770.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial machinery and steel pipework"
+  },
+  "oilfield-demulsifier": {
+    "src": "https://images.pexels.com/photos/5411674/pexels-photo-5411674.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Large industrial refinery storage tanks"
   }
 };
 const fallbackImagePool=[
