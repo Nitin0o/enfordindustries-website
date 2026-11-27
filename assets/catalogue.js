@@ -11,37 +11,130 @@ const PAGE_SIZE=18;
 let allProducts=[];
 let visibleCount=PAGE_SIZE;
 const imageMap={
- 'Proteins & Dairy Ingredients':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Dairy and food processing'},
- 'Plant Proteins':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food processing'},
- 'Hydrocolloids & Stabilizers':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food manufacturing'},
- 'Starches & Fibres':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food processing'},
- 'Sweeteners & Carbohydrates':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food ingredient processing'},
- 'Food Acids, Salts & Preservatives':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food manufacturing'},
- 'Emulsifiers':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food formulation'},
- 'Vitamins & Minerals':{src:'https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Laboratory sample work'},
- 'Premixes & Nutraceutical Ingredients':{src:'https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Laboratory and product development'},
- 'Enzymes & Processing Aids':{src:'https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Laboratory sample work'},
- 'Bakery & Food Processing':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food processing'},
- 'Oils, Fats & Bakery':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food manufacturing'},
- 'Industrial Chemicals':{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial process equipment'},
- 'Water & Wastewater Treatment':{src:'https://images.pexels.com/photos/20309517/pexels-photo-20309517.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Wastewater treatment facility'},
- 'Metal Treatment & Surface Finishing':{src:'https://images.pexels.com/photos/33514501/pexels-photo-33514501.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Metal treatment and manufacturing'},
- 'Aluminium, Foundry & Casting':{src:'https://images.pexels.com/photos/33514501/pexels-photo-33514501.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Metal processing equipment'},
- 'Polymers, Resins & Plastics':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial materials and pipe manufacturing'},
- 'Paints, Coatings & Construction':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial manufacturing'},
- 'Home Care & Institutional Cleaning':{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial process facility'},
- 'Textile & Leather Chemicals':{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial processing facility'},
- 'Paper, Pulp & Process Chemicals':{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial process facility'},
- 'Rubber & Elastomer Chemicals':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial materials processing'},
- 'Lubricants & Metalworking Fluids':{src:'https://images.pexels.com/photos/33514501/pexels-photo-33514501.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial metalworking'},
- 'Mining & Mineral Processing':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial processing'},
- 'Minerals, Fillers & Extenders':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial materials'},
- 'Personal Care & Cosmetic Ingredients':{src:'https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Laboratory and product development'},
- 'Construction & Industrial Additives':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial materials'},
- 'Oilfield & Drilling Chemicals':{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial processing equipment'},
- 'Adhesives & Sealants':{src:'https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial materials'},
- 'Colours, Flavours & Extracts':{src:'https://images.pexels.com/photos/32936318/pexels-photo-32936318.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Food manufacturing'},
- 'Customized Solutions':{src:'https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Laboratory sample and product development'}
+  "Proteins & Dairy Ingredients": {
+    "src": "https://images.pexels.com/photos/5953688/pexels-photo-5953688.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Cheese wheels on stainless-steel racks in a dairy plant"
+  },
+  "Plant Proteins": {
+    "src": "https://images.pexels.com/photos/13779116/pexels-photo-13779116.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Unbranded protein powder and scoop"
+  },
+  "Hydrocolloids & Stabilizers": {
+    "src": "https://images.pexels.com/photos/5734741/pexels-photo-5734741.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fine white food-grade powder in a bowl"
+  },
+  "Starches & Fibres": {
+    "src": "https://images.pexels.com/photos/36912597/pexels-photo-36912597.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Flour and dough prepared for food processing"
+  },
+  "Sweeteners & Carbohydrates": {
+    "src": "https://images.pexels.com/photos/37105582/pexels-photo-37105582.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of granulated sugar crystals"
+  },
+  "Food Acids, Salts & Preservatives": {
+    "src": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Salt being added to a food preparation bowl"
+  },
+  "Emulsifiers": {
+    "src": "https://images.pexels.com/photos/8980448/pexels-photo-8980448.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Mixed powdered food ingredients in a bowl"
+  },
+  "Vitamins & Minerals": {
+    "src": "https://images.pexels.com/photos/7615608/pexels-photo-7615608.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powder in open supplement capsules"
+  },
+  "Premixes & Nutraceutical Ingredients": {
+    "src": "https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Scientist working with laboratory samples"
+  },
+  "Enzymes & Processing Aids": {
+    "src": "https://images.pexels.com/photos/3735746/pexels-photo-3735746.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Chemical bottle and glass cylinder in a laboratory"
+  },
+  "Bakery & Food Processing": {
+    "src": "https://images.pexels.com/photos/39839900/pexels-photo-39839900.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Worker operating an industrial food-processing machine"
+  },
+  "Oils, Fats & Bakery": {
+    "src": "https://images.pexels.com/photos/31275834/pexels-photo-31275834.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Unbranded sunflower and vegetable oils in glass bottles"
+  },
+  "Industrial Chemicals": {
+    "src": "https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Stainless-steel tank in an industrial plant"
+  },
+  "Water & Wastewater Treatment": {
+    "src": "https://images.pexels.com/photos/20309517/pexels-photo-20309517.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial wastewater-treatment tanks"
+  },
+  "Metal Treatment & Surface Finishing": {
+    "src": "https://images.pexels.com/photos/33514501/pexels-photo-33514501.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial metal-processing equipment"
+  },
+  "Aluminium, Foundry & Casting": {
+    "src": "https://images.pexels.com/photos/36003964/pexels-photo-36003964.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Metal grinding in an industrial workshop"
+  },
+  "Polymers, Resins & Plastics": {
+    "src": "https://images.pexels.com/photos/29842696/pexels-photo-29842696.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial pipe manufacturing workshop"
+  },
+  "Paints, Coatings & Construction": {
+    "src": "https://images.pexels.com/photos/39998305/pexels-photo-39998305.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Cement and construction material being mixed"
+  },
+  "Home Care & Institutional Cleaning": {
+    "src": "https://images.pexels.com/photos/5682922/pexels-photo-5682922.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Unbranded chemical liquid in glass laboratory bottles"
+  },
+  "Textile & Leather Chemicals": {
+    "src": "https://images.pexels.com/photos/32048365/pexels-photo-32048365.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fabric processing in a textile factory"
+  },
+  "Paper, Pulp & Process Chemicals": {
+    "src": "https://images.pexels.com/photos/3729179/pexels-photo-3729179.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Rolls of craft paper in a production workspace"
+  },
+  "Rubber & Elastomer Chemicals": {
+    "src": "https://images.pexels.com/photos/3806252/pexels-photo-3806252.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Rows of rubber tyres stored in an industrial warehouse"
+  },
+  "Lubricants & Metalworking Fluids": {
+    "src": "https://images.pexels.com/photos/40760513/pexels-photo-40760513.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up metal cutting and machining process"
+  },
+  "Mining & Mineral Processing": {
+    "src": "https://images.pexels.com/photos/34042229/pexels-photo-34042229.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Aerial view of an open-pit mining operation"
+  },
+  "Minerals, Fillers & Extenders": {
+    "src": "https://images.pexels.com/photos/40537850/pexels-photo-40537850.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Rock and aggregate processing site"
+  },
+  "Personal Care & Cosmetic Ingredients": {
+    "src": "https://images.pexels.com/photos/6689397/pexels-photo-6689397.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of a smooth white cream texture"
+  },
+  "Construction & Industrial Additives": {
+    "src": "https://images.pexels.com/photos/32507739/pexels-photo-32507739.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Sand and gravel processing plant"
+  },
+  "Oilfield & Drilling Chemicals": {
+    "src": "https://images.pexels.com/photos/23369348/pexels-photo-23369348.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial refinery tower and pipework"
+  },
+  "Adhesives & Sealants": {
+    "src": "https://images.pexels.com/photos/38897485/pexels-photo-38897485.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Liquid chemical filtration in a laboratory"
+  },
+  "Colours, Flavours & Extracts": {
+    "src": "https://images.pexels.com/photos/4198930/pexels-photo-4198930.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Assorted powdered spices and natural extracts"
+  },
+  "Customized Solutions": {
+    "src": "https://images.pexels.com/photos/20384790/pexels-photo-20384790.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Laboratory formulation with glassware and a cream sample"
+  }
 };
 const verticalRules={
  food:/proteins|plant proteins|hydrocolloids|starches|sweeteners|food acids|emulsifiers|bakery|oils|colours|flavours/i,
@@ -53,7 +146,7 @@ const verticalRules={
  custom:/customized solutions/i
 };
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const imageFor=p=>imageMap[p.category]||{src:'https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=900',alt:'Industrial process'};
+const imageFor=p=>imageMap[p.category]||imageMap['Industrial Chemicals'];
 const enquiryUrl=p=>'https://wa.me/917585870505?text='+encodeURIComponent('Hello ENFORD Team, I would like to enquire about '+p.name+'.\n\nApplication / end use:\nGrade / specification required:\nRequired quantity:\nDelivery location:\nRequired documentation:\n\nPlease advise suitable sourcing options, subject to specification and availability.');
 const params=new URLSearchParams(location.search);
 if(params.get('q'))q.value=params.get('q');
