@@ -1248,5 +1248,131 @@
     "category": "Metal Treatment & Surface Finishing",
     "description": "Temporary corrosion-protection formulations for metal parts during storage, handling and transit; film type and removal method are specified per application.",
     "detailPath": "product-detail.html?product=rust-preventive-chemicals"
+  },
+  {
+    "name": "Choline Chloride",
+    "slug": "choline-chloride",
+    "category": "Animal Nutrition",
+    "description": "Choline source for selected poultry, livestock and aquaculture feed formulations; concentration, carrier and feed-grade documentation are specified per requirement.",
+    "detailPath": "product-detail.html?product=choline-chloride"
+  },
+  {
+    "name": "DL-Methionine",
+    "slug": "dl-methionine",
+    "category": "Animal Nutrition",
+    "description": "Essential amino acid ingredient for feed formulation; assay, physical form and intended species/application are confirmed per enquiry.",
+    "detailPath": "product-detail.html?product=dl-methionine"
+  },
+  {
+    "name": "L-Lysine HCl",
+    "slug": "l-lysine-hcl",
+    "category": "Animal Nutrition",
+    "description": "Feed-grade lysine source for amino-acid balancing in suitable livestock and poultry feed formulations.",
+    "detailPath": "product-detail.html?product=l-lysine-hcl"
+  },
+  {
+    "name": "L-Threonine",
+    "slug": "l-threonine",
+    "category": "Animal Nutrition",
+    "description": "Feed-grade essential amino acid ingredient for balanced animal nutrition formulations.",
+    "detailPath": "product-detail.html?product=l-threonine"
+  },
+  {
+    "name": "Feed Vitamin & Mineral Premix",
+    "slug": "feed-vitamin-mineral-premix",
+    "category": "Animal Nutrition",
+    "description": "Customised vitamin and trace-mineral blend for livestock, poultry or aquaculture feed, based on species, life stage and formulation brief.",
+    "detailPath": "product-detail.html?product=feed-vitamin-mineral-premix"
+  },
+  {
+    "name": "Dicalcium Phosphate (DCP)",
+    "slug": "dicalcium-phosphate-dcp",
+    "category": "Animal Nutrition",
+    "description": "Phosphate and calcium source for animal feed formulations; phosphorus, calcium and fluorine specifications are confirmed by grade.",
+    "detailPath": "product-detail.html?product=dicalcium-phosphate-dcp"
+  },
+  {
+    "name": "Sodium Sulphate Anhydrous",
+    "slug": "sodium-sulphate-anhydrous",
+    "category": "Glass & Ceramics",
+    "description": "Industrial inorganic salt used in selected glass, detergent and chemical process applications.",
+    "detailPath": "product-detail.html?product=sodium-sulphate-anhydrous"
+  },
+  {
+    "name": "Borax Pentahydrate",
+    "slug": "borax-pentahydrate",
+    "category": "Glass & Ceramics",
+    "description": "Boron compound used as a flux and functional raw material in selected glass, ceramic and industrial formulations.",
+    "detailPath": "product-detail.html?product=borax-pentahydrate"
+  },
+  {
+    "name": "Feldspar Powder",
+    "slug": "feldspar-powder",
+    "category": "Glass & Ceramics",
+    "description": "Aluminosilicate mineral used as a fluxing raw material in glass, ceramic and tile manufacturing.",
+    "detailPath": "product-detail.html?product=feldspar-powder"
+  },
+  {
+    "name": "Kaolin (China Clay)",
+    "slug": "kaolin-china-clay",
+    "category": "Glass & Ceramics",
+    "description": "Refined clay mineral for ceramic, paper, paint, rubber and filler applications; brightness, particle size and purity are specified by grade.",
+    "detailPath": "product-detail.html?product=kaolin-china-clay"
+  },
+  {
+    "name": "Zirconium Silicate",
+    "slug": "zirconium-silicate",
+    "category": "Glass & Ceramics",
+    "description": "Mineral opacifier and functional raw material for selected ceramic glaze and surface-finish applications.",
+    "detailPath": "product-detail.html?product=zirconium-silicate"
+  },
+  {
+    "name": "Soda Ash Dense",
+    "slug": "soda-ash-dense",
+    "category": "Glass & Ceramics",
+    "description": "Dense sodium carbonate grade used in glass manufacturing and selected industrial processes.",
+    "detailPath": "product-detail.html?product=soda-ash-dense"
+  },
+  {
+    "name": "Stearic Acid",
+    "slug": "stearic-acid",
+    "category": "Soap & Oleochemicals",
+    "description": "Fatty acid raw material for soaps, rubber, candles, plastics and other oleochemical formulations; grade and origin are confirmed per enquiry.",
+    "detailPath": "product-detail.html?product=stearic-acid"
+  },
+  {
+    "name": "Coconut Fatty Acid",
+    "slug": "coconut-fatty-acid",
+    "category": "Soap & Oleochemicals",
+    "description": "Coconut-derived fatty acid blend for soap, surfactant and oleochemical manufacturing applications.",
+    "detailPath": "product-detail.html?product=coconut-fatty-acid"
+  },
+  {
+    "name": "Palm Fatty Acid Distillate (PFAD)",
+    "slug": "palm-fatty-acid-distillate-pfad",
+    "category": "Soap & Oleochemicals",
+    "description": "Palm-oil refining by-product used as a feedstock in selected oleochemical, soap and industrial applications.",
+    "detailPath": "product-detail.html?product=palm-fatty-acid-distillate-pfad"
+  },
+  {
+    "name": "Soap Noodles",
+    "slug": "soap-noodles",
+    "category": "Soap & Oleochemicals",
+    "description": "Saponified fatty-acid base material for toilet and laundry soap manufacturing; total fatty matter and formulation characteristics are confirmed per grade.",
+    "detailPath": "product-detail.html?product=soap-noodles"
+  },
+  {
+    "name": "Fatty Alcohols",
+    "slug": "fatty-alcohols",
+    "category": "Soap & Oleochemicals",
+    "description": "Fatty alcohol raw materials for surfactants, emulsifiers, personal-care and industrial formulation applications.",
+    "detailPath": "product-detail.html?product=fatty-alcohols"
+  },
+  {
+    "name": "Methyl Ester Sulphonate (MES)",
+    "slug": "methyl-ester-sulphonate-mes",
+    "category": "Soap & Oleochemicals",
+    "description": "Anionic surfactant derived from fatty acid methyl esters for suitable detergent and cleaning formulations.",
+    "detailPath": "product-detail.html?product=methyl-ester-sulphonate-mes"
   }
 ]
