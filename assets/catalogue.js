@@ -146,6 +146,14 @@ const imageMap={
   "Soap & Oleochemicals": {
     "src": "https://images.pexels.com/photos/8298499/pexels-photo-8298499.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Soap products and raw material textures"
+  },
+  "Pharmaceutical Excipients": {
+    "src": "https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Laboratory sample preparation for pharmaceutical formulations"
+  },
+  "Agricultural & Fertilizer Inputs": {
+    "src": "https://images.pexels.com/photos/3067707/pexels-photo-3067707.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Green plant leaves and agricultural crop material"
   }
 };
 const verticalRules={
