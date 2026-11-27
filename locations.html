@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Locations & Market Network | ENFORD Group</title>
+<meta name="description" content="Explore ENFORD Group's Siliguri contact point and regional market references across North Bengal, the North East, Bhutan and selected Indian markets.">
+<link rel="canonical" href="https://www.enfordindustries.com/locations.html">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="brand/enford-logo.svg" type="image/svg+xml">
+<meta name="theme-color" content="#102b49">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+.network-map-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(285px,.8fr);gap:22px;align-items:stretch}
+#enford-network-map{height:590px;min-height:420px;border-radius:10px;border:1px solid #dfe5eb;overflow:hidden;background:#e9eef2}
+.network-side{display:flex;flex-direction:column;gap:10px}
+.network-summary{background:#f4f6f8;border:1px solid #e3e8ee;border-radius:9px;padding:18px 20px}
+.network-summary strong{display:block;color:#142e4b;font-size:14px;margin-bottom:4px}
+.network-summary p{font-size:12px;color:#627184;margin:0}
+.network-locations{display:grid;grid-template-columns:1fr 1fr;gap:8px;overflow:auto;max-height:430px;padding-right:3px}
+.network-loc{border:1px solid #e1e7ed;border-radius:7px;background:#fff;padding:11px 12px;text-align:left;cursor:pointer;transition:border-color .2s,background .2s}
+.network-loc:hover,.network-loc.active{border-color:#627b95;background:#f3f6f9}
+.network-loc strong{display:block;color:#193653;font-size:11px;line-height:1.4}
+.network-loc small{display:block;color:#758397;font-size:10px;margin-top:3px}
+.network-legend{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:11px;color:#627184;margin:13px 0 0}
+.network-legend span{display:inline-flex;align-items:center;gap:7px}
+.network-dot{width:10px;height:10px;border-radius:50%;display:inline-block;background:#183653;border:2px solid #fff;box-shadow:0 0 0 1px #183653}
+.network-dot.market{background:#8295a9;box-shadow:0 0 0 1px #8295a9}
+.network-disclaimer{font-size:11px;color:#718094;line-height:1.7;margin-top:16px}
+.leaflet-popup-content-wrapper{border-radius:7px;box-shadow:0 8px 25px rgba(16,43,73,.15)}
+.leaflet-popup-content{font:12px/1.55 Inter,Arial,sans-serif;color:#24364b;margin:12px 15px}
+.leaflet-popup-content strong{display:block;color:#142e4b;font-size:13px;margin-bottom:4px}
+.leaflet-popup-content a{color:#274967;text-decoration:underline}
+.enford-pin{width:18px;height:18px;border-radius:50%;border:3px solid #fff;background:#8295a9;box-shadow:0 1px 8px rgba(5,24,43,.35)}
+.enford-pin.office{width:23px;height:23px;background:#183653;box-shadow:0 0 0 5px rgba(24,54,83,.18),0 1px 8px rgba(5,24,43,.32)}
+@media(max-width:900px){.network-map-layout{grid-template-columns:1fr}#enford-network-map{height:480px}.network-locations{max-height:unset}}
+@media(max-width:560px){#enford-network-map{height:390px;min-height:350px}.network-locations{grid-template-columns:1fr 1fr}.network-summary{padding:15px}}
+</style>
+</head>
+<body>
+<header class="nav">
+<a class="brandlock" href="index.html" aria-label="ENFORD Group home"><img class="logo" src="brand/enford-logo.svg" alt="ENFORD"></a>
+<nav class="navlinks" aria-label="Main navigation">
+<a href="group.html">The Group</a><a href="index.html#businesses">Businesses</a><a href="catalogue.html">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="locations.html" class="active">Locations</a><a href="contact.html">Contact</a>
+</nav>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span>☰</span></button>
+<a class="btn btn-primary" href="contact.html">Discuss a Requirement</a>
+</header>
+<main>
+<section class="page-hero"><div class="wrap">
+<div class="breadcrumbs"><a href="index.html">Home</a> / Locations</div>
+<div class="eyebrow">Our market network</div>
+<h1>A regional presence, with a wider sourcing reach.</h1>
+<p class="intro">ENFORD's primary contact point is in Siliguri. The map highlights the regional markets and reference locations relevant to our sourcing and customer-development plans across North Bengal, the North East, Bhutan and selected Indian markets.</p>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="section-head"><div><div class="eyebrow">Locations & regional focus</div><h2>Explore the network.</h2><p class="intro">Select a location to view its details. Use the map controls to zoom and explore the geography.</p></div></div>
+<div class="network-map-layout">
+<div>
+<div id="enford-network-map" role="application" aria-label="Interactive ENFORD office and regional market map"></div>
+<div class="network-legend"><span><i class="network-dot"></i> Primary contact office</span><span><i class="network-dot market"></i> Regional market reference</span></div>
+</div>
+<aside class="network-side">
+<div class="network-summary"><strong>Primary contact point</strong><p>ENFORD Industries Private Limited<br>360 East, beside Indira Gandhi Maidan, NH 10, Ward 43, Prakash Nagar, Siliguri, West Bengal 734001, India</p><p style="margin-top:9px"><a href="https://www.google.com/maps/search/?api=1&query=360+East+beside+Indira+Gandhi+Maidan+Prakash+Nagar+Siliguri+West+Bengal+734001" target="_blank" rel="noopener">Open office location in Google Maps ↗</a></p></div>
+<div class="network-locations" id="network-location-list" aria-label="Map locations"></div>
+<div class="network-disclaimer">Only the Siliguri address is shown as ENFORD's primary contact office. Other pins are indicative market or regional reference points, not representations of ENFORD branches, warehouses, employees or established offices. Map pins outside the office area are approximate city or regional markers.</div>
+</aside>
+</div>
+</div></section>
+<section class="section soft"><div class="wrap split">
+<div><div class="eyebrow">North Bengal & North East</div><h2>Connected markets around the Siliguri corridor.</h2><p class="intro">Siliguri is the key northern contact point for customer conversations across North Bengal, Sikkim, Assam and neighbouring cross-border markets. ENFORD's model is to coordinate sourcing and supply according to each customer's product, technical and delivery requirements.</p><a class="btn btn-primary" href="contact.html">Discuss a regional requirement</a></div>
+<div class="photo-card"><img src="https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Stainless steel processing equipment in a manufacturing facility" loading="lazy"><div class="photo-caption"><strong>One coordinated sourcing approach</strong>Product, application and delivery conversations with customers</div></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">
+<div><strong>ENFORD GROUP</strong><br><span>Ingredients · Chemicals · Applications · Consultancy</span><br><small>Business identity of ENFORD Industries Private Limited.</small></div>
+<div class="footlinks"><a href="group.html">The Group</a><a href="catalogue.html">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="locations.html">Locations</a><a href="contact.html">Contact</a></div>
+<div>+91 75858 70505<br><a href="mailto:contact@enfordindustries.com">contact@enfordindustries.com</a><br><a href="https://wa.me/917585870505">WhatsApp ENFORD</a></div>
+<small>© <span class="js-year">2026</span> ENFORD Industries Private Limited. All rights reserved. Map data © OpenStreetMap contributors.</small>
+</div></footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/site.js" defer></script>
+<script>
+(function(){
+ const places=[
+  {id:"office",name:"ENFORD Primary Office",region:"Siliguri, West Bengal",type:"office",lat:26.7240,lng:88.4200,detail:"360 East, beside Indira Gandhi Maidan, NH 10, Ward 43, Prakash Nagar, Siliguri, West Bengal 734001, India",link:"https://www.google.com/maps/search/?api=1&query=360+East+beside+Indira+Gandhi+Maidan+Prakash+Nagar+Siliguri+West+Bengal+734001",note:"Primary contact address. Map position is approximate; use the full address in the map link."},
+  {id:"siliguri",name:"Siliguri",region:"West Bengal, India",type:"market",lat:26.7100,lng:88.4285,detail:"Regional market reference for North Bengal and nearby states.",note:"Regional market reference."},
+  {id:"rangapani",name:"Rangapani–Fulbari Corridor",region:"Siliguri region, West Bengal, India",type:"market",lat:26.664263,lng:88.374386,detail:"Indicative reference near Rangapani and the Fulbari corridor.",note:"Please confirm this is the place intended by “Raniganj near Fulbari”."},
+  {id:"gangtok",name:"Gangtok",region:"Sikkim, India",type:"market",lat:27.3389,lng:88.6065,detail:"Sikkim regional market reference.",note:"Regional market reference."},
+  {id:"jaigaon",name:"Jaigaon",region:"West Bengal, India",type:"market",lat:26.8300,lng:89.3800,detail:"Market reference at the India–Bhutan border.",note:"Regional market reference."},
+  {id:"bhutan",name:"Bhutan",region:"Thimphu reference point",type:"market",lat:27.46609,lng:89.64191,detail:"Thimphu is used as a country-level reference marker for Bhutan.",note:"Country reference only; not an office location."},
+  {id:"guwahati",name:"Guwahati",region:"Assam, India",type:"market",lat:26.1806,lng:91.7539,detail:"Assam regional market reference.",note:"Regional market reference."},
+  {id:"kolkata",name:"Kolkata",region:"West Bengal, India",type:"market",lat:22.5726,lng:88.3639,detail:"Eastern India market reference.",note:"Regional market reference."},
+  {id:"odisha",name:"Odisha",region:"State coverage reference, India",type:"market",lat:20.10,lng:84.30,detail:"Indicative central-state map reference for Odisha coverage; this is not a specific office or city.",note:"State-level reference marker."},
+  {id:"bhubaneswar",name:"Bhubaneswar",region:"Odisha, India",type:"market",lat:20.2961,lng:85.8245,detail:"Odisha city market reference.",note:"Regional market reference."},
+  {id:"patna",name:"Patna",region:"Bihar, India",type:"market",lat:25.5941,lng:85.1376,detail:"Bihar market reference.",note:"Regional market reference."},
+  {id:"jaipur",name:"Jaipur",region:"Rajasthan, India",type:"market",lat:26.9124,lng:75.7873,detail:"Western India market reference.",note:"Regional market reference."},
+  {id:"delhi",name:"Sanjay Gandhi Transport Nagar",region:"Delhi, India",type:"market",lat:28.7377,lng:77.1487,detail:"Transport and industrial-area reference in North Delhi.",note:"Market reference, not an ENFORD office."}
+ ];
+ const list=document.getElementById("network-location-list");
+ places.forEach(p=>{
+  const b=document.createElement("button");b.type="button";b.className="network-loc";b.dataset.id=p.id;
+  const strong=document.createElement("strong");strong.textContent=p.name;
+  const small=document.createElement("small");small.textContent=p.region+(p.type==="office"?" · Primary office":" · Market reference");
+  b.append(strong,small);list.append(b);
+ });
+ if(!window.L){document.getElementById("enford-network-map").innerHTML='<div style="padding:24px;color:#43566b">The interactive map could not load. Please use the location list above.</div>';return;}
+ const map=L.map("enford-network-map",{scrollWheelZoom:false,zoomControl:true});
+ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+ const markers={};const bounds=[];
+ places.forEach(p=>{
+  const icon=L.divIcon({className:"",html:'<div class="enford-pin '+(p.type==="office"?"office":"")+'"></div>',iconSize:p.type==="office"?[23,23]:[18,18],iconAnchor:p.type==="office"?[11,11]:[9,9]});
+  const marker=L.marker([p.lat,p.lng],{icon}).addTo(map);
+  const mapLink=p.link||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.name+" "+p.region);
+  marker.bindPopup('<strong>'+p.name+'</strong><span>'+p.region+'</span><br>'+p.detail+'<br><a href="'+mapLink+'" target="_blank" rel="noopener">Open map location ↗</a>');
+  markers[p.id]=marker;bounds.push([p.lat,p.lng]);
+ });
+ map.fitBounds(bounds,{padding:[35,35]});
+ document.querySelectorAll(".network-loc").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".network-loc").forEach(x=>x.classList.remove("active"));
+  btn.classList.add("active");const p=places.find(x=>x.id===btn.dataset.id);if(!p)return;
+  map.flyTo([p.lat,p.lng],p.type==="office"?14:10,{duration:.7});markers[p.id].openPopup();
+ }));
+})();
+</script>
+</body></html>
