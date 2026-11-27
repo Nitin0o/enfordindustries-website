@@ -1,1 +1,1252 @@
-[{"name":"Whey Protein Concentrate (WPC)","category":"Proteins & Dairy Ingredients","description":"Whey-derived protein ingredient supplied in different protein concentrations for food and nutrition applications.","slug":"whey-protein-concentrate-wpc"},{"name":"Whey Protein Isolate (WPI)","category":"Proteins & Dairy Ingredients","description":"High-protein whey ingredient for formulations requiring elevated protein content and controlled composition.","slug":"whey-protein-isolate-wpi"},{"name":"Milk Protein Concentrate (MPC)","category":"Proteins & Dairy Ingredients","description":"Milk-derived protein ingredient with casein and whey protein fractions.","slug":"milk-protein-concentrate-mpc"},{"name":"Milk Protein Isolate (MPI)","category":"Proteins & Dairy Ingredients","description":"Concentrated milk protein ingredient for specialised dairy and nutrition formulations.","slug":"milk-protein-isolate-mpi"},{"name":"Sodium Caseinate","category":"Proteins & Dairy Ingredients","description":"Milk-protein ingredient valued for emulsification, water binding and protein enrichment.","slug":"sodium-caseinate"},{"name":"Skimmed Milk Powder","category":"Proteins & Dairy Ingredients","description":"Dairy powder used to contribute milk solids, protein and dairy functionality.","slug":"skimmed-milk-powder"},{"name":"Whole Milk Powder","category":"Proteins & Dairy Ingredients","description":"Full-fat dairy powder for food and beverage formulations.","slug":"whole-milk-powder"},{"name":"Lactose","category":"Proteins & Dairy Ingredients","description":"Milk-derived carbohydrate supplied for food, nutrition and suitable industrial applications.","slug":"lactose"},{"name":"Soy Protein Isolate","category":"Plant Proteins","description":"Concentrated plant protein ingredient for protein enrichment and functional food formulations.","slug":"soy-protein-isolate"},{"name":"Pea Protein","category":"Plant Proteins","description":"Plant-based protein ingredient for vegetarian and vegan product development.","slug":"pea-protein"},{"name":"Xanthan Gum","category":"Hydrocolloids & Stabilizers","description":"Microbial polysaccharide hydrocolloid used for thickening, suspension and rheology control.","slug":"xanthan-gum"},{"name":"Guar Gum","category":"Hydrocolloids & Stabilizers","description":"Plant-derived galactomannan used as a thickener and stabilizer.","slug":"guar-gum"},{"name":"Carrageenan","category":"Hydrocolloids & Stabilizers","description":"Seaweed-derived hydrocolloid used for gelation, thickening and stabilisation.","slug":"carrageenan"},{"name":"Locust Bean Gum","category":"Hydrocolloids & Stabilizers","description":"Plant-derived hydrocolloid used to modify texture and support gel systems.","slug":"locust-bean-gum"},{"name":"Gellan Gum","category":"Hydrocolloids & Stabilizers","description":"Fermentation-derived gelling and suspending agent for structured food systems.","slug":"gellan-gum"},{"name":"Pectin","category":"Hydrocolloids & Stabilizers","description":"Fruit-derived hydrocolloid used for gel formation and texture control.","slug":"pectin"},{"name":"Carboxymethyl Cellulose (CMC)","category":"Hydrocolloids & Stabilizers","description":"Cellulose-derived polymer used for viscosity control, stabilisation and water management.","slug":"carboxymethyl-cellulose-cmc"},{"name":"Modified Starch","category":"Starches & Fibres","description":"Functionally modified starches designed for viscosity, texture and process stability.","slug":"modified-starch"},{"name":"Native Tapioca Starch","category":"Starches & Fibres","description":"Cassava-derived starch for thickening and texture development.","slug":"native-tapioca-starch"},{"name":"Maltodextrin","category":"Starches & Fibres","description":"Starch-derived carbohydrate used as a carrier, bulking agent and texture modifier.","slug":"maltodextrin"},{"name":"Dextrose Monohydrate","category":"Sweeteners & Carbohydrates","description":"Glucose-based carbohydrate supplied for food and nutrition formulations.","slug":"dextrose-monohydrate"},{"name":"Sorbitol","category":"Sweeteners & Carbohydrates","description":"Polyol used as a humectant, sweetener and formulation aid in suitable applications.","slug":"sorbitol"},{"name":"Erythritol","category":"Sweeteners & Carbohydrates","description":"Polyol sweetener used in reduced-sugar and sugar-free formulations.","slug":"erythritol"},{"name":"Stevia Extract","category":"Sweeteners & Carbohydrates","description":"Plant-derived high-intensity sweetener ingredient for sugar-reduction projects.","slug":"stevia-extract"},{"name":"Citric Acid","category":"Food Acids, Salts & Preservatives","description":"Organic acid used for acidity regulation, flavour balance and processing functions.","slug":"citric-acid"},{"name":"Lactic Acid","category":"Food Acids, Salts & Preservatives","description":"Organic acid supplied for pH adjustment and functional formulation requirements.","slug":"lactic-acid"},{"name":"Sodium Benzoate","category":"Food Acids, Salts & Preservatives","description":"Preservative ingredient for suitable formulations where permitted by applicable regulations.","slug":"sodium-benzoate"},{"name":"Potassium Sorbate","category":"Food Acids, Salts & Preservatives","description":"Preservative ingredient used to help control yeast and mould in permitted applications.","slug":"potassium-sorbate"},{"name":"Lecithin","category":"Emulsifiers","description":"Phospholipid-based emulsifier available from suitable plant sources and grades.","slug":"lecithin"},{"name":"Mono- and Diglycerides","category":"Emulsifiers","description":"Food emulsifiers used to support aeration, texture and emulsion stability.","slug":"mono-and-diglycerides"},{"name":"DATEM","category":"Emulsifiers","description":"Dough-strengthening emulsifier used in bakery formulations where permitted.","slug":"datem"},{"name":"Vitamin C (Ascorbic Acid)","category":"Vitamins & Minerals","description":"Vitamin ingredient supplied in suitable grades for food, nutrition and other approved applications.","slug":"vitamin-c-ascorbic-acid"},{"name":"Vitamin A Palmitate","category":"Vitamins & Minerals","description":"Vitamin A source available in suitable powder or oil forms for fortification and premix use.","slug":"vitamin-a-palmitate"},{"name":"Vitamin D3","category":"Vitamins & Minerals","description":"Vitamin D3 ingredient for fortification and nutrition formulations in appropriate grades.","slug":"vitamin-d3"},{"name":"Vitamin E","category":"Vitamins & Minerals","description":"Vitamin E ingredient supplied in suitable forms for nutrition and fortification applications.","slug":"vitamin-e"},{"name":"Zinc Sulphate","category":"Vitamins & Minerals","description":"Zinc mineral source for suitable fortification and industrial applications by grade.","slug":"zinc-sulphate"},{"name":"Ferrous Sulphate","category":"Vitamins & Minerals","description":"Iron mineral source for suitable food, feed and industrial formulations by grade.","slug":"ferrous-sulphate"},{"name":"Custom Vitamin & Mineral Premix","category":"Premixes & Nutraceutical Ingredients","description":"Customer-specific vitamin and mineral premix sourcing and development coordination based on formulation brief.","slug":"custom-vitamin-and-mineral-premix"},{"name":"Coenzyme Q10","category":"Premixes & Nutraceutical Ingredients","description":"Nutraceutical ingredient for suitable supplement and functional nutrition formulations.","slug":"coenzyme-q10"},{"name":"Collagen Peptides","category":"Premixes & Nutraceutical Ingredients","description":"Hydrolysed collagen ingredient for protein and beauty-from-within product concepts.","slug":"collagen-peptides"},{"name":"Amino Acids","category":"Premixes & Nutraceutical Ingredients","description":"Amino acid ingredients sourced to defined specification and intended application.","slug":"amino-acids"},{"name":"Botanical Extracts","category":"Premixes & Nutraceutical Ingredients","description":"Plant-derived extracts sourced against botanical identity, active marker and quality requirements.","slug":"botanical-extracts"},{"name":"Food Enzymes","category":"Enzymes & Processing Aids","description":"Enzyme preparations sourced for specific food processing functions and process conditions.","slug":"food-enzymes"},{"name":"Bread Improvers","category":"Bakery & Food Processing","description":"Bakery improver systems sourced or developed to meet dough handling and finished-product requirements.","slug":"bread-improvers"},{"name":"Cake Gel & Cake Improvers","category":"Bakery & Food Processing","description":"Ingredients and systems used to support cake batter aeration, volume and texture.","slug":"cake-gel-and-cake-improvers"},{"name":"Bakery Shortening","category":"Oils, Fats & Bakery","description":"Specialty fat ingredient sourced for defined bakery performance and application needs.","slug":"bakery-shortening"},{"name":"Vegetable Oils & Fats","category":"Oils, Fats & Bakery","description":"Edible oils and fat systems sourced to customer specifications and application requirements.","slug":"vegetable-oils-and-fats"},{"name":"Glucose Syrup","category":"Sweeteners & Carbohydrates","description":"Starch-derived syrup used for sweetness, solids and texture control.","slug":"glucose-syrup"},{"name":"Sodium Hydroxide (Caustic Soda)","category":"Industrial Chemicals","description":"Alkali supplied against defined concentration, grade, packaging and safety requirements.","slug":"sodium-hydroxide-caustic-soda"},{"name":"Hydrochloric Acid","category":"Industrial Chemicals","description":"Inorganic acid sourced to agreed concentration and industrial specification.","slug":"hydrochloric-acid"},{"name":"Sulphuric Acid","category":"Industrial Chemicals","description":"Industrial acid sourced subject to intended use, concentration, transport and safety requirements.","slug":"sulphuric-acid"},{"name":"Sodium Hypochlorite","category":"Water & Wastewater Treatment","description":"Oxidising and disinfecting chemical supplied in suitable concentration and packaging.","slug":"sodium-hypochlorite"},{"name":"PAC (Polyaluminium Chloride)","category":"Water & Wastewater Treatment","description":"Coagulant used in water and wastewater clarification processes.","slug":"pac-polyaluminium-chloride"},{"name":"Polyacrylamide (PAM)","category":"Water & Wastewater Treatment","description":"Polymer flocculant sourced in appropriate ionic form and molecular-weight range.","slug":"polyacrylamide-pam"},{"name":"Antiscalants","category":"Water & Wastewater Treatment","description":"Treatment chemicals selected to help manage scale formation in membrane and process systems.","slug":"antiscalants"},{"name":"Biocides for Water Treatment","category":"Water & Wastewater Treatment","description":"Water-treatment biocide options sourced according to system compatibility and regulatory requirements.","slug":"biocides-for-water-treatment"},{"name":"Ion Exchange Resins","category":"Water & Wastewater Treatment","description":"Functional polymer resins for water purification and separation applications.","slug":"ion-exchange-resins"},{"name":"Industrial Degreasers","category":"Metal Treatment & Surface Finishing","description":"Cleaning chemistry sourced for removal of oils, greases and process soils from compatible surfaces.","slug":"industrial-degreasers"},{"name":"Pickling Chemicals","category":"Metal Treatment & Surface Finishing","description":"Acid-based or formulated products for controlled removal of scale and oxides from metal surfaces.","slug":"pickling-chemicals"},{"name":"Phosphating Chemicals","category":"Metal Treatment & Surface Finishing","description":"Surface-treatment chemicals for conversion coating and corrosion-protection preparation.","slug":"phosphating-chemicals"},{"name":"Passivation Chemicals","category":"Metal Treatment & Surface Finishing","description":"Surface-treatment products selected for compatible metals and required finish specifications.","slug":"passivation-chemicals"},{"name":"Aluminium Foundry Fluxes","category":"Aluminium, Foundry & Casting","description":"Foundry consumables sourced for melt treatment and process requirements.","slug":"aluminium-foundry-fluxes"},{"name":"Die Release Agents","category":"Aluminium, Foundry & Casting","description":"Release agents sourced for compatibility with die-casting process and equipment.","slug":"die-release-agents"},{"name":"Foundry Additives","category":"Aluminium, Foundry & Casting","description":"Foundry process auxiliaries sourced to the metal, moulding process and operating conditions.","slug":"foundry-additives"},{"name":"Epoxy Resins","category":"Polymers, Resins & Plastics","description":"Thermosetting resin systems sourced to application, viscosity and curing requirements.","slug":"epoxy-resins"},{"name":"Polyurethane Systems","category":"Polymers, Resins & Plastics","description":"Polyurethane raw materials and systems sourced for defined processing and performance needs.","slug":"polyurethane-systems"},{"name":"Plasticisers","category":"Polymers, Resins & Plastics","description":"Additives used to modify flexibility and processing behaviour of compatible polymer systems.","slug":"plasticisers"},{"name":"Polymer Processing Aids","category":"Polymers, Resins & Plastics","description":"Additives sourced to support polymer processing, surface quality and production consistency.","slug":"polymer-processing-aids"},{"name":"PVC Stabilizers","category":"Polymers, Resins & Plastics","description":"Heat-stabilising additive systems sourced for PVC formulation and processing requirements.","slug":"pvc-stabilizers"},{"name":"Titanium Dioxide","category":"Paints, Coatings & Construction","description":"White pigment sourced in grades suited to opacity, brightness and processing requirements.","slug":"titanium-dioxide"},{"name":"Dispersing Agents","category":"Paints, Coatings & Construction","description":"Additives selected to support pigment and filler dispersion in compatible formulations.","slug":"dispersing-agents"},{"name":"Defoamers","category":"Paints, Coatings & Construction","description":"Foam-control additives sourced for process compatibility and performance requirements.","slug":"defoamers"},{"name":"Acrylic Resins","category":"Paints, Coatings & Construction","description":"Film-forming resin materials sourced for coating and adhesive formulation needs.","slug":"acrylic-resins"},{"name":"Concrete Admixtures","category":"Paints, Coatings & Construction","description":"Construction chemical ingredients and admixture components sourced to project and performance specifications.","slug":"concrete-admixtures"},{"name":"Tile Adhesive Additives","category":"Paints, Coatings & Construction","description":"Polymer and functional additives for tile adhesive and dry-mix mortar formulations.","slug":"tile-adhesive-additives"},{"name":"Surfactants","category":"Home Care & Institutional Cleaning","description":"Surface-active ingredients sourced by ionic type, active matter and end-use requirements.","slug":"surfactants"},{"name":"Chelating Agents","category":"Home Care & Institutional Cleaning","description":"Complexing agents used to manage metal ions and support formulation performance.","slug":"chelating-agents"},{"name":"Detergent Builders","category":"Home Care & Institutional Cleaning","description":"Builder ingredients sourced for cleaning performance, water hardness management and formulation design.","slug":"detergent-builders"},{"name":"Fragrance Compounds","category":"Home Care & Institutional Cleaning","description":"Fragrance ingredients and compounds sourced for compatible home and institutional care products.","slug":"fragrance-compounds"},{"name":"Textile Wetting Agents","category":"Textile & Leather Chemicals","description":"Auxiliary chemicals sourced to support wetting and process control in textile operations.","slug":"textile-wetting-agents"},{"name":"Textile Softeners","category":"Textile & Leather Chemicals","description":"Finishing agents sourced for hand feel, softness and fabric performance requirements.","slug":"textile-softeners"},{"name":"Leather Fatliquors","category":"Textile & Leather Chemicals","description":"Leather-processing auxiliaries sourced for lubrication and softness requirements.","slug":"leather-fatliquors"},{"name":"Paper Retention Aids","category":"Paper, Pulp & Process Chemicals","description":"Process polymers sourced to support retention and drainage in papermaking.","slug":"paper-retention-aids"},{"name":"Paper Sizing Agents","category":"Paper, Pulp & Process Chemicals","description":"Sizing chemistry sourced for paper water-resistance and surface-performance requirements.","slug":"paper-sizing-agents"},{"name":"Rubber Accelerators","category":"Rubber & Elastomer Chemicals","description":"Vulcanisation accelerators sourced to rubber compound and processing specifications.","slug":"rubber-accelerators"},{"name":"Rubber Antioxidants","category":"Rubber & Elastomer Chemicals","description":"Protective additives sourced to help manage oxidative ageing in rubber compounds.","slug":"rubber-antioxidants"},{"name":"Lubricant Additives","category":"Lubricants & Metalworking Fluids","description":"Performance additive components sourced for lubricant formulation requirements.","slug":"lubricant-additives"},{"name":"Metalworking Fluids","category":"Lubricants & Metalworking Fluids","description":"Metalworking fluid concentrates and components sourced for machining and forming operations.","slug":"metalworking-fluids"},{"name":"Flotation Reagents","category":"Mining & Mineral Processing","description":"Mineral-processing reagents sourced according to ore type and process conditions.","slug":"flotation-reagents"},{"name":"Filtration Aids","category":"Mining & Mineral Processing","description":"Process aids sourced to improve filtration and separation performance.","slug":"filtration-aids"},{"name":"Sodium Silicate","category":"Industrial Chemicals","description":"Inorganic silicate supplied in liquid or solid forms to specification.","slug":"sodium-silicate"},{"name":"Hydrogen Peroxide","category":"Industrial Chemicals","description":"Oxidising chemical sourced to concentration, grade and handling requirements.","slug":"hydrogen-peroxide"},{"name":"Calcium Carbonate","category":"Minerals, Fillers & Extenders","description":"Mineral filler sourced in grades selected for particle size, coating and end-use requirements.","slug":"calcium-carbonate"},{"name":"Talc Powder","category":"Minerals, Fillers & Extenders","description":"Mineral filler sourced to particle size, brightness and application specifications.","slug":"talc-powder"},{"name":"Bentonite","category":"Minerals, Fillers & Extenders","description":"Clay mineral supplied in suitable grades for binding, rheology and absorbency functions.","slug":"bentonite"},{"name":"Activated Carbon","category":"Water & Wastewater Treatment","description":"Adsorbent material sourced in suitable form and specification for purification duties.","slug":"activated-carbon"},{"name":"Sodium Bicarbonate","category":"Food Acids, Salts & Preservatives","description":"Alkaline salt supplied in appropriate grades for food and industrial use.","slug":"sodium-bicarbonate"},{"name":"Calcium Chloride","category":"Industrial Chemicals","description":"Inorganic salt supplied in flakes, pellets or solution as specified.","slug":"calcium-chloride"},{"name":"Magnesium Sulphate","category":"Vitamins & Minerals","description":"Magnesium salt sourced to specification for agricultural, feed, food or industrial use.","slug":"magnesium-sulphate"},{"name":"Glycerine","category":"Personal Care & Cosmetic Ingredients","description":"Humectant and solvent ingredient supplied in suitable grades and specifications.","slug":"glycerine"},{"name":"Propylene Glycol","category":"Personal Care & Cosmetic Ingredients","description":"Glycol ingredient sourced in appropriate grades for solvent and humectant functions.","slug":"propylene-glycol"},{"name":"Carbomer","category":"Personal Care & Cosmetic Ingredients","description":"Acrylic polymer thickener sourced for viscosity and gel formation in compatible formulations.","slug":"carbomer"},{"name":"HPMC","category":"Construction & Industrial Additives","description":"Cellulose ether sourced for water retention, thickening and workability control.","slug":"hpmc"},{"name":"Redispersible Polymer Powder (RDP)","category":"Construction & Industrial Additives","description":"Polymer powder additive used to improve adhesion and flexibility in dry-mix formulations.","slug":"redispersible-polymer-powder-rdp"},{"name":"Drilling Fluid Chemicals","category":"Oilfield & Drilling Chemicals","description":"Drilling-fluid additives sourced to well conditions, fluid system and technical specifications.","slug":"drilling-fluid-chemicals"},{"name":"Oilfield Polymers","category":"Oilfield & Drilling Chemicals","description":"Polymeric additives sourced for viscosity, filtration and fluid-loss control requirements.","slug":"oilfield-polymers"},{"name":"Industrial Solvents","category":"Industrial Chemicals","description":"Solvents sourced to purity, flash point, packaging and intended process requirements.","slug":"industrial-solvents"},{"name":"Adhesive Resins & Tackifiers","category":"Adhesives & Sealants","description":"Resin and tackifier options sourced for bonding, tack and compatibility requirements.","slug":"adhesive-resins-and-tackifiers"},{"name":"Silicone Emulsions","category":"Polymers, Resins & Plastics","description":"Silicone-based emulsion products sourced for surface, release and conditioning functions.","slug":"silicone-emulsions"},{"name":"Natural Colours","category":"Colours, Flavours & Extracts","description":"Natural colour ingredients sourced according to shade, application, stability and regulatory needs.","slug":"natural-colours"},{"name":"Food Flavours","category":"Colours, Flavours & Extracts","description":"Flavour systems sourced or developed against product profile, application and regulatory brief.","slug":"food-flavours"},{"name":"Spice Extracts & Oleoresins","category":"Colours, Flavours & Extracts","description":"Concentrated spice extracts sourced for defined flavour, colour and active specifications.","slug":"spice-extracts-and-oleoresins"},{"name":"Custom Food Stabilizer Systems","category":"Customized Solutions","description":"Application-led stabilizer and functional blends sourced or developed with specialist partners against a customer brief.","slug":"custom-food-stabilizer-systems"},{"name":"Custom Industrial Chemical Blends","category":"Customized Solutions","description":"Sourcing and development coordination for customer-specific industrial blends, subject to technical and regulatory feasibility.","slug":"custom-industrial-chemical-blends"},{"name":"Contract Manufacturing & Private Label Sourcing","category":"Customized Solutions","description":"Supplier identification and coordination for suitable third-party manufacturing and private-label projects.","slug":"contract-manufacturing-and-private-label-sourcing"}]
+[
+  {
+    "name": "Whey Protein Concentrate (WPC)",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Whey-derived protein ingredient supplied in different protein concentrations for food and nutrition applications.",
+    "slug": "whey-protein-concentrate-wpc"
+  },
+  {
+    "name": "Whey Protein Isolate (WPI)",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "High-protein whey ingredient for formulations requiring elevated protein content and controlled composition.",
+    "slug": "whey-protein-isolate-wpi"
+  },
+  {
+    "name": "Milk Protein Concentrate (MPC)",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Milk-derived protein ingredient with casein and whey protein fractions.",
+    "slug": "milk-protein-concentrate-mpc"
+  },
+  {
+    "name": "Milk Protein Isolate (MPI)",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Concentrated milk protein ingredient for specialised dairy and nutrition formulations.",
+    "slug": "milk-protein-isolate-mpi"
+  },
+  {
+    "name": "Sodium Caseinate",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Milk-protein ingredient valued for emulsification, water binding and protein enrichment.",
+    "slug": "sodium-caseinate"
+  },
+  {
+    "name": "Skimmed Milk Powder",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Dairy powder used to contribute milk solids, protein and dairy functionality.",
+    "slug": "skimmed-milk-powder"
+  },
+  {
+    "name": "Whole Milk Powder",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Full-fat dairy powder for food and beverage formulations.",
+    "slug": "whole-milk-powder"
+  },
+  {
+    "name": "Lactose",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Milk-derived carbohydrate supplied for food, nutrition and suitable industrial applications.",
+    "slug": "lactose"
+  },
+  {
+    "name": "Soy Protein Isolate",
+    "category": "Plant Proteins",
+    "description": "Concentrated plant protein ingredient for protein enrichment and functional food formulations.",
+    "slug": "soy-protein-isolate"
+  },
+  {
+    "name": "Pea Protein",
+    "category": "Plant Proteins",
+    "description": "Plant-based protein ingredient for vegetarian and vegan product development.",
+    "slug": "pea-protein"
+  },
+  {
+    "name": "Xanthan Gum",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Microbial polysaccharide hydrocolloid used for thickening, suspension and rheology control.",
+    "slug": "xanthan-gum"
+  },
+  {
+    "name": "Guar Gum",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Plant-derived galactomannan used as a thickener and stabilizer.",
+    "slug": "guar-gum"
+  },
+  {
+    "name": "Carrageenan",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Seaweed-derived hydrocolloid used for gelation, thickening and stabilisation.",
+    "slug": "carrageenan"
+  },
+  {
+    "name": "Locust Bean Gum",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Plant-derived hydrocolloid used to modify texture and support gel systems.",
+    "slug": "locust-bean-gum"
+  },
+  {
+    "name": "Gellan Gum",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Fermentation-derived gelling and suspending agent for structured food systems.",
+    "slug": "gellan-gum"
+  },
+  {
+    "name": "Pectin",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Fruit-derived hydrocolloid used for gel formation and texture control.",
+    "slug": "pectin"
+  },
+  {
+    "name": "Carboxymethyl Cellulose (CMC)",
+    "category": "Hydrocolloids & Stabilizers",
+    "description": "Cellulose-derived polymer used for viscosity control, stabilisation and water management.",
+    "slug": "carboxymethyl-cellulose-cmc"
+  },
+  {
+    "name": "Modified Starch",
+    "category": "Starches & Fibres",
+    "description": "Functionally modified starches designed for viscosity, texture and process stability.",
+    "slug": "modified-starch"
+  },
+  {
+    "name": "Native Tapioca Starch",
+    "category": "Starches & Fibres",
+    "description": "Cassava-derived starch for thickening and texture development.",
+    "slug": "native-tapioca-starch"
+  },
+  {
+    "name": "Maltodextrin",
+    "category": "Starches & Fibres",
+    "description": "Starch-derived carbohydrate used as a carrier, bulking agent and texture modifier.",
+    "slug": "maltodextrin"
+  },
+  {
+    "name": "Dextrose Monohydrate",
+    "category": "Sweeteners & Carbohydrates",
+    "description": "Glucose-based carbohydrate supplied for food and nutrition formulations.",
+    "slug": "dextrose-monohydrate"
+  },
+  {
+    "name": "Sorbitol",
+    "category": "Sweeteners & Carbohydrates",
+    "description": "Polyol used as a humectant, sweetener and formulation aid in suitable applications.",
+    "slug": "sorbitol"
+  },
+  {
+    "name": "Erythritol",
+    "category": "Sweeteners & Carbohydrates",
+    "description": "Polyol sweetener used in reduced-sugar and sugar-free formulations.",
+    "slug": "erythritol"
+  },
+  {
+    "name": "Stevia Extract",
+    "category": "Sweeteners & Carbohydrates",
+    "description": "Plant-derived high-intensity sweetener ingredient for sugar-reduction projects.",
+    "slug": "stevia-extract"
+  },
+  {
+    "name": "Citric Acid",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Organic acid used for acidity regulation, flavour balance and processing functions.",
+    "slug": "citric-acid"
+  },
+  {
+    "name": "Lactic Acid",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Organic acid supplied for pH adjustment and functional formulation requirements.",
+    "slug": "lactic-acid"
+  },
+  {
+    "name": "Sodium Benzoate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Preservative ingredient for suitable formulations where permitted by applicable regulations.",
+    "slug": "sodium-benzoate"
+  },
+  {
+    "name": "Potassium Sorbate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Preservative ingredient used to help control yeast and mould in permitted applications.",
+    "slug": "potassium-sorbate"
+  },
+  {
+    "name": "Lecithin",
+    "category": "Emulsifiers",
+    "description": "Phospholipid-based emulsifier available from suitable plant sources and grades.",
+    "slug": "lecithin"
+  },
+  {
+    "name": "Mono- and Diglycerides",
+    "category": "Emulsifiers",
+    "description": "Food emulsifiers used to support aeration, texture and emulsion stability.",
+    "slug": "mono-and-diglycerides"
+  },
+  {
+    "name": "DATEM",
+    "category": "Emulsifiers",
+    "description": "Dough-strengthening emulsifier used in bakery formulations where permitted.",
+    "slug": "datem"
+  },
+  {
+    "name": "Vitamin C (Ascorbic Acid)",
+    "category": "Vitamins & Minerals",
+    "description": "Vitamin ingredient supplied in suitable grades for food, nutrition and other approved applications.",
+    "slug": "vitamin-c-ascorbic-acid"
+  },
+  {
+    "name": "Vitamin A Palmitate",
+    "category": "Vitamins & Minerals",
+    "description": "Vitamin A source available in suitable powder or oil forms for fortification and premix use.",
+    "slug": "vitamin-a-palmitate"
+  },
+  {
+    "name": "Vitamin D3",
+    "category": "Vitamins & Minerals",
+    "description": "Vitamin D3 ingredient for fortification and nutrition formulations in appropriate grades.",
+    "slug": "vitamin-d3"
+  },
+  {
+    "name": "Vitamin E",
+    "category": "Vitamins & Minerals",
+    "description": "Vitamin E ingredient supplied in suitable forms for nutrition and fortification applications.",
+    "slug": "vitamin-e"
+  },
+  {
+    "name": "Zinc Sulphate",
+    "category": "Vitamins & Minerals",
+    "description": "Zinc mineral source for suitable fortification and industrial applications by grade.",
+    "slug": "zinc-sulphate"
+  },
+  {
+    "name": "Ferrous Sulphate",
+    "category": "Vitamins & Minerals",
+    "description": "Iron mineral source for suitable food, feed and industrial formulations by grade.",
+    "slug": "ferrous-sulphate"
+  },
+  {
+    "name": "Custom Vitamin & Mineral Premix",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Customer-specific vitamin and mineral premix sourcing and development coordination based on formulation brief.",
+    "slug": "custom-vitamin-and-mineral-premix"
+  },
+  {
+    "name": "Coenzyme Q10",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Nutraceutical ingredient for suitable supplement and functional nutrition formulations.",
+    "slug": "coenzyme-q10"
+  },
+  {
+    "name": "Collagen Peptides",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Hydrolysed collagen ingredient for protein and beauty-from-within product concepts.",
+    "slug": "collagen-peptides"
+  },
+  {
+    "name": "Amino Acids",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Amino acid ingredients sourced to defined specification and intended application.",
+    "slug": "amino-acids"
+  },
+  {
+    "name": "Botanical Extracts",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Plant-derived extracts sourced against botanical identity, active marker and quality requirements.",
+    "slug": "botanical-extracts"
+  },
+  {
+    "name": "Food Enzymes",
+    "category": "Enzymes & Processing Aids",
+    "description": "Enzyme preparations sourced for specific food processing functions and process conditions.",
+    "slug": "food-enzymes"
+  },
+  {
+    "name": "Bread Improvers",
+    "category": "Bakery & Food Processing",
+    "description": "Bakery improver systems sourced or developed to meet dough handling and finished-product requirements.",
+    "slug": "bread-improvers"
+  },
+  {
+    "name": "Cake Gel & Cake Improvers",
+    "category": "Bakery & Food Processing",
+    "description": "Ingredients and systems used to support cake batter aeration, volume and texture.",
+    "slug": "cake-gel-and-cake-improvers"
+  },
+  {
+    "name": "Bakery Shortening",
+    "category": "Oils, Fats & Bakery",
+    "description": "Specialty fat ingredient sourced for defined bakery performance and application needs.",
+    "slug": "bakery-shortening"
+  },
+  {
+    "name": "Vegetable Oils & Fats",
+    "category": "Oils, Fats & Bakery",
+    "description": "Edible oils and fat systems sourced to customer specifications and application requirements.",
+    "slug": "vegetable-oils-and-fats"
+  },
+  {
+    "name": "Glucose Syrup",
+    "category": "Sweeteners & Carbohydrates",
+    "description": "Starch-derived syrup used for sweetness, solids and texture control.",
+    "slug": "glucose-syrup"
+  },
+  {
+    "name": "Sodium Hydroxide (Caustic Soda)",
+    "category": "Industrial Chemicals",
+    "description": "Alkali supplied against defined concentration, grade, packaging and safety requirements.",
+    "slug": "sodium-hydroxide-caustic-soda"
+  },
+  {
+    "name": "Hydrochloric Acid",
+    "category": "Industrial Chemicals",
+    "description": "Inorganic acid sourced to agreed concentration and industrial specification.",
+    "slug": "hydrochloric-acid"
+  },
+  {
+    "name": "Sulphuric Acid",
+    "category": "Industrial Chemicals",
+    "description": "Industrial acid sourced subject to intended use, concentration, transport and safety requirements.",
+    "slug": "sulphuric-acid"
+  },
+  {
+    "name": "Sodium Hypochlorite",
+    "category": "Water & Wastewater Treatment",
+    "description": "Oxidising and disinfecting chemical supplied in suitable concentration and packaging.",
+    "slug": "sodium-hypochlorite"
+  },
+  {
+    "name": "PAC (Polyaluminium Chloride)",
+    "category": "Water & Wastewater Treatment",
+    "description": "Coagulant used in water and wastewater clarification processes.",
+    "slug": "pac-polyaluminium-chloride"
+  },
+  {
+    "name": "Polyacrylamide (PAM)",
+    "category": "Water & Wastewater Treatment",
+    "description": "Polymer flocculant sourced in appropriate ionic form and molecular-weight range.",
+    "slug": "polyacrylamide-pam"
+  },
+  {
+    "name": "Antiscalants",
+    "category": "Water & Wastewater Treatment",
+    "description": "Treatment chemicals selected to help manage scale formation in membrane and process systems.",
+    "slug": "antiscalants"
+  },
+  {
+    "name": "Biocides for Water Treatment",
+    "category": "Water & Wastewater Treatment",
+    "description": "Water-treatment biocide options sourced according to system compatibility and regulatory requirements.",
+    "slug": "biocides-for-water-treatment"
+  },
+  {
+    "name": "Ion Exchange Resins",
+    "category": "Water & Wastewater Treatment",
+    "description": "Functional polymer resins for water purification and separation applications.",
+    "slug": "ion-exchange-resins"
+  },
+  {
+    "name": "Industrial Degreasers",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Cleaning chemistry sourced for removal of oils, greases and process soils from compatible surfaces.",
+    "slug": "industrial-degreasers"
+  },
+  {
+    "name": "Pickling Chemicals",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Acid-based or formulated products for controlled removal of scale and oxides from metal surfaces.",
+    "slug": "pickling-chemicals"
+  },
+  {
+    "name": "Phosphating Chemicals",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Surface-treatment chemicals for conversion coating and corrosion-protection preparation.",
+    "slug": "phosphating-chemicals"
+  },
+  {
+    "name": "Passivation Chemicals",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Surface-treatment products selected for compatible metals and required finish specifications.",
+    "slug": "passivation-chemicals"
+  },
+  {
+    "name": "Aluminium Foundry Fluxes",
+    "category": "Aluminium, Foundry & Casting",
+    "description": "Foundry consumables sourced for melt treatment and process requirements.",
+    "slug": "aluminium-foundry-fluxes"
+  },
+  {
+    "name": "Die Release Agents",
+    "category": "Aluminium, Foundry & Casting",
+    "description": "Release agents sourced for compatibility with die-casting process and equipment.",
+    "slug": "die-release-agents"
+  },
+  {
+    "name": "Foundry Additives",
+    "category": "Aluminium, Foundry & Casting",
+    "description": "Foundry process auxiliaries sourced to the metal, moulding process and operating conditions.",
+    "slug": "foundry-additives"
+  },
+  {
+    "name": "Epoxy Resins",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Thermosetting resin systems sourced to application, viscosity and curing requirements.",
+    "slug": "epoxy-resins"
+  },
+  {
+    "name": "Polyurethane Systems",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Polyurethane raw materials and systems sourced for defined processing and performance needs.",
+    "slug": "polyurethane-systems"
+  },
+  {
+    "name": "Plasticisers",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Additives used to modify flexibility and processing behaviour of compatible polymer systems.",
+    "slug": "plasticisers"
+  },
+  {
+    "name": "Polymer Processing Aids",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Additives sourced to support polymer processing, surface quality and production consistency.",
+    "slug": "polymer-processing-aids"
+  },
+  {
+    "name": "PVC Stabilizers",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Heat-stabilising additive systems sourced for PVC formulation and processing requirements.",
+    "slug": "pvc-stabilizers"
+  },
+  {
+    "name": "Titanium Dioxide",
+    "category": "Paints, Coatings & Construction",
+    "description": "White pigment sourced in grades suited to opacity, brightness and processing requirements.",
+    "slug": "titanium-dioxide"
+  },
+  {
+    "name": "Dispersing Agents",
+    "category": "Paints, Coatings & Construction",
+    "description": "Additives selected to support pigment and filler dispersion in compatible formulations.",
+    "slug": "dispersing-agents"
+  },
+  {
+    "name": "Defoamers",
+    "category": "Paints, Coatings & Construction",
+    "description": "Foam-control additives sourced for process compatibility and performance requirements.",
+    "slug": "defoamers"
+  },
+  {
+    "name": "Acrylic Resins",
+    "category": "Paints, Coatings & Construction",
+    "description": "Film-forming resin materials sourced for coating and adhesive formulation needs.",
+    "slug": "acrylic-resins"
+  },
+  {
+    "name": "Concrete Admixtures",
+    "category": "Paints, Coatings & Construction",
+    "description": "Construction chemical ingredients and admixture components sourced to project and performance specifications.",
+    "slug": "concrete-admixtures"
+  },
+  {
+    "name": "Tile Adhesive Additives",
+    "category": "Paints, Coatings & Construction",
+    "description": "Polymer and functional additives for tile adhesive and dry-mix mortar formulations.",
+    "slug": "tile-adhesive-additives"
+  },
+  {
+    "name": "Surfactants",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Surface-active ingredients sourced by ionic type, active matter and end-use requirements.",
+    "slug": "surfactants"
+  },
+  {
+    "name": "Chelating Agents",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Complexing agents used to manage metal ions and support formulation performance.",
+    "slug": "chelating-agents"
+  },
+  {
+    "name": "Detergent Builders",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Builder ingredients sourced for cleaning performance, water hardness management and formulation design.",
+    "slug": "detergent-builders"
+  },
+  {
+    "name": "Fragrance Compounds",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Fragrance ingredients and compounds sourced for compatible home and institutional care products.",
+    "slug": "fragrance-compounds"
+  },
+  {
+    "name": "Textile Wetting Agents",
+    "category": "Textile & Leather Chemicals",
+    "description": "Auxiliary chemicals sourced to support wetting and process control in textile operations.",
+    "slug": "textile-wetting-agents"
+  },
+  {
+    "name": "Textile Softeners",
+    "category": "Textile & Leather Chemicals",
+    "description": "Finishing agents sourced for hand feel, softness and fabric performance requirements.",
+    "slug": "textile-softeners"
+  },
+  {
+    "name": "Leather Fatliquors",
+    "category": "Textile & Leather Chemicals",
+    "description": "Leather-processing auxiliaries sourced for lubrication and softness requirements.",
+    "slug": "leather-fatliquors"
+  },
+  {
+    "name": "Paper Retention Aids",
+    "category": "Paper, Pulp & Process Chemicals",
+    "description": "Process polymers sourced to support retention and drainage in papermaking.",
+    "slug": "paper-retention-aids"
+  },
+  {
+    "name": "Paper Sizing Agents",
+    "category": "Paper, Pulp & Process Chemicals",
+    "description": "Sizing chemistry sourced for paper water-resistance and surface-performance requirements.",
+    "slug": "paper-sizing-agents"
+  },
+  {
+    "name": "Rubber Accelerators",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Vulcanisation accelerators sourced to rubber compound and processing specifications.",
+    "slug": "rubber-accelerators"
+  },
+  {
+    "name": "Rubber Antioxidants",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Protective additives sourced to help manage oxidative ageing in rubber compounds.",
+    "slug": "rubber-antioxidants"
+  },
+  {
+    "name": "Lubricant Additives",
+    "category": "Lubricants & Metalworking Fluids",
+    "description": "Performance additive components sourced for lubricant formulation requirements.",
+    "slug": "lubricant-additives"
+  },
+  {
+    "name": "Metalworking Fluids",
+    "category": "Lubricants & Metalworking Fluids",
+    "description": "Metalworking fluid concentrates and components sourced for machining and forming operations.",
+    "slug": "metalworking-fluids"
+  },
+  {
+    "name": "Flotation Reagents",
+    "category": "Mining & Mineral Processing",
+    "description": "Mineral-processing reagents sourced according to ore type and process conditions.",
+    "slug": "flotation-reagents"
+  },
+  {
+    "name": "Filtration Aids",
+    "category": "Mining & Mineral Processing",
+    "description": "Process aids sourced to improve filtration and separation performance.",
+    "slug": "filtration-aids"
+  },
+  {
+    "name": "Sodium Silicate",
+    "category": "Industrial Chemicals",
+    "description": "Inorganic silicate supplied in liquid or solid forms to specification.",
+    "slug": "sodium-silicate"
+  },
+  {
+    "name": "Hydrogen Peroxide",
+    "category": "Industrial Chemicals",
+    "description": "Oxidising chemical sourced to concentration, grade and handling requirements.",
+    "slug": "hydrogen-peroxide"
+  },
+  {
+    "name": "Calcium Carbonate",
+    "category": "Minerals, Fillers & Extenders",
+    "description": "Mineral filler sourced in grades selected for particle size, coating and end-use requirements.",
+    "slug": "calcium-carbonate"
+  },
+  {
+    "name": "Talc Powder",
+    "category": "Minerals, Fillers & Extenders",
+    "description": "Mineral filler sourced to particle size, brightness and application specifications.",
+    "slug": "talc-powder"
+  },
+  {
+    "name": "Bentonite",
+    "category": "Minerals, Fillers & Extenders",
+    "description": "Clay mineral supplied in suitable grades for binding, rheology and absorbency functions.",
+    "slug": "bentonite"
+  },
+  {
+    "name": "Activated Carbon",
+    "category": "Water & Wastewater Treatment",
+    "description": "Adsorbent material sourced in suitable form and specification for purification duties.",
+    "slug": "activated-carbon"
+  },
+  {
+    "name": "Sodium Bicarbonate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Alkaline salt supplied in appropriate grades for food and industrial use.",
+    "slug": "sodium-bicarbonate"
+  },
+  {
+    "name": "Calcium Chloride",
+    "category": "Industrial Chemicals",
+    "description": "Inorganic salt supplied in flakes, pellets or solution as specified.",
+    "slug": "calcium-chloride"
+  },
+  {
+    "name": "Magnesium Sulphate",
+    "category": "Vitamins & Minerals",
+    "description": "Magnesium salt sourced to specification for agricultural, feed, food or industrial use.",
+    "slug": "magnesium-sulphate"
+  },
+  {
+    "name": "Glycerine",
+    "category": "Personal Care & Cosmetic Ingredients",
+    "description": "Humectant and solvent ingredient supplied in suitable grades and specifications.",
+    "slug": "glycerine"
+  },
+  {
+    "name": "Propylene Glycol",
+    "category": "Personal Care & Cosmetic Ingredients",
+    "description": "Glycol ingredient sourced in appropriate grades for solvent and humectant functions.",
+    "slug": "propylene-glycol"
+  },
+  {
+    "name": "Carbomer",
+    "category": "Personal Care & Cosmetic Ingredients",
+    "description": "Acrylic polymer thickener sourced for viscosity and gel formation in compatible formulations.",
+    "slug": "carbomer"
+  },
+  {
+    "name": "HPMC",
+    "category": "Construction & Industrial Additives",
+    "description": "Cellulose ether sourced for water retention, thickening and workability control.",
+    "slug": "hpmc"
+  },
+  {
+    "name": "Redispersible Polymer Powder (RDP)",
+    "category": "Construction & Industrial Additives",
+    "description": "Polymer powder additive used to improve adhesion and flexibility in dry-mix formulations.",
+    "slug": "redispersible-polymer-powder-rdp"
+  },
+  {
+    "name": "Drilling Fluid Chemicals",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Drilling-fluid additives sourced to well conditions, fluid system and technical specifications.",
+    "slug": "drilling-fluid-chemicals"
+  },
+  {
+    "name": "Oilfield Polymers",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Polymeric additives sourced for viscosity, filtration and fluid-loss control requirements.",
+    "slug": "oilfield-polymers"
+  },
+  {
+    "name": "Industrial Solvents",
+    "category": "Industrial Chemicals",
+    "description": "Solvents sourced to purity, flash point, packaging and intended process requirements.",
+    "slug": "industrial-solvents"
+  },
+  {
+    "name": "Adhesive Resins & Tackifiers",
+    "category": "Adhesives & Sealants",
+    "description": "Resin and tackifier options sourced for bonding, tack and compatibility requirements.",
+    "slug": "adhesive-resins-and-tackifiers"
+  },
+  {
+    "name": "Silicone Emulsions",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Silicone-based emulsion products sourced for surface, release and conditioning functions.",
+    "slug": "silicone-emulsions"
+  },
+  {
+    "name": "Natural Colours",
+    "category": "Colours, Flavours & Extracts",
+    "description": "Natural colour ingredients sourced according to shade, application, stability and regulatory needs.",
+    "slug": "natural-colours"
+  },
+  {
+    "name": "Food Flavours",
+    "category": "Colours, Flavours & Extracts",
+    "description": "Flavour systems sourced or developed against product profile, application and regulatory brief.",
+    "slug": "food-flavours"
+  },
+  {
+    "name": "Spice Extracts & Oleoresins",
+    "category": "Colours, Flavours & Extracts",
+    "description": "Concentrated spice extracts sourced for defined flavour, colour and active specifications.",
+    "slug": "spice-extracts-and-oleoresins"
+  },
+  {
+    "name": "Custom Food Stabilizer Systems",
+    "category": "Customized Solutions",
+    "description": "Application-led stabilizer and functional blends sourced or developed with specialist partners against a customer brief.",
+    "slug": "custom-food-stabilizer-systems"
+  },
+  {
+    "name": "Custom Industrial Chemical Blends",
+    "category": "Customized Solutions",
+    "description": "Sourcing and development coordination for customer-specific industrial blends, subject to technical and regulatory feasibility.",
+    "slug": "custom-industrial-chemical-blends"
+  },
+  {
+    "name": "Contract Manufacturing & Private Label Sourcing",
+    "category": "Customized Solutions",
+    "description": "Supplier identification and coordination for suitable third-party manufacturing and private-label projects.",
+    "slug": "contract-manufacturing-and-private-label-sourcing"
+  },
+  {
+    "name": "Anhydrous Milk Fat (AMF)",
+    "slug": "anhydrous-milk-fat-amf",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Concentrated milk fat ingredient for dairy, confectionery and bakery formulations; final grade and fat profile are confirmed per requirement.",
+    "detailPath": "product-detail.html?product=anhydrous-milk-fat-amf"
+  },
+  {
+    "name": "Buttermilk Powder",
+    "slug": "buttermilk-powder",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Dried buttermilk ingredient used to contribute dairy solids, flavour and functionality in bakery and food formulations.",
+    "detailPath": "product-detail.html?product=buttermilk-powder"
+  },
+  {
+    "name": "Whey Permeate Powder",
+    "slug": "whey-permeate-powder",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Whey-derived permeate powder supplied for food, beverage and feed applications subject to grade and specification.",
+    "detailPath": "product-detail.html?product=whey-permeate-powder"
+  },
+  {
+    "name": "Milk Permeate Powder",
+    "slug": "milk-permeate-powder",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Milk-derived permeate powder for dairy, bakery and food applications requiring milk solids and lactose.",
+    "detailPath": "product-detail.html?product=milk-permeate-powder"
+  },
+  {
+    "name": "Casein",
+    "slug": "casein",
+    "category": "Proteins & Dairy Ingredients",
+    "description": "Milk protein ingredient supplied in suitable acid or rennet casein grades for food and industrial formulation enquiries.",
+    "detailPath": "product-detail.html?product=casein"
+  },
+  {
+    "name": "Rennet Enzyme",
+    "slug": "rennet-enzyme",
+    "category": "Enzymes & Processing Aids",
+    "description": "Milk-coagulating enzyme preparation for cheese manufacture; activity, source and application suitability are confirmed per brief.",
+    "detailPath": "product-detail.html?product=rennet-enzyme"
+  },
+  {
+    "name": "Cheese Starter Cultures",
+    "slug": "cheese-starter-cultures",
+    "category": "Enzymes & Processing Aids",
+    "description": "Selected dairy starter cultures for acidification and flavour development in cheese-making applications.",
+    "detailPath": "product-detail.html?product=cheese-starter-cultures"
+  },
+  {
+    "name": "Vital Wheat Gluten",
+    "slug": "vital-wheat-gluten",
+    "category": "Bakery & Food Processing",
+    "description": "Wheat-derived protein ingredient used to improve dough strength, elasticity and structure in bakery formulations.",
+    "detailPath": "product-detail.html?product=vital-wheat-gluten"
+  },
+  {
+    "name": "Instant Dry Yeast",
+    "slug": "instant-dry-yeast",
+    "category": "Bakery & Food Processing",
+    "description": "Dried yeast preparation for bakery fermentation; strain, activity and pack specification are confirmed per requirement.",
+    "detailPath": "product-detail.html?product=instant-dry-yeast"
+  },
+  {
+    "name": "Cocoa Powder",
+    "slug": "cocoa-powder",
+    "category": "Bakery & Food Processing",
+    "description": "Cocoa ingredient for bakery, confectionery, beverage and food formulations with alkalisation and fat specifications confirmed per enquiry.",
+    "detailPath": "product-detail.html?product=cocoa-powder"
+  },
+  {
+    "name": "Potato Starch",
+    "slug": "potato-starch",
+    "category": "Starches & Fibres",
+    "description": "Potato-derived starch for thickening, binding and texture control in food and industrial applications.",
+    "detailPath": "product-detail.html?product=potato-starch"
+  },
+  {
+    "name": "Pea Starch",
+    "slug": "pea-starch",
+    "category": "Starches & Fibres",
+    "description": "Pulse-derived starch ingredient for texture, viscosity and formulation requirements in food applications.",
+    "detailPath": "product-detail.html?product=pea-starch"
+  },
+  {
+    "name": "Rice Protein Concentrate",
+    "slug": "rice-protein-concentrate",
+    "category": "Plant Proteins",
+    "description": "Rice-derived protein ingredient for plant-based and protein-fortification formulations; protein content and solubility are confirmed by grade.",
+    "detailPath": "product-detail.html?product=rice-protein-concentrate"
+  },
+  {
+    "name": "Calcium Propionate",
+    "slug": "calcium-propionate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Preservative ingredient used in permitted bakery and food applications subject to applicable regulations and formulation limits.",
+    "detailPath": "product-detail.html?product=calcium-propionate"
+  },
+  {
+    "name": "Sodium Citrate",
+    "slug": "sodium-citrate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Citrate salt used as an acidity regulator, buffering agent and sequestrant in suitable food formulations.",
+    "detailPath": "product-detail.html?product=sodium-citrate"
+  },
+  {
+    "name": "Glucono Delta Lactone (GDL)",
+    "slug": "glucono-delta-lactone-gdl",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Slow-release acidulant for controlled pH reduction and texture development in suitable food systems.",
+    "detailPath": "product-detail.html?product=glucono-delta-lactone-gdl"
+  },
+  {
+    "name": "Ascorbyl Palmitate",
+    "slug": "ascorbyl-palmitate",
+    "category": "Food Acids, Salts & Preservatives",
+    "description": "Oil-dispersible antioxidant ingredient for suitable food and fat-based formulations.",
+    "detailPath": "product-detail.html?product=ascorbyl-palmitate"
+  },
+  {
+    "name": "Inulin",
+    "slug": "inulin",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Soluble prebiotic dietary fibre used for fibre enrichment, bulking and texture modification in food and nutrition products.",
+    "detailPath": "product-detail.html?product=inulin"
+  },
+  {
+    "name": "Fructooligosaccharides (FOS)",
+    "slug": "fructooligosaccharides-fos",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Prebiotic carbohydrate ingredient for selected nutrition, dairy and functional food formulations.",
+    "detailPath": "product-detail.html?product=fructooligosaccharides-fos"
+  },
+  {
+    "name": "Probiotic Premix",
+    "slug": "probiotic-premix",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Blend of selected probiotic cultures for nutrition and functional food formulations; strains, counts and stability specifications are defined per brief.",
+    "detailPath": "product-detail.html?product=probiotic-premix"
+  },
+  {
+    "name": "Electrolyte Premix",
+    "slug": "electrolyte-premix",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Customised blend of selected electrolyte salts for beverage, nutrition and hydration formulations.",
+    "detailPath": "product-detail.html?product=electrolyte-premix"
+  },
+  {
+    "name": "Taurine",
+    "slug": "taurine",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Amino sulfonic acid ingredient for selected nutrition, beverage and supplement formulations, subject to intended-use compliance.",
+    "detailPath": "product-detail.html?product=taurine"
+  },
+  {
+    "name": "L-Carnitine",
+    "slug": "l-carnitine",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Nutritional ingredient supplied to a defined assay and form for suitable supplement and nutrition applications.",
+    "detailPath": "product-detail.html?product=l-carnitine"
+  },
+  {
+    "name": "BCAA Blend",
+    "slug": "bcaa-blend",
+    "category": "Premixes & Nutraceutical Ingredients",
+    "description": "Blend of branched-chain amino acids for sports nutrition and protein formulation enquiries.",
+    "detailPath": "product-detail.html?product=bcaa-blend"
+  },
+  {
+    "name": "Pharmaceutical Grade Lactose",
+    "slug": "pharmaceutical-grade-lactose",
+    "category": "Pharmaceutical Excipients",
+    "description": "Lactose excipient for pharmaceutical applications; compendial grade, particle size and documentation are confirmed per specification.",
+    "detailPath": "product-detail.html?product=pharmaceutical-grade-lactose"
+  },
+  {
+    "name": "Microcrystalline Cellulose (MCC)",
+    "slug": "microcrystalline-cellulose-mcc",
+    "category": "Pharmaceutical Excipients",
+    "description": "Cellulose-based pharmaceutical excipient used as a binder, diluent and stabilising aid in suitable dosage forms.",
+    "detailPath": "product-detail.html?product=microcrystalline-cellulose-mcc"
+  },
+  {
+    "name": "Povidone K30",
+    "slug": "povidone-k30",
+    "category": "Pharmaceutical Excipients",
+    "description": "Polyvinylpyrrolidone excipient for selected pharmaceutical formulation functions; grade and compendial documents are confirmed per enquiry.",
+    "detailPath": "product-detail.html?product=povidone-k30"
+  },
+  {
+    "name": "Magnesium Stearate (Pharma Grade)",
+    "slug": "magnesium-stearate-pharma-grade",
+    "category": "Pharmaceutical Excipients",
+    "description": "Lubricant excipient for pharmaceutical formulations; particle characteristics and applicable compendial requirements are confirmed per grade.",
+    "detailPath": "product-detail.html?product=magnesium-stearate-pharma-grade"
+  },
+  {
+    "name": "Croscarmellose Sodium",
+    "slug": "croscarmellose-sodium",
+    "category": "Pharmaceutical Excipients",
+    "description": "Cross-linked cellulose disintegrant excipient for suitable solid dosage formulations.",
+    "detailPath": "product-detail.html?product=croscarmellose-sodium"
+  },
+  {
+    "name": "Sodium Starch Glycolate",
+    "slug": "sodium-starch-glycolate",
+    "category": "Pharmaceutical Excipients",
+    "description": "Modified starch disintegrant excipient for pharmaceutical formulations requiring rapid tablet breakup.",
+    "detailPath": "product-detail.html?product=sodium-starch-glycolate"
+  },
+  {
+    "name": "Crospovidone",
+    "slug": "crospovidone",
+    "category": "Pharmaceutical Excipients",
+    "description": "Cross-linked povidone disintegrant excipient for suitable pharmaceutical solid dosage formulations.",
+    "detailPath": "product-detail.html?product=crospovidone"
+  },
+  {
+    "name": "Colloidal Silicon Dioxide",
+    "slug": "colloidal-silicon-dioxide",
+    "category": "Pharmaceutical Excipients",
+    "description": "Fine silica excipient used as a glidant and flow aid in suitable pharmaceutical and nutrition formulations.",
+    "detailPath": "product-detail.html?product=colloidal-silicon-dioxide"
+  },
+  {
+    "name": "Sodium Lauryl Ether Sulphate (SLES 70%)",
+    "slug": "sodium-lauryl-ether-sulphate-sles-70",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Anionic surfactant concentrate used in suitable liquid cleaning and personal-care formulations; active matter and salt profile are specified by grade.",
+    "detailPath": "product-detail.html?product=sodium-lauryl-ether-sulphate-sles-70"
+  },
+  {
+    "name": "Linear Alkylbenzene Sulphonic Acid (LABSA)",
+    "slug": "linear-alkylbenzene-sulphonic-acid-labsa",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Anionic surfactant acid for detergent and cleaning formulations; active matter and neutralisation requirements are confirmed per specification.",
+    "detailPath": "product-detail.html?product=linear-alkylbenzene-sulphonic-acid-labsa"
+  },
+  {
+    "name": "Cocamidopropyl Betaine (CAPB)",
+    "slug": "cocamidopropyl-betaine-capb",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Amphoteric surfactant used in selected household, institutional and personal-care cleansing formulations.",
+    "detailPath": "product-detail.html?product=cocamidopropyl-betaine-capb"
+  },
+  {
+    "name": "Alpha Olefin Sulphonate (AOS)",
+    "slug": "alpha-olefin-sulphonate-aos",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Anionic surfactant supplied for suitable detergent and cleaning formulations.",
+    "detailPath": "product-detail.html?product=alpha-olefin-sulphonate-aos"
+  },
+  {
+    "name": "Alcohol Ethoxylates",
+    "slug": "alcohol-ethoxylates",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Nonionic surfactant family for cleaning, wetting and emulsification applications; chain length and ethoxylation level are defined per brief.",
+    "detailPath": "product-detail.html?product=alcohol-ethoxylates"
+  },
+  {
+    "name": "Sodium Metasilicate",
+    "slug": "sodium-metasilicate",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Alkaline builder and cleaning ingredient for suitable industrial and institutional cleaning formulations.",
+    "detailPath": "product-detail.html?product=sodium-metasilicate"
+  },
+  {
+    "name": "Sodium Tripolyphosphate (STPP)",
+    "slug": "sodium-tripolyphosphate-stpp",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Builder and sequestrant ingredient used in suitable detergent and industrial formulations where permitted.",
+    "detailPath": "product-detail.html?product=sodium-tripolyphosphate-stpp"
+  },
+  {
+    "name": "Soda Ash Light",
+    "slug": "soda-ash-light",
+    "category": "Home Care & Institutional Cleaning",
+    "description": "Light sodium carbonate grade for alkalinity adjustment and detergent-builder applications.",
+    "detailPath": "product-detail.html?product=soda-ash-light"
+  },
+  {
+    "name": "Ferric Chloride",
+    "slug": "ferric-chloride",
+    "category": "Water & Wastewater Treatment",
+    "description": "Inorganic coagulant for industrial and municipal water or wastewater treatment; concentration and application suitability are confirmed per brief.",
+    "detailPath": "product-detail.html?product=ferric-chloride"
+  },
+  {
+    "name": "Aluminium Sulphate (Alum)",
+    "slug": "aluminium-sulphate-alum",
+    "category": "Water & Wastewater Treatment",
+    "description": "Inorganic coagulant used in water clarification and wastewater treatment applications.",
+    "detailPath": "product-detail.html?product=aluminium-sulphate-alum"
+  },
+  {
+    "name": "Polyamine Coagulant",
+    "slug": "polyamine-coagulant",
+    "category": "Water & Wastewater Treatment",
+    "description": "Organic coagulant for suspended-solids removal and clarification in suitable water and effluent systems.",
+    "detailPath": "product-detail.html?product=polyamine-coagulant"
+  },
+  {
+    "name": "PolyDADMAC",
+    "slug": "polydadmac",
+    "category": "Water & Wastewater Treatment",
+    "description": "Cationic polymer coagulant for clarification, solids separation and selected process-water applications.",
+    "detailPath": "product-detail.html?product=polydadmac"
+  },
+  {
+    "name": "Sodium Aluminate",
+    "slug": "sodium-aluminate",
+    "category": "Water & Wastewater Treatment",
+    "description": "Alkaline aluminium salt used in selected water treatment and industrial process applications.",
+    "detailPath": "product-detail.html?product=sodium-aluminate"
+  },
+  {
+    "name": "Wastewater Defoamer",
+    "slug": "wastewater-defoamer",
+    "category": "Water & Wastewater Treatment",
+    "description": "Foam-control formulation for selected effluent and wastewater operations; compatibility and dosage are confirmed by application.",
+    "detailPath": "product-detail.html?product=wastewater-defoamer"
+  },
+  {
+    "name": "Bacterial Nutrient Blend for Effluent",
+    "slug": "bacterial-nutrient-blend-effluent",
+    "category": "Water & Wastewater Treatment",
+    "description": "Nutrient blend for supporting biological wastewater treatment processes, selected according to influent and process conditions.",
+    "detailPath": "product-detail.html?product=bacterial-nutrient-blend-effluent"
+  },
+  {
+    "name": "Polyethylene Wax",
+    "slug": "polyethylene-wax",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Polyethylene wax additive for selected plastics, masterbatch, coating and processing applications.",
+    "detailPath": "product-detail.html?product=polyethylene-wax"
+  },
+  {
+    "name": "Silicone Oil",
+    "slug": "silicone-oil",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Silicone fluid supplied in defined viscosity grades for industrial, polymer, release and formulation applications.",
+    "detailPath": "product-detail.html?product=silicone-oil"
+  },
+  {
+    "name": "PVC Processing Aid",
+    "slug": "pvc-processing-aid",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Processing additive for PVC compounding and extrusion applications; compatibility and performance requirements are confirmed per formulation.",
+    "detailPath": "product-detail.html?product=pvc-processing-aid"
+  },
+  {
+    "name": "Organic Peroxides",
+    "slug": "organic-peroxides",
+    "category": "Polymers, Resins & Plastics",
+    "description": "Initiator and crosslinking chemical family for selected polymerisation and polymer-processing applications; handling and transport controls apply.",
+    "detailPath": "product-detail.html?product=organic-peroxides"
+  },
+  {
+    "name": "Polycarboxylate Ether (PCE) Superplasticizer",
+    "slug": "polycarboxylate-ether-pce-superplasticizer",
+    "category": "Construction & Industrial Additives",
+    "description": "High-range water-reducing admixture chemistry for suitable concrete formulations; solids content and performance are specified by grade.",
+    "detailPath": "product-detail.html?product=polycarboxylate-ether-pce-superplasticizer"
+  },
+  {
+    "name": "Calcium Formate",
+    "slug": "calcium-formate",
+    "category": "Construction & Industrial Additives",
+    "description": "Calcium salt used in selected construction, dry-mix and process applications.",
+    "detailPath": "product-detail.html?product=calcium-formate"
+  },
+  {
+    "name": "Palm Olein",
+    "slug": "palm-olein",
+    "category": "Oils, Fats & Bakery",
+    "description": "Refined palm oil fraction for food manufacturing and frying applications; quality parameters and packaging are confirmed per requirement.",
+    "detailPath": "product-detail.html?product=palm-olein"
+  },
+  {
+    "name": "Palm Stearin",
+    "slug": "palm-stearin",
+    "category": "Oils, Fats & Bakery",
+    "description": "Higher-melting palm fraction for selected bakery, confectionery and fat-blend applications.",
+    "detailPath": "product-detail.html?product=palm-stearin"
+  },
+  {
+    "name": "Bakery Margarine",
+    "slug": "bakery-margarine",
+    "category": "Oils, Fats & Bakery",
+    "description": "Specialty bakery fat system for lamination, pastry and dough applications; plasticity and performance requirements are confirmed per brief.",
+    "detailPath": "product-detail.html?product=bakery-margarine"
+  },
+  {
+    "name": "Cocoa Butter Equivalent (CBE)",
+    "slug": "cocoa-butter-equivalent-cbe",
+    "category": "Oils, Fats & Bakery",
+    "description": "Specialty confectionery fat for selected chocolate and compound-coating applications; compatibility and regulatory requirements are confirmed per formulation.",
+    "detailPath": "product-detail.html?product=cocoa-butter-equivalent-cbe"
+  },
+  {
+    "name": "MBTS Rubber Accelerator",
+    "slug": "mbts-rubber-accelerator",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Thiazole-based rubber accelerator for suitable vulcanisation systems; grade and cure profile are confirmed per formulation.",
+    "detailPath": "product-detail.html?product=mbts-rubber-accelerator"
+  },
+  {
+    "name": "CBS Rubber Accelerator",
+    "slug": "cbs-rubber-accelerator",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Delayed-action sulfenamide accelerator for rubber compounding applications.",
+    "detailPath": "product-detail.html?product=cbs-rubber-accelerator"
+  },
+  {
+    "name": "TMTD Rubber Accelerator",
+    "slug": "tmtd-rubber-accelerator",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Thiuram accelerator for selected rubber vulcanisation systems; usage is determined by compound design and applicable safety requirements.",
+    "detailPath": "product-detail.html?product=tmtd-rubber-accelerator"
+  },
+  {
+    "name": "6PPD Rubber Antioxidant",
+    "slug": "6ppd-rubber-antioxidant",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Rubber antioxidant and antiozonant for selected elastomer formulations; regulatory and environmental suitability should be assessed.",
+    "detailPath": "product-detail.html?product=6ppd-rubber-antioxidant"
+  },
+  {
+    "name": "TMQ Rubber Antioxidant",
+    "slug": "tmq-rubber-antioxidant",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Polymerised quinoline antioxidant for selected rubber and elastomer compounds.",
+    "detailPath": "product-detail.html?product=tmq-rubber-antioxidant"
+  },
+  {
+    "name": "Zinc Oxide (Rubber Grade)",
+    "slug": "zinc-oxide-rubber-grade",
+    "category": "Rubber & Elastomer Chemicals",
+    "description": "Zinc oxide grade used as an activator in suitable rubber compounding and vulcanisation formulations.",
+    "detailPath": "product-detail.html?product=zinc-oxide-rubber-grade"
+  },
+  {
+    "name": "Potassium Amyl Xanthate (PAX)",
+    "slug": "potassium-amyl-xanthate-pax",
+    "category": "Mining & Mineral Processing",
+    "description": "Collector reagent for selected sulphide mineral flotation systems; dosage and suitability depend on ore and process conditions.",
+    "detailPath": "product-detail.html?product=potassium-amyl-xanthate-pax"
+  },
+  {
+    "name": "Sodium Isopropyl Xanthate (SIPX)",
+    "slug": "sodium-isopropyl-xanthate-sipx",
+    "category": "Mining & Mineral Processing",
+    "description": "Xanthate collector for selected mineral flotation applications; product handling and process controls are required.",
+    "detailPath": "product-detail.html?product=sodium-isopropyl-xanthate-sipx"
+  },
+  {
+    "name": "MIBC Frother",
+    "slug": "mibc-frother",
+    "category": "Mining & Mineral Processing",
+    "description": "Frother used in selected mineral flotation circuits; performance depends on ore characteristics and operating conditions.",
+    "detailPath": "product-detail.html?product=mibc-frother"
+  },
+  {
+    "name": "Drilling Grade Barite",
+    "slug": "drilling-grade-barite",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Weighting mineral for drilling fluid formulations; specific gravity, particle size and impurity limits are confirmed per requirement.",
+    "detailPath": "product-detail.html?product=drilling-grade-barite"
+  },
+  {
+    "name": "PAC-LV",
+    "slug": "pac-lv",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Low-viscosity polyanionic cellulose for selected water-based drilling fluid applications.",
+    "detailPath": "product-detail.html?product=pac-lv"
+  },
+  {
+    "name": "Oilfield Corrosion Inhibitor",
+    "slug": "oilfield-corrosion-inhibitor",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Corrosion inhibitor chemistry for selected oilfield production and process systems; compatibility and field conditions determine product selection.",
+    "detailPath": "product-detail.html?product=oilfield-corrosion-inhibitor"
+  },
+  {
+    "name": "Oilfield Demulsifier",
+    "slug": "oilfield-demulsifier",
+    "category": "Oilfield & Drilling Chemicals",
+    "description": "Demulsifier formulation for separation of water-in-oil or oil-in-water emulsions in selected oilfield operations.",
+    "detailPath": "product-detail.html?product=oilfield-demulsifier"
+  },
+  {
+    "name": "Textile Levelling Agent",
+    "slug": "textile-levelling-agent",
+    "category": "Textile & Leather Chemicals",
+    "description": "Dye-bath additive used to support even dye distribution in selected textile processing applications.",
+    "detailPath": "product-detail.html?product=textile-levelling-agent"
+  },
+  {
+    "name": "Dye Fixing Agent",
+    "slug": "dye-fixing-agent",
+    "category": "Textile & Leather Chemicals",
+    "description": "Fixing agent for improving wet fastness in suitable textile dyeing processes.",
+    "detailPath": "product-detail.html?product=dye-fixing-agent"
+  },
+  {
+    "name": "Paper Defoamer",
+    "slug": "paper-defoamer",
+    "category": "Paper, Pulp & Process Chemicals",
+    "description": "Foam-control additive for selected pulp, paper and paperboard process stages.",
+    "detailPath": "product-detail.html?product=paper-defoamer"
+  },
+  {
+    "name": "Paper Biocide",
+    "slug": "paper-biocide",
+    "category": "Paper, Pulp & Process Chemicals",
+    "description": "Microbiological control chemistry for selected paper mill process-water and stock systems, subject to applicable regulations.",
+    "detailPath": "product-detail.html?product=paper-biocide"
+  },
+  {
+    "name": "Chelated Zinc EDTA",
+    "slug": "chelated-zinc-edta",
+    "category": "Agricultural & Fertilizer Inputs",
+    "description": "Chelated zinc micronutrient source for suitable crop nutrition and fertiliser formulations; assay and solubility are confirmed by grade.",
+    "detailPath": "product-detail.html?product=chelated-zinc-edta"
+  },
+  {
+    "name": "Chelated Iron EDTA",
+    "slug": "chelated-iron-edta",
+    "category": "Agricultural & Fertilizer Inputs",
+    "description": "Chelated iron micronutrient source for suitable crop nutrition and fertiliser formulations.",
+    "detailPath": "product-detail.html?product=chelated-iron-edta"
+  },
+  {
+    "name": "Micronutrient Premix",
+    "slug": "agricultural-micronutrient-premix",
+    "category": "Agricultural & Fertilizer Inputs",
+    "description": "Customised blend of selected trace elements for crop nutrition programmes, subject to crop, application and local registration requirements.",
+    "detailPath": "product-detail.html?product=agricultural-micronutrient-premix"
+  },
+  {
+    "name": "Water-Soluble NPK Blend",
+    "slug": "water-soluble-npk-blend",
+    "category": "Agricultural & Fertilizer Inputs",
+    "description": "Water-soluble NPK fertiliser blend for fertigation and foliar nutrition; nutrient ratio and regulatory requirements are defined per application.",
+    "detailPath": "product-detail.html?product=water-soluble-npk-blend"
+  },
+  {
+    "name": "Acid Pickling Inhibitor",
+    "slug": "acid-pickling-inhibitor",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Inhibitor additive for selected metal pickling baths to manage base-metal attack and process performance.",
+    "detailPath": "product-detail.html?product=acid-pickling-inhibitor"
+  },
+  {
+    "name": "Rust Preventive Chemicals",
+    "slug": "rust-preventive-chemicals",
+    "category": "Metal Treatment & Surface Finishing",
+    "description": "Temporary corrosion-protection formulations for metal parts during storage, handling and transit; film type and removal method are specified per application.",
+    "detailPath": "product-detail.html?product=rust-preventive-chemicals"
+  }
+]
