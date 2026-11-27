@@ -287,6 +287,46 @@ const productImageMap={
   "datem": {
     "src": "https://images.pexels.com/photos/37290074/pexels-photo-37290074.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Fresh bread and bakery production"
+  },
+  "choline-chloride": {
+    "src": "https://images.pexels.com/photos/7782871/pexels-photo-7782871.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Animal feed and grain ingredients being scooped"
+  },
+  "dl-methionine": {
+    "src": "https://images.pexels.com/photos/10201570/pexels-photo-10201570.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of barley grains"
+  },
+  "l-lysine-hcl": {
+    "src": "https://images.pexels.com/photos/11768113/pexels-photo-11768113.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Assorted beans and legumes on a wooden spoon"
+  },
+  "l-threonine": {
+    "src": "https://images.pexels.com/photos/33971787/pexels-photo-33971787.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Mixed feed seeds including corn and millet"
+  },
+  "feed-vitamin-mineral-premix": {
+    "src": "https://images.pexels.com/photos/12627160/pexels-photo-12627160.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Assorted powdered seasonings and seeds"
+  },
+  "dicalcium-phosphate-dcp": {
+    "src": "https://images.pexels.com/photos/7420883/pexels-photo-7420883.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of sesame seeds"
+  },
+  "sodium-sulphate-anhydrous": {
+    "src": "https://images.pexels.com/photos/34667373/pexels-photo-34667373.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Glass blowing workshop and furnace"
+  },
+  "borax-pentahydrate": {
+    "src": "https://images.pexels.com/photos/36423798/pexels-photo-36423798.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial glass blowing process"
+  },
+  "feldspar-powder": {
+    "src": "https://images.pexels.com/photos/7519892/pexels-photo-7519892.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Glassblowing burner in a workshop"
+  },
+  "soap-noodles": {
+    "src": "https://images.pexels.com/photos/17571841/pexels-photo-17571841.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Soap products and raw-material packaging"
   }
 };
 const fallbackImagePool=[
