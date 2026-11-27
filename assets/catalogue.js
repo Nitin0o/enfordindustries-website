@@ -59,7 +59,9 @@ const params=new URLSearchParams(location.search);
 if(params.get('q'))q.value=params.get('q');
 const initialCategory=params.get('category')||'';
 const initialGroup=params.get('group')||'';
-if(initialGroup&&verticalRules[initialGroup])vertical.value=initialGroup;
+const groupAliases={polymer:'materials',homecare:'industrial',construction:'materials'};
+const resolvedGroup=groupAliases[initialGroup]||initialGroup;
+if(resolvedGroup&&verticalRules[resolvedGroup])vertical.value=resolvedGroup;
 function populateFilters(){
  [...new Set(allProducts.map(p=>p.category))].sort((a,b)=>a.localeCompare(b)).forEach(name=>{
   const option=document.createElement('option');option.value=name;option.textContent=name;category.append(option);
