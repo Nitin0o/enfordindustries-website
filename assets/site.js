@@ -34,41 +34,49 @@ if(siteFooter){
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const header=document.querySelector('.nav');const onScroll=()=>{if(header)header.classList.toggle('scrolled',window.scrollY>12);const b=document.querySelector('.backtop');if(b)b.classList.toggle('show',window.scrollY>500)};window.addEventListener('scroll',onScroll,{passive:true});onScroll();
 let toggle=document.querySelector('.menu-toggle');
-const links=document.querySelector('.navlinks');
-if(!toggle&&links){
- toggle=document.createElement('button');
- toggle.className='menu-toggle';
- toggle.type='button';
- toggle.setAttribute('aria-label','Open navigation');
- toggle.setAttribute('aria-expanded','false');
- toggle.innerHTML='<span aria-hidden="true"></span>';
- links.parentNode.insertBefore(toggle,links);
-}
+const desktopLinks=document.querySelector('.navlinks');
+const mobileMenu=document.createElement('nav');
+mobileMenu.id='enford-mobile-menu';
+mobileMenu.className='enford-mobile-menu';
+mobileMenu.setAttribute('aria-label','Mobile navigation');
+mobileMenu.setAttribute('aria-hidden','true');
+mobileMenu.innerHTML=
+ '<div class="enford-mobile-menu__head"><span>Navigation</span><button type="button" class="enford-mobile-menu__close" aria-label="Close navigation">&times;</button></div>'+
+ '<div class="enford-mobile-menu__links">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' aria-current="page"':'')+'>'+label+'<span aria-hidden="true">→</span></a>').join('')+'</div>'+
+ '<a class="enford-mobile-menu__cta" href="'+basePath+'contact.html">Discuss a Requirement <span aria-hidden="true">↗</span></a>';
+document.body.appendChild(mobileMenu);
 const menuBackdrop=document.createElement('button');
 menuBackdrop.type='button';
 menuBackdrop.className='nav-menu-backdrop';
 menuBackdrop.setAttribute('aria-label','Close navigation menu');
+menuBackdrop.tabIndex=-1;
 document.body.appendChild(menuBackdrop);
+const closeButton=mobileMenu.querySelector('.enford-mobile-menu__close');
 const closeMenu=()=>{
- if(!toggle||!links)return;
- links.classList.remove('open');
+ if(!toggle)return;
+ mobileMenu.classList.remove('is-open');
+ mobileMenu.setAttribute('aria-hidden','true');
  toggle.setAttribute('aria-expanded','false');
  toggle.setAttribute('aria-label','Open navigation');
+ toggle.innerHTML='&#9776;';
  menuBackdrop.classList.remove('visible');
  document.body.classList.remove('menu-open');
 };
 const openMenu=()=>{
- if(!toggle||!links)return;
- links.classList.add('open');
+ if(!toggle)return;
+ mobileMenu.classList.add('is-open');
+ mobileMenu.setAttribute('aria-hidden','false');
  toggle.setAttribute('aria-expanded','true');
  toggle.setAttribute('aria-label','Close navigation');
+ toggle.innerHTML='&times;';
  menuBackdrop.classList.add('visible');
  document.body.classList.add('menu-open');
 };
-if(toggle&&links){
- toggle.addEventListener('click',()=>links.classList.contains('open')?closeMenu():openMenu());
+if(toggle){
+ toggle.addEventListener('click',()=>mobileMenu.classList.contains('is-open')?closeMenu():openMenu());
+ closeButton.addEventListener('click',closeMenu);
  menuBackdrop.addEventListener('click',closeMenu);
- links.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+ mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
  window.addEventListener('resize',()=>{if(window.innerWidth>1050)closeMenu()},{passive:true});
 }
