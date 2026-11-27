@@ -539,3 +539,81 @@ h1,h2,h3{color:var(--navy)}
   .catalogue-cta{padding:42px 0}
   .catalogue-cta .wrap{grid-template-columns:1fr;gap:19px}
 }
+
+
+/* Responsive pass — keep the primary message and navigation composed at common zoom levels */
+@media(max-width:1100px){
+  .nav{
+    min-height:68px;
+    padding:8px 18px;
+    gap:12px;
+  }
+  .nav .logo,.logo{width:126px!important;max-height:36px!important}
+  .menu-toggle{display:grid;place-items:center;flex:none}
+  header.nav:has(.menu-toggle) .navlinks{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    padding:12px 20px 18px;
+    background:rgba(255,255,255,.99);
+    border-bottom:1px solid var(--line);
+    box-shadow:0 18px 30px rgba(0,29,79,.10);
+    flex-direction:column;
+    align-items:stretch;
+    gap:2px;
+    white-space:normal;
+  }
+  header.nav:has(.menu-toggle) .navlinks.open{display:flex}
+  header.nav:has(.menu-toggle) .navlinks a{padding:10px 0;font-size:13px}
+  .nav>.btn{padding:10px 12px;font-size:11px;white-space:nowrap}
+  .home-hero{
+    min-height:min(585px,calc(100svh - 68px));
+  }
+  .home-hero .wrap{padding-top:36px;padding-bottom:47px}
+  .home-hero-layout{
+    grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);
+    gap:24px;
+  }
+  .home-hero h1{font-size:clamp(38px,4.6vw,52px);line-height:1.04;margin:14px 0 16px}
+  .home-hero .lead{font-size:15px;line-height:1.5;margin-bottom:12px}
+  .home-hero .hero-support{font-size:11px;line-height:1.55;margin-bottom:0}
+  .home-hero .hero-copy .actions{margin-top:19px;gap:9px}
+  .home-hero .hero-copy .actions .btn{padding:10px 12px;font-size:10px}
+  .hero-note{margin-top:17px;font-size:9px}
+  .home-hero .home-hero-panel{padding:19px 18px}
+  .home-hero-panel>strong{font-size:16px;margin-bottom:9px}
+  .hero-panel-kicker{margin-bottom:8px;font-size:8px}
+  .hero-panel-row{gap:9px;padding:9px 0}
+  .hero-panel-icon{width:29px;height:29px;font-size:15px}
+  .hero-panel-row b{font-size:10px}
+  .hero-panel-row small{font-size:8px}
+  .hero-panel-link{font-size:9px;padding-top:11px}
+}
+@media(max-width:850px) and (min-width:601px){
+  .home-hero{min-height:0}
+  .home-hero .wrap{padding-top:27px;padding-bottom:42px}
+  .home-hero-layout{grid-template-columns:minmax(0,1.1fr) minmax(235px,.9fr);gap:17px}
+  .home-hero h1{font-size:clamp(34px,4.5vw,40px)}
+  .home-hero .lead{font-size:13px}
+  .home-hero .hero-support{font-size:10px}
+  .home-hero .home-hero-panel{padding:16px 14px}
+  .home-hero-panel>strong{font-size:14px}
+  .hero-panel-row{padding:7px 0}
+  .hero-panel-row b{font-size:9px}
+  .hero-panel-row small{font-size:7px}
+  .hero-bottom-line{font-size:8px;gap:12px}
+}
+@media(max-width:600px){
+  .nav{min-height:60px;padding:8px 13px;gap:8px}
+  .nav .logo,.logo{width:108px!important;max-height:31px!important}
+  .nav>.btn{padding:8px 9px;font-size:9px}
+  .menu-toggle{width:37px;height:37px}
+  .home-hero{min-height:0}
+  .home-hero .wrap{padding-top:43px;padding-bottom:46px}
+  .home-hero-layout{grid-template-columns:1fr;gap:22px}
+  .home-hero h1{font-size:39px}
+  .home-hero .home-hero-panel{max-width:none}
+  .hero-bottom-line{font-size:7px;gap:7px;letter-spacing:.08em}
+}
