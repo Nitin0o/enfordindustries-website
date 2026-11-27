@@ -57,7 +57,7 @@ const imageFor=p=>imageMap[p.category]||{src:'https://images.pexels.com/photos/7
 const enquiryUrl=p=>'https://wa.me/917585870505?text='+encodeURIComponent('Hello ENFORD Team, I would like to enquire about '+p.name+'.\n\nApplication / end use:\nGrade / specification required:\nRequired quantity:\nDelivery location:\nRequired documentation:\n\nPlease advise suitable sourcing options, subject to specification and availability.');
 const params=new URLSearchParams(location.search);
 if(params.get('q'))q.value=params.get('q');
-if(params.get('category'))category.value=params.get('category');
+const initialCategory=params.get('category')||'';
 const initialGroup=params.get('group')||'';
 if(initialGroup&&verticalRules[initialGroup])vertical.value=initialGroup;
 function populateFilters(){
@@ -100,7 +100,7 @@ function render(){
 more.addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render()});
 fetch('products.json').then(r=>{if(!r.ok)throw Error('Could not load product data');return r.json()}).then(data=>{
  if(!Array.isArray(data))throw Error('Invalid product data');
- allProducts=data;populateFilters();render();
+ allProducts=data;populateFilters();if(initialCategory)category.value=initialCategory;render();
 }).catch(()=>{
  meta.textContent='The product directory could not be loaded. Please contact ENFORD for assistance.';
  out.innerHTML='<div class="catalogue-empty"><strong>Catalogue temporarily unavailable.</strong><p>Please contact ENFORD for assistance.</p></div>';
