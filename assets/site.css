@@ -617,3 +617,54 @@ h1,h2,h3{color:var(--navy)}
   .home-hero .home-hero-panel{max-width:none}
   .hero-bottom-line{font-size:7px;gap:7px;letter-spacing:.08em}
 }
+
+
+/* ENFORD shared site shell — one consistent corporate navigation and footer */
+.reveal{opacity:1!important;transform:none!important}
+.page-hero{padding:44px 0 42px}
+.page-hero h1{max-width:1120px;font-size:clamp(31px,3.3vw,46px);line-height:1.13;letter-spacing:-.045em;margin:12px 0 17px}
+.page-hero .intro{max-width:920px;font-size:14px;line-height:1.75}
+.page-hero .breadcrumbs{margin-bottom:14px}
+.page-hero .actions{margin-top:20px}
+header.nav{width:100%;max-width:none;margin:0}
+header.nav>.brandlock{flex:0 0 auto}
+header.nav .logo{width:145px!important;max-height:42px!important}
+header.nav .navlinks{display:flex;align-items:center;flex:1;justify-content:center;gap:clamp(10px,1.35vw,21px);font-size:12px}
+header.nav .navlinks a{white-space:nowrap}
+header.nav .btn{white-space:nowrap}
+.enford-footer{background:#06172d;color:#d5deea;padding:46px 0 19px;font-size:12px}
+.enford-footer .wrap{display:grid;grid-template-columns:minmax(210px,1.45fr) repeat(3,minmax(130px,.8fr));gap:34px 38px;align-items:start}
+.enford-footer-brand .logo{width:148px!important;max-height:44px!important;background:#fff;padding:5px 9px;border-radius:4px}
+.enford-footer-brand p{max-width:260px;margin:17px 0 0;color:#b6c4d6;font-size:12px;line-height:1.75}
+.enford-footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.enford-footer-column strong{color:#fff;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin:2px 0 6px}
+.enford-footer-column a{color:#c2cedd;font-size:11px;line-height:1.5}
+.enford-footer-column a:hover{color:#edac43}
+.enford-footer-bottom{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.13);color:#95a6bc;font-size:10px}
+.enford-footer-bottom>span:last-child{display:flex;gap:20px}
+.enford-footer-bottom a{color:#bdc9d8}
+.enford-footer-bottom a:hover{color:#edac43}
+@media(max-width:1050px){
+  header.nav{gap:12px;padding-left:17px;padding-right:17px}
+  header.nav .logo{width:125px!important;max-height:36px!important}
+  header.nav .menu-toggle{display:grid;place-items:center;flex:none}
+  header.nav .navlinks{display:none;position:absolute;top:100%;left:0;right:0;padding:12px 20px 18px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(0,29,79,.10);flex-direction:column;align-items:stretch;gap:2px;white-space:normal}
+  header.nav .navlinks.open{display:flex}
+  header.nav .navlinks a{padding:10px 0;font-size:13px}
+}
+@media(max-width:700px){
+  .page-hero{padding:32px 0 30px}
+  .page-hero h1{font-size:33px;line-height:1.13}
+  .page-hero .intro{font-size:12px}
+  .enford-footer{padding:34px 0 18px}
+  .enford-footer .wrap{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 18px}
+  .enford-footer-brand{grid-column:1/-1}
+  .enford-footer-bottom{flex-direction:column;align-items:flex-start;gap:10px}
+  .enford-footer-bottom>span:last-child{flex-wrap:wrap;gap:15px}
+}
+@media(max-width:420px){
+  header.nav .logo{width:105px!important;max-height:31px!important}
+  header.nav>.btn{font-size:9px;padding:8px 9px}
+  header.nav .menu-toggle{width:35px;height:35px}
+  .enford-footer .wrap{grid-template-columns:1fr 1fr}
+}
