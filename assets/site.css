@@ -845,3 +845,193 @@ body.menu-open{overflow:hidden}
 @media(max-width:380px){
   header.nav>.btn{font-size:9px;padding:7px 8px}
 }
+
+
+/* Definitive ENFORD mobile header and navigation panel */
+.enford-mobile-menu{display:none}
+@media(max-width:1050px){
+  header.nav{
+    display:grid!important;
+    grid-template-columns:auto minmax(0,1fr) auto auto;
+    align-items:center;
+    justify-content:initial!important;
+    gap:12px!important;
+    width:100%;
+    min-height:68px;
+    padding:9px 16px!important;
+    overflow:visible!important;
+    isolation:isolate;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#fff!important;
+  }
+  header.nav>.brandlock{
+    grid-column:1;
+    justify-self:start;
+    margin:0!important;
+    min-width:0;
+  }
+  header.nav>.brandlock .logo{
+    display:block;
+    width:126px!important;
+    max-height:37px!important;
+  }
+  header.nav>nav.navlinks{display:none!important}
+  header.nav>.btn{
+    grid-column:3;
+    justify-self:end;
+    margin:0!important;
+    width:auto;
+    max-width:none;
+    white-space:nowrap;
+    font-size:11px;
+    padding:10px 13px;
+  }
+  header.nav>.menu-toggle{
+    grid-column:4;
+    justify-self:end;
+    display:grid!important;
+    place-items:center;
+    width:42px!important;
+    height:42px!important;
+    min-width:42px;
+    margin:0!important;
+    padding:0!important;
+    border:1px solid #d8e0e9!important;
+    border-radius:9px!important;
+    background:#fff!important;
+    color:#001D4F!important;
+    font-family:Arial,sans-serif;
+    font-size:25px!important;
+    font-weight:500;
+    line-height:1!important;
+    cursor:pointer;
+    box-shadow:none!important;
+    transform:none!important;
+    z-index:2;
+  }
+  .nav-menu-backdrop{
+    display:none;
+    position:fixed!important;
+    inset:0!important;
+    width:100vw!important;
+    height:100dvh!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    background:rgba(8,20,39,.42)!important;
+    opacity:1!important;
+    z-index:1090!important;
+    cursor:pointer;
+  }
+  .nav-menu-backdrop.visible{display:block!important}
+  .enford-mobile-menu{
+    display:none;
+    position:fixed!important;
+    top:78px;
+    right:12px;
+    left:auto!important;
+    bottom:auto!important;
+    width:min(328px,calc(100vw - 24px))!important;
+    max-height:calc(100dvh - 98px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    margin:0!important;
+    padding:0!important;
+    border:1px solid #e2e8f0;
+    border-radius:13px;
+    background:#fff!important;
+    color:#14243c!important;
+    box-shadow:0 18px 52px rgba(0,18,48,.24);
+    opacity:1!important;
+    transform:none!important;
+    z-index:1100!important;
+    text-align:left!important;
+  }
+  .enford-mobile-menu.is-open{display:block!important}
+  .enford-mobile-menu__head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:17px 18px 12px;
+    border-bottom:1px solid #edf0f4;
+    color:#8a5a0a;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+  }
+  .enford-mobile-menu__close{
+    display:grid;
+    place-items:center;
+    width:31px;
+    height:31px;
+    border:1px solid #e1e7ee;
+    border-radius:7px;
+    background:#fff;
+    color:#24364d;
+    font-size:22px;
+    line-height:1;
+    cursor:pointer;
+  }
+  .enford-mobile-menu__links{display:flex;flex-direction:column;padding:5px 18px}
+  .enford-mobile-menu__links>a{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    width:100%;
+    margin:0!important;
+    padding:13px 1px!important;
+    border:0!important;
+    border-bottom:1px solid #edf0f4!important;
+    border-radius:0!important;
+    background:transparent!important;
+    color:#142943!important;
+    font-size:14px!important;
+    font-weight:650!important;
+    line-height:1.35!important;
+    text-align:left!important;
+    text-decoration:none!important;
+    box-shadow:none!important;
+  }
+  .enford-mobile-menu__links>a:last-child{border-bottom:0!important}
+  .enford-mobile-menu__links>a span{color:#b57a18;font-size:16px}
+  .enford-mobile-menu__links>a[aria-current="page"]{color:#9b6208!important}
+  .enford-mobile-menu__cta{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin:9px 14px 14px!important;
+    padding:13px 14px!important;
+    border-radius:7px;
+    background:#001D4F!important;
+    color:#fff!important;
+    font-size:12px;
+    font-weight:750;
+    text-decoration:none!important;
+  }
+  body.menu-open{overflow:hidden}
+}
+@media(max-width:600px){
+  header.nav{
+    min-height:62px;
+    grid-template-columns:auto minmax(0,1fr) auto auto;
+    gap:8px!important;
+    padding:8px 12px!important;
+  }
+  header.nav>.brandlock .logo{width:112px!important;max-height:33px!important}
+  header.nav>.btn{font-size:10px;padding:9px 10px}
+  header.nav>.menu-toggle{width:38px!important;height:38px!important;min-width:38px}
+}
+@media(max-width:380px){
+  header.nav{gap:6px!important;padding:7px 9px!important}
+  header.nav>.brandlock .logo{width:97px!important;max-height:30px!important}
+  header.nav>.btn{font-size:9px;padding:8px 8px}
+  header.nav>.menu-toggle{width:35px!important;height:35px!important;min-width:35px;font-size:22px!important}
+  .enford-mobile-menu{right:9px;width:calc(100vw - 18px)!important}
+}
