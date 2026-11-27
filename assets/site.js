@@ -17,7 +17,7 @@ if(headerShell){
   '<a class="brandlock" href="'+basePath+'index.html" aria-label="ENFORD Group home"><img class="logo" src="'+basePath+'brand/enford-logo.svg" alt="ENFORD"></a>'+
   '<nav class="navlinks" id="primary-navigation" aria-label="Main navigation">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' class="active"':'')+'>'+label+'</a>').join('')+'</nav>'+
   '<a class="btn btn-primary" href="'+basePath+'contact.html">Discuss a Requirement</a>'+
-  '<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation" aria-expanded="false"><span aria-hidden="true"></span></button>';
+  '<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation" aria-expanded="false">☰</button>';
 }
 const siteFooter=document.querySelector('footer');
 if(siteFooter){
