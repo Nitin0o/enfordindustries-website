@@ -134,6 +134,18 @@ const imageMap={
   "Customized Solutions": {
     "src": "https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Laboratory formulation work"
+  },
+  "Animal Nutrition": {
+    "src": "https://images.pexels.com/photos/12928245/pexels-photo-12928245.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Animal feed pellets in a bowl"
+  },
+  "Glass & Ceramics": {
+    "src": "https://images.pexels.com/photos/34667373/pexels-photo-34667373.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Glass manufacturing workshop with active furnace"
+  },
+  "Soap & Oleochemicals": {
+    "src": "https://images.pexels.com/photos/8298499/pexels-photo-8298499.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Soap products and raw material textures"
   }
 };
 const verticalRules={
@@ -145,6 +157,9 @@ const verticalRules={
  metal:/metal treatment|aluminium|foundry|metalworking/i,
  pharma:/pharmaceutical excipients/i,
  agriculture:/agricultural & fertilizer inputs/i,
+ animal:/animal nutrition/i,
+ glass:/glass & ceramics/i,
+ oleo:/soap & oleochemicals/i,
  custom:/customized solutions/i
 };
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
