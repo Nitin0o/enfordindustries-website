@@ -6,7 +6,9 @@ Static corporate website intended for GitHub Pages.
 - `catalogue.html`: searchable product catalogue
 - `products/`: individual product pages
 - `categories/`: category landing pages
-- `products.json`: structured product data
+- `products.json`: structured product data (195 enquiry listings across 33 categories)
+- `product-detail.html` and `assets/product-detail.js`: shared detail route for newly added catalogue items
+- `assets/product-images/`: original AI-generated illustrative product images
 - `product-master.csv`: editable product master
 - `brand/enford-logo.svg`: approved ENFORD logo
 - `sitemap.xml` and `robots.txt`: search engine discovery
