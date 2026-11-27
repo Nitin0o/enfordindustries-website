@@ -146,7 +146,149 @@ const verticalRules={
  custom:/customized solutions/i
 };
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const imageFor=p=>imageMap[p.category]||imageMap['Industrial Chemicals'];
+const productImageMap={
+  "whey-protein-concentrate-wpc": {
+    "src": "https://images.pexels.com/photos/13779116/pexels-photo-13779116.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Unbranded protein powder in a container with a scoop"
+  },
+  "whey-protein-isolate-wpi": {
+    "src": "https://images.pexels.com/photos/5078581/pexels-photo-5078581.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "A selection of powdered ingredients in spoons"
+  },
+  "milk-protein-concentrate-mpc": {
+    "src": "https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Modern dairy milk-processing equipment"
+  },
+  "milk-protein-isolate-mpi": {
+    "src": "https://images.pexels.com/photos/10994727/pexels-photo-10994727.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powdered dairy ingredient in a measuring spoon"
+  },
+  "sodium-caseinate": {
+    "src": "https://images.pexels.com/photos/5078596/pexels-photo-5078596.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of fine food powders with a spoon"
+  },
+  "skimmed-milk-powder": {
+    "src": "https://images.pexels.com/photos/5734741/pexels-photo-5734741.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fine white powder in a ceramic bowl"
+  },
+  "whole-milk-powder": {
+    "src": "https://images.pexels.com/photos/7236108/pexels-photo-7236108.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "White powder in a ceramic bowl"
+  },
+  "lactose": {
+    "src": "https://images.pexels.com/photos/37105582/pexels-photo-37105582.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "White sugar crystals in a bowl"
+  },
+  "soy-protein-isolate": {
+    "src": "https://images.pexels.com/photos/4518608/pexels-photo-4518608.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Soybeans and soy milk in a bowl and glass"
+  },
+  "pea-protein": {
+    "src": "https://images.pexels.com/photos/32766466/pexels-photo-32766466.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fresh green peas and open pea pods"
+  },
+  "xanthan-gum": {
+    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fine powder being sifted into a glass bowl"
+  },
+  "guar-gum": {
+    "src": "https://images.pexels.com/photos/5947517/pexels-photo-5947517.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "A scoop of flour being placed over a colander"
+  },
+  "carrageenan": {
+    "src": "https://images.pexels.com/photos/5182584/pexels-photo-5182584.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Natural seaweed on a coastal surface"
+  },
+  "locust-bean-gum": {
+    "src": "https://images.pexels.com/photos/5984480/pexels-photo-5984480.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Mixed beans arranged in a bowl"
+  },
+  "gellan-gum": {
+    "src": "https://images.pexels.com/photos/8282240/pexels-photo-8282240.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powder in a bowl with a measuring spoon"
+  },
+  "pectin": {
+    "src": "https://images.pexels.com/photos/10999009/pexels-photo-10999009.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fresh apples in a bowl"
+  },
+  "carboxymethyl-cellulose-cmc": {
+    "src": "https://images.pexels.com/photos/6088886/pexels-photo-6088886.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Dry food powders in a glass bowl"
+  },
+  "modified-starch": {
+    "src": "https://images.pexels.com/photos/6287221/pexels-photo-6287221.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fine flour being sifted into a bowl"
+  },
+  "native-tapioca-starch": {
+    "src": "https://images.pexels.com/photos/7235925/pexels-photo-7235925.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Flour and water mixed in a bowl"
+  },
+  "maltodextrin": {
+    "src": "https://images.pexels.com/photos/6088870/pexels-photo-6088870.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Baking ingredients arranged in glass bowls"
+  },
+  "dextrose-monohydrate": {
+    "src": "https://images.pexels.com/photos/37105770/pexels-photo-37105770.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "White sugar crystals on a spoon"
+  },
+  "sorbitol": {
+    "src": "https://images.pexels.com/photos/40632004/pexels-photo-40632004.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Macro photograph of crystalline sugar"
+  },
+  "erythritol": {
+    "src": "https://images.pexels.com/photos/5988340/pexels-photo-5988340.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of white sugar crystals"
+  },
+  "stevia-extract": {
+    "src": "https://images.pexels.com/photos/3067707/pexels-photo-3067707.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fresh green herbal leaves"
+  },
+  "citric-acid": {
+    "src": "https://images.pexels.com/photos/12132222/pexels-photo-12132222.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of sliced citrus fruits"
+  },
+  "lactic-acid": {
+    "src": "https://images.pexels.com/photos/15239070/pexels-photo-15239070.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Creamy dairy mixture in a bowl"
+  },
+  "sodium-benzoate": {
+    "src": "https://images.pexels.com/photos/8980448/pexels-photo-8980448.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powdered food ingredients with a spoon"
+  },
+  "potassium-sorbate": {
+    "src": "https://images.pexels.com/photos/5078584/pexels-photo-5078584.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powdered ingredients arranged in spoons"
+  },
+  "lecithin": {
+    "src": "https://images.pexels.com/photos/4518617/pexels-photo-4518617.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Soybeans and soy milk on a clean surface"
+  },
+  "mono-and-diglycerides": {
+    "src": "https://images.pexels.com/photos/31275834/pexels-photo-31275834.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Golden vegetable oils in clear bottles"
+  },
+  "datem": {
+    "src": "https://images.pexels.com/photos/37290074/pexels-photo-37290074.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fresh bread and bakery production"
+  }
+};
+const fallbackImagePool=[
+ ...Object.values(productImageMap),
+ ...Object.values(imageMap)
+];
+const imageFor=(p,usedImages)=>{
+ const preferred=productImageMap[p.slug]||imageMap[p.category]||imageMap['Industrial Chemicals'];
+ const unique=(img)=>img&&img.src&&!usedImages.has(img.src);
+ if(unique(preferred)){usedImages.add(preferred.src);return preferred;}
+ const pool=fallbackImagePool;
+ const hash=[...String(p.slug||p.name)].reduce((n,ch)=>((n*31)+ch.charCodeAt(0))>>>0,7);
+ for(let i=0;i<pool.length;i++){
+  const candidate=pool[(hash+i)%pool.length];
+  if(unique(candidate)){usedImages.add(candidate.src);return candidate;}
+ }
+ const final=preferred||imageMap['Industrial Chemicals'];
+ return final;
+};
 const enquiryUrl=p=>'https://wa.me/917585870505?text='+encodeURIComponent('Hello ENFORD Team, I would like to enquire about '+p.name+'.\n\nApplication / end use:\nGrade / specification required:\nRequired quantity:\nDelivery location:\nRequired documentation:\n\nPlease advise suitable sourcing options, subject to specification and availability.');
 const params=new URLSearchParams(location.search);
 if(params.get('q'))q.value=params.get('q');
@@ -170,8 +312,8 @@ function filtered(){
  else if(term)rows.sort((a,b)=>a.name.toLowerCase().indexOf(term)-b.name.toLowerCase().indexOf(term));
  return rows;
 }
-function card(p){
- const im=imageFor(p);
+function card(p,usedImages){
+ const im=imageFor(p,usedImages);
  return '<article class="catalogue-product-card reveal in-view">'+
   '<a class="catalogue-product-image" href="products/'+encodeURIComponent(p.slug)+'.html" aria-label="View '+esc(p.name)+' details">'+
    '<img src="'+im.src+'" alt="'+esc(im.alt)+'" loading="lazy"><span class="catalogue-image-note">Category reference image</span>'+
@@ -186,7 +328,8 @@ function card(p){
 function render(){
  const rows=filtered();
  const shown=rows.slice(0,visibleCount);
- out.innerHTML=shown.map(card).join('')||'<div class="catalogue-empty"><strong>No matching product found.</strong><p>Try another keyword or category, or send ENFORD the product name and specification for a sourcing review.</p><a class="btn btn-primary" href="contact.html">Send a product enquiry</a></div>';
+ const usedImages=new Set();
+ out.innerHTML=shown.map(p=>card(p,usedImages)).join('')||'<div class="catalogue-empty"><strong>No matching product found.</strong><p>Try another keyword or category, or send ENFORD the product name and specification for a sourcing review.</p><a class="btn btn-primary" href="contact.html">Send a product enquiry</a></div>';
  meta.innerHTML='<strong>'+rows.length+'</strong> matching products <span>from '+allProducts.length+' catalogue entries</span>';
  more.hidden=shown.length>=rows.length;
  more.textContent='Show more products ('+(rows.length-shown.length)+' remaining)';
