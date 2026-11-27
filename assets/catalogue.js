@@ -316,7 +316,7 @@ function card(p,usedImages){
  const im=imageFor(p,usedImages);
  return '<article class="catalogue-product-card reveal in-view">'+
   '<a class="catalogue-product-image" href="products/'+encodeURIComponent(p.slug)+'.html" aria-label="View '+esc(p.name)+' details">'+
-   '<img src="'+im.src+'" alt="'+esc(im.alt)+'" loading="lazy"><span class="catalogue-image-note">Category reference image</span>'+
+   '<img src="'+im.src+'" alt="'+esc(im.alt)+'" loading="lazy"><span class="catalogue-image-note">Illustrative product image</span>'+
   '</a><div class="catalogue-product-body">'+
    '<div class="catalogue-product-category">'+esc(p.category)+'</div>'+
    '<h3><a href="products/'+encodeURIComponent(p.slug)+'.html">'+esc(p.name)+'</a></h3>'+
