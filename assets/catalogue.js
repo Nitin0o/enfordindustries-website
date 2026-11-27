@@ -20,15 +20,15 @@ const imageMap={
     "alt": "Unbranded protein powder being measured"
   },
   "Hydrocolloids & Stabilizers": {
-    "src": "https://images.pexels.com/photos/5947521/pexels-photo-5947521.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Fine food powder and baking ingredients"
   },
   "Starches & Fibres": {
-    "src": "https://images.pexels.com/photos/5947521/pexels-photo-5947521.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Flour and starch ingredients"
   },
   "Sweeteners & Carbohydrates": {
-    "src": "https://images.pexels.com/photos/5947521/pexels-photo-5947521.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Powdered food ingredient close-up"
   },
   "Food Acids, Salts & Preservatives": {
@@ -52,8 +52,8 @@ const imageMap={
     "alt": "Laboratory formulation work"
   },
   "Bakery & Food Processing": {
-    "src": "https://images.pexels.com/photos/15721860/pexels-photo-15721860.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Bakery production racks"
+    "src": "https://images.pexels.com/photos/6291408/pexels-photo-6291408.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Bakery dough production line"
   },
   "Oils, Fats & Bakery": {
     "src": "https://images.pexels.com/photos/31275834/pexels-photo-31275834.jpeg?auto=compress&cs=tinysrgb&w=900",
@@ -128,7 +128,7 @@ const imageMap={
     "alt": "Laboratory formulation sample"
   },
   "Colours, Flavours & Extracts": {
-    "src": "https://images.pexels.com/photos/5947521/pexels-photo-5947521.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/5947523/pexels-photo-5947523.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Powdered food ingredient preparation"
   },
   "Customized Solutions": {
