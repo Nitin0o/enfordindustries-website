@@ -160,8 +160,8 @@ const productImageMap={
     "alt": "Modern dairy milk-processing equipment"
   },
   "milk-protein-isolate-mpi": {
-    "src": "https://images.pexels.com/photos/10994727/pexels-photo-10994727.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "Powdered dairy ingredient in a measuring spoon"
+    "src": "https://images.pexels.com/photos/7236108/pexels-photo-7236108.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "White milk-derived powder in a ceramic bowl"
   },
   "sodium-caseinate": {
     "src": "https://images.pexels.com/photos/5078596/pexels-photo-5078596.jpeg?auto=compress&cs=tinysrgb&w=900",
@@ -172,8 +172,8 @@ const productImageMap={
     "alt": "Fine white powder in a ceramic bowl"
   },
   "whole-milk-powder": {
-    "src": "https://images.pexels.com/photos/7236108/pexels-photo-7236108.jpeg?auto=compress&cs=tinysrgb&w=900",
-    "alt": "White powder in a ceramic bowl"
+    "src": "https://images.pexels.com/photos/10994727/pexels-photo-10994727.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Powdered milk in a measuring spoon"
   },
   "lactose": {
     "src": "https://images.pexels.com/photos/37105582/pexels-photo-37105582.jpeg?auto=compress&cs=tinysrgb&w=900",
