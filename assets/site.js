@@ -8,4 +8,20 @@ if(!document.querySelector('.whatsapp-float')){const wa=document.createElement('
 const hs=document.getElementById('home-search'),hb=document.getElementById('home-search-btn');if(hs&&hb){const go=()=>{const v=hs.value.trim();if(v)location.href='catalogue.html?q='+encodeURIComponent(v);else location.href='catalogue.html'};hb.addEventListener('click',go);hs.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();go()}})}
 const enquiryType=document.getElementById('type');const presetType=new URLSearchParams(location.search).get('type');const typeMap={'food-consultancy':'Food consultancy','industrial-consultancy':'Industrial consultancy','application-support':'Application support','custom-formulation':'Custom formulation'};if(enquiryType&&typeMap[presetType])enquiryType.value=typeMap[presetType];
 document.querySelectorAll('.wa-form').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const f=new FormData(form);const lines=['Hello ENFORD Team, I would like to discuss a product / application requirement.','',...Array.from(f.entries()).filter(([k,v])=>String(v).trim()).map(([k,v])=>k.replace(/_/g,' ')+': '+v),'','Please let me know the next steps.'];window.open('https://wa.me/917585870505?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener')}));
+
+// Legacy product and category pages are routed to the main Consultancy page.
+document.querySelectorAll('a[href*="consultancy-network.html"]').forEach(a=>{
+  const old=a.getAttribute('href')||'';
+  a.setAttribute('href',old.startsWith('../')?'../consultancy.html':'consultancy.html');
+  if(/specialist|directory|ecosystem/i.test(a.textContent))a.textContent='Consultancy';
+});
+// Keep the photo credits in one place, while making the page reachable from older catalogue templates.
+document.querySelectorAll('.footlinks').forEach(nav=>{
+  if(!nav.querySelector('a[href*="image-credits.html"]')){
+    const a=document.createElement('a');
+    a.href=(location.pathname.includes('/products/')||location.pathname.includes('/categories/'))?'../image-credits.html':'image-credits.html';
+    a.textContent='Image Credits';
+    nav.append(a);
+  }
+});
 })();
