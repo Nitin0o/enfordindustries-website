@@ -1,0 +1,34 @@
+(()=>{'use strict';
+const params=new URLSearchParams(location.search);
+const slug=params.get('product')||'';
+const safe=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const title=document.getElementById('detail-title');
+const description=document.getElementById('detail-description');
+const category=document.getElementById('detail-category');
+const breadcrumb=document.getElementById('detail-breadcrumb');
+const wa=document.getElementById('detail-whatsapp');
+const wa2=document.getElementById('detail-whatsapp-secondary');
+const categoryLink=document.getElementById('detail-category-link');
+const makeWa=p=>'https://wa.me/917585870505?text='+encodeURIComponent('Hello ENFORD Team, I would like to enquire about '+p.name+'.\n\nApplication / end use:\nGrade / specification required:\nRequired quantity:\nDelivery location:\nRequired documentation:\n\nPlease advise suitable sourcing options, subject to specification and availability.');
+fetch('products.json').then(r=>{if(!r.ok)throw Error('Product directory unavailable');return r.json()}).then(rows=>{
+ const p=rows.find(x=>x.slug===slug);
+ if(!p)throw Error('Product not found');
+ document.title=p.name+' | ENFORD Industries';
+ document.querySelector('meta[name="description"]')?.setAttribute('content','Enquire about '+p.name+' from ENFORD Industries. Confirm grade, application, specification and availability.');
+ title.textContent=p.name;
+ description.textContent=p.description;
+ category.textContent=p.category;
+ breadcrumb.textContent=p.name;
+ document.getElementById('detail-card-title').textContent='Discuss '+p.name;
+ wa.href=makeWa(p);wa2.href=makeWa(p);
+ categoryLink.href='catalogue.html?category='+encodeURIComponent(p.category);
+ categoryLink.textContent='Explore '+p.category;
+}).catch(()=>{
+ title.textContent='Product details unavailable';
+ description.textContent='This product could not be found in the current directory. Return to the catalogue or contact ENFORD with the product name and specification.';
+ category.textContent='Product sourcing';
+ breadcrumb.textContent='Product not found';
+ wa.href='contact.html';wa2.href='contact.html';
+ categoryLink.href='catalogue.html';
+});
+})();
