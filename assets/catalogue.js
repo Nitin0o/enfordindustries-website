@@ -347,6 +347,22 @@ const productImageMap={
   "oilfield-demulsifier": {
     "src": "https://images.pexels.com/photos/5411674/pexels-photo-5411674.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Large industrial refinery storage tanks"
+  },
+  "paper-retention-aids": {
+    "src": "https://images.pexels.com/photos/25300276/pexels-photo-25300276.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Close-up of rolled paper material"
+  },
+  "paper-sizing-agents": {
+    "src": "https://images.pexels.com/photos/3729179/pexels-photo-3729179.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Rolls of craft paper in a paper goods workshop"
+  },
+  "textile-levelling-agents": {
+    "src": "https://images.pexels.com/photos/31335997/pexels-photo-31335997.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fabric processing on a textile factory line"
+  },
+  "dye-fixing-agent": {
+    "src": "https://images.pexels.com/photos/8246486/pexels-photo-8246486.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Industrial textile spinning and fabric machinery"
   }
 };
 const fallbackImagePool=[
