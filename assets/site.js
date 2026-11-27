@@ -1,4 +1,37 @@
-(()=>{'use strict';const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+(()=>{'use strict';
+const basePath=location.pathname.split('/').filter(Boolean).length>1?'../':'';
+const pathName=location.pathname.split('/').filter(Boolean).pop()||'index.html';
+const siteNav=[
+ ['The Group','group.html'],
+ ['Businesses','businesses.html'],
+ ['Products','catalogue.html'],
+ ['Applications','applications.html'],
+ ['Consultancy','consultancy.html'],
+ ['Contact','contact.html'],
+ ['Locations','locations.html']
+];
+const headerShell=document.querySelector('header.nav');
+if(headerShell){
+ headerShell.classList.remove('wrap');
+ headerShell.innerHTML=
+  '<a class="brandlock" href="'+basePath+'index.html" aria-label="ENFORD Group home"><img class="logo" src="'+basePath+'brand/enford-logo.svg" alt="ENFORD"></a>'+
+  '<nav class="navlinks" aria-label="Main navigation">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' class="active"':'')+'>'+label+'</a>').join('')+'</nav>'+
+  '<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span>☰</span></button>'+
+  '<a class="btn btn-primary" href="'+basePath+'contact.html">Discuss a Requirement</a>';
+}
+const siteFooter=document.querySelector('footer');
+if(siteFooter){
+ siteFooter.className='footer enford-footer';
+ siteFooter.innerHTML=
+  '<div class="wrap">'+
+   '<div class="enford-footer-brand"><a href="'+basePath+'index.html" aria-label="ENFORD home"><img class="logo" src="'+basePath+'brand/enford-logo.svg" alt="ENFORD"></a><p>Ingredients, specialty chemicals and industrial materials for manufacturing businesses.</p></div>'+
+   '<div class="enford-footer-column"><strong>Explore</strong><a href="'+basePath+'group.html">The Group</a><a href="'+basePath+'businesses.html">Business Divisions</a><a href="'+basePath+'catalogue.html">Product Catalogue</a><a href="'+basePath+'industries.html">Industries</a></div>'+
+   '<div class="enford-footer-column"><strong>Services</strong><a href="'+basePath+'applications.html">Application Support</a><a href="'+basePath+'consultancy.html">Consultancy</a><a href="'+basePath+'locations.html">Locations</a><a href="'+basePath+'contact.html">Contact ENFORD</a></div>'+
+   '<div class="enford-footer-column enford-footer-contact"><strong>Contact</strong><a href="tel:+917585870505">+91 75858 70505</a><a href="mailto:contact@enfordindustries.com">contact@enfordindustries.com</a><a href="https://wa.me/917585870505" target="_blank" rel="noopener">WhatsApp ENFORD</a></div>'+
+   '<div class="enford-footer-bottom"><span>© '+new Date().getFullYear()+' ENFORD Industries Private Limited. All rights reserved.</span><span><a href="'+basePath+'privacy.html">Privacy Notice</a><a href="'+basePath+'image-credits.html">Image Credits</a></span></div>'+
+  '</div>';
+}
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const header=document.querySelector('.nav');const onScroll=()=>{if(header)header.classList.toggle('scrolled',window.scrollY>12);const b=document.querySelector('.backtop');if(b)b.classList.toggle('show',window.scrollY>500)};window.addEventListener('scroll',onScroll,{passive:true});onScroll();
 let toggle=document.querySelector('.menu-toggle');const links=document.querySelector('.navlinks');if(!toggle&&links){toggle=document.createElement('button');toggle.className='menu-toggle';toggle.type='button';toggle.setAttribute('aria-label','Open navigation');toggle.setAttribute('aria-expanded','false');toggle.innerHTML='<span>☰</span>';links.parentNode.insertBefore(toggle,links)}if(toggle&&links){toggle.addEventListener('click',()=>{const open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');toggle.setAttribute('aria-expanded','false')}))}
 if(!reduced&&'IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in-view');obs.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -35px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in-view'));
