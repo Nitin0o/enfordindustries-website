@@ -64,6 +64,10 @@ const closeMenu=()=>{
 };
 const openMenu=()=>{
  if(!toggle)return;
+ const triggerRect=toggle.getBoundingClientRect();
+ const headerRect=headerShell?headerShell.getBoundingClientRect():{bottom:68};
+ mobileMenu.style.top=Math.ceil(Math.max(triggerRect.bottom,headerRect.bottom)+9)+'px';
+ mobileMenu.style.right=Math.max(8,window.innerWidth-triggerRect.right)+'px';
  mobileMenu.classList.add('is-open');
  mobileMenu.setAttribute('aria-hidden','false');
  toggle.setAttribute('aria-expanded','true');
