@@ -15,9 +15,9 @@ if(headerShell){
  headerShell.classList.remove('wrap');
  headerShell.innerHTML=
   '<a class="brandlock" href="'+basePath+'index.html" aria-label="ENFORD Group home"><img class="logo" src="'+basePath+'brand/enford-logo.svg" alt="ENFORD"></a>'+
-  '<nav class="navlinks" aria-label="Main navigation">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' class="active"':'')+'>'+label+'</a>').join('')+'</nav>'+
-  '<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span>☰</span></button>'+
-  '<a class="btn btn-primary" href="'+basePath+'contact.html">Discuss a Requirement</a>';
+  '<nav class="navlinks" id="primary-navigation" aria-label="Main navigation">'+siteNav.map(([label,file])=>'<a href="'+basePath+file+'"'+(pathName===file?' class="active"':'')+'>'+label+'</a>').join('')+'</nav>'+
+  '<a class="btn btn-primary" href="'+basePath+'contact.html">Discuss a Requirement</a>'+
+  '<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-navigation" aria-expanded="false"><span aria-hidden="true"></span></button>';
 }
 const siteFooter=document.querySelector('footer');
 if(siteFooter){
