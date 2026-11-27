@@ -316,16 +316,16 @@ function filtered(){
 }
 function card(p,usedImages){
  const im=imageFor(p,usedImages);
- const detailUrl=p.detailPath||(detailUrl);
+ const detailUrl=p.detailPath||('products/'+encodeURIComponent(p.slug)+'.html');
  return '<article class="catalogue-product-card reveal in-view">'+
-  '<a class="catalogue-product-image" href="products/'+encodeURIComponent(p.slug)+'.html" aria-label="View '+esc(p.name)+' details">'+
+  '<a class="catalogue-product-image" href="'+detailUrl+'" aria-label="View '+esc(p.name)+' details">'+
    '<img src="'+im.src+'" alt="'+esc(im.alt)+'" loading="lazy"><span class="catalogue-image-note">Illustrative product image</span>'+
   '</a><div class="catalogue-product-body">'+
    '<div class="catalogue-product-category">'+esc(p.category)+'</div>'+
-   '<h3><a href="products/'+encodeURIComponent(p.slug)+'.html">'+esc(p.name)+'</a></h3>'+
+   '<h3><a href="'+detailUrl+'">'+esc(p.name)+'</a></h3>'+
    '<p>'+esc(p.description)+'</p>'+
    '<div class="catalogue-product-meta"><span>Grade &amp; specification confirmed per enquiry</span></div>'+
-   '<div class="catalogue-product-actions"><a class="catalogue-details-link" href="products/'+encodeURIComponent(p.slug)+'.html">Product details <span aria-hidden="true">→</span></a><a class="catalogue-enquire-link" href="'+enquiryUrl(p)+'" target="_blank" rel="noopener">Enquire <span aria-hidden="true">↗</span></a></div>'+
+   '<div class="catalogue-product-actions"><a class="catalogue-details-link" href="'+detailUrl+'">Product details <span aria-hidden="true">→</span></a><a class="catalogue-enquire-link" href="'+enquiryUrl(p)+'" target="_blank" rel="noopener">Enquire <span aria-hidden="true">↗</span></a></div>'+
   '</div></article>';
 }
 function render(){
