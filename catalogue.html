@@ -1,7 +1,108 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Products & Materials Catalogue | ENFORD Group</title><meta name="description" content="Search ENFORD's initial directory of food ingredients, nutraceuticals, industrial chemicals, polymers, process chemicals and manufacturing materials."><link rel="canonical" href="https://www.enfordindustries.com/catalogue.html"><link rel="stylesheet" href="assets/site.css"><link rel="icon" href="brand/enford-logo.svg" type="image/svg+xml"><meta name="theme-color" content="#001D4F"><meta property="og:title" content="Products & Materials Catalogue | ENFORD Group"><meta property="og:description" content="Search ENFORD's initial directory of food ingredients, nutraceuticals, industrial chemicals, polymers, process chemicals and manufacturing materials."><meta property="og:type" content="website"></head><body><header class="nav"><a class="brandlock" href="index.html" aria-label="ENFORD Group home"><img class="logo" src="brand/enford-logo.svg" alt="ENFORD"></a><nav class="navlinks" aria-label="Main navigation"><a href="group.html">The Group</a><a href="businesses.html">Businesses</a><a href="catalogue.html">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="contact.html">Contact</a><a href="locations.html">Locations</a></nav><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span>☰</span></button><a class="btn btn-primary" href="contact.html">Discuss a Requirement</a></header>
-<section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="index.html">Home</a> / Products</div><div class="eyebrow">Search the product directory</div><h1>Explore ingredients, chemicals and materials.</h1><p class="intro">Search by product name, material family or category. For non-listed items, send the requirement anyway—this is an initial catalogue, not a limit on our sourcing scope.</p><div class="searchbar"><input id="q" type="search" placeholder="Search xanthan gum, WPC, surfactants, polymers…" aria-label="Search products"><select id="cat"><option value="">All categories</option></select></div><div class="results-meta" id="meta">Loading directory…</div></div></section>
-<section class="section"><div class="wrap"><div id="results" class="grid"></div><div class="notice">The directory is a sourcing enquiry guide. Listing a product does not mean it is currently stocked or manufactured by ENFORD. Grade, specification, documentation, regulatory suitability, source and availability are confirmed individually for each requirement.</div></div></section>
-<section class="cta"><div class="wrap"><div class="eyebrow">Not found in the catalogue?</div><h2>Send the product name or technical specification.</h2><p>We welcome enquiries for products beyond the published directory and can review across India sourcing requirements.</p><a class="btn btn-gold" href="https://wa.me/917585870505?text=Hello%20ENFORD%2C%20I%20have%20a%20product%20not%20listed%20in%20your%20catalogue.">Enquire about an unlisted product ↗</a></div></section><section class="cta"><div class="wrap reveal"><div class="eyebrow">Bring us your requirement</div><h2>Start with a product question. Build toward a better solution.</h2><p>Whether you are sourcing a material, improving a formulation or solving an application challenge, tell us what you are working on.</p><a class="btn btn-gold btn-arrow" href="contact.html">Start a conversation</a></div></section><footer class="footer"><div class="wrap"><div><strong>ENFORD GROUP</strong><br><span>Ingredients · Chemicals · Applications · Consultancy</span><br><small>Business identity of ENFORD Industries Private Limited.</small></div><div class="footlinks"><a href="group.html">The Group</a><a href="catalogue.html">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="contact.html">Contact</a></div><div>+91 75858 70505<br><a href="mailto:contact@enfordindustries.com">contact@enfordindustries.com</a><br><a href="https://wa.me/917585870505">WhatsApp ENFORD</a></div><small>© <span class="js-year">2026</span> ENFORD Industries Private Limited. All rights reserved.</small></div></footer>
-<script>
-(async()=>{const q=document.getElementById('q'),cat=document.getElementById('cat'),out=document.getElementById('results'),meta=document.getElementById('meta');try{const data=await fetch('products.json').then(r=>{if(!r.ok)throw Error('Could not load product data');return r.json()});[...new Set(data.map(p=>p.category))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;cat.appendChild(o)});const params=new URLSearchParams(location.search);if(params.get('q'))q.value=params.get('q');if(params.get('category'))cat.value=params.get('category');const group=params.get('group')||'';const groupRules={food:/protein|dairy|hydrocolloid|starch|sweetener|food acids|emulsifier|vitamin|premix|enzyme|bakery|oils|colours|flavours/i,nutrition:/protein|vitamin|premix|nutraceutical|amino/i,industrial:/industrial chemicals|metal|foundry|coatings|construction|cleaning|textile|paper|rubber|lubricants|mining|oilfield|adhesive|minerals/i,polymer:/polymer|resin|plastic|construction and industrial/i,water:/water.*treatment|wastewater/i,metal:/metal treatment|aluminium|foundry/i,homecare:/home care|personal care/i,construction:/construction|paint|coating|adhesive/i};function render(){const term=q.value.trim().toLowerCase(),c=cat.value;const rule=groupRules[group];const rows=data.filter(p=>(!c||p.category===c)&&(!rule||rule.test(p.category))&&(!term||(p.name+' '+p.category+' '+p.description).toLowerCase().includes(term)));meta.textContent=rows.length+' matching entries across '+data.length+' listed products';out.innerHTML=rows.map(p=>'<article class="product-card reveal in-view"><div class="category">'+p.category+'</div><h3><a href="products/'+p.slug+'.html">'+p.name+'</a></h3><p>'+p.description+'</p><a class="textlink" href="products/'+p.slug+'.html">View product details</a></article>').join('')||'<p>No exact match. Please send us the product name or specification for a sourcing review.</p>';}q.addEventListener('input',render);cat.addEventListener('change',render);render()}catch(e){meta.textContent='The product directory could not be loaded. Please contact ENFORD for assistance.'}})();
-</script><script src="assets/site.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Product Catalogue | ENFORD Industries — Ingredients, Chemicals & Materials</title>
+<meta name="description" content="Explore ENFORD's B2B product enquiry directory across food ingredients, nutraceuticals, industrial chemicals, water treatment, polymers, metal treatment and manufacturing materials.">
+<link rel="canonical" href="https://www.enfordindustries.com/catalogue.html">
+<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="brand/enford-logo.svg" type="image/svg+xml">
+<meta name="theme-color" content="#001D4F">
+<meta property="og:title" content="Product Catalogue | ENFORD Industries">
+<meta property="og:description" content="Search ingredients, chemicals and industrial materials in the ENFORD B2B product enquiry directory.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<header class="nav">
+  <a class="brandlock" href="index.html" aria-label="ENFORD Group home"><img class="logo" src="brand/enford-logo.svg" alt="ENFORD"></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="group.html">The Group</a><a href="businesses.html">Businesses</a><a href="catalogue.html" class="active">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="contact.html">Contact</a><a href="locations.html">Locations</a>
+  </nav>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span>☰</span></button>
+  <a class="btn btn-primary" href="contact.html">Discuss a Requirement</a>
+</header>
+<main>
+  <section class="catalogue-hero">
+    <div class="wrap">
+      <div class="breadcrumbs"><a href="index.html">Home</a> / Products</div>
+      <div class="eyebrow">ENFORD product directory</div>
+      <h1>Find the material. Define the requirement.</h1>
+      <p class="catalogue-hero-intro">Explore food ingredients, nutrition inputs, specialty chemicals and industrial materials. Search by product, category or business area, then send ENFORD the grade and application details you need reviewed.</p>
+      <div class="catalogue-hero-stats">
+        <div><strong>115</strong><span>Product listings</span></div>
+        <div><strong>31</strong><span>Product categories</span></div>
+        <div><strong>B2B</strong><span>Enquiry-led sourcing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalogue-section">
+    <div class="wrap">
+      <div class="catalogue-toolbar-heading">
+        <div><div class="eyebrow">Search the catalogue</div><h2>Explore products & materials</h2><p class="intro">Use the filters to narrow the directory. Open a product page for enquiry guidance or send a product enquiry directly.</p></div>
+      </div>
+      <div class="catalogue-filter-panel">
+        <div class="catalogue-search-wrap">
+          <label for="catalogue-search">Search products</label>
+          <div class="catalogue-search-input"><span aria-hidden="true">⌕</span><input id="catalogue-search" type="search" placeholder="Try xanthan gum, Vitamin C, surfactants, WPC…" autocomplete="off"></div>
+        </div>
+        <div class="catalogue-filter-control">
+          <label for="catalogue-vertical">Business area</label>
+          <select id="catalogue-vertical">
+            <option value="">All business areas</option>
+            <option value="food">Food & Beverage</option>
+            <option value="nutrition">Nutrition & Wellness</option>
+            <option value="industrial">Industrial Chemicals & Process Materials</option>
+            <option value="water">Water & Environment</option>
+            <option value="materials">Polymers & Performance Materials</option>
+            <option value="metal">Metal Treatment & Foundry</option>
+            <option value="custom">Custom Solutions</option>
+          </select>
+        </div>
+        <div class="catalogue-filter-control">
+          <label for="catalogue-category">Product category</label>
+          <select id="catalogue-category"><option value="">All categories</option></select>
+        </div>
+        <div class="catalogue-filter-control">
+          <label for="catalogue-sort">Sort by</label>
+          <select id="catalogue-sort">
+            <option value="relevance">Relevance</option>
+            <option value="name">Product name A–Z</option>
+            <option value="category">Category A–Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="catalogue-results-bar"><div id="catalogue-meta" aria-live="polite">Loading product directory…</div><a href="contact.html">Can’t find what you need? Send us the brief <span aria-hidden="true">↗</span></a></div>
+      <div id="catalogue-results" class="catalogue-product-grid" aria-live="polite"></div>
+      <div class="catalogue-load-wrap"><button id="catalogue-load-more" class="btn btn-outline" type="button" hidden>Show more products</button></div>
+      <div class="catalogue-download-panel">
+        <div><div class="eyebrow">For procurement teams</div><h3>Prefer to prepare your requirement offline?</h3><p>Download the current product directory or use the enquiry sheet to specify the application, grade, quantity, delivery location and documentation required.</p></div>
+        <div class="catalogue-download-actions">
+          <a class="btn btn-outline" href="product-master.csv" download>Download Product Directory <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-primary" href="product-enquiry-template.csv" download>Download Enquiry Sheet <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="catalogue-disclaimer">
+        <strong>Important catalogue note</strong>
+        <p>This is an enquiry directory, not a live inventory or stock availability feed. A listing does not confirm current stock, a supplier appointment or in-house manufacture. Grade, technical specification, source, documentation, regulatory suitability, packaging, price and availability must be confirmed for each requirement before an order is placed.</p>
+        <p>Product tiles use illustrative category photography. Images are not product packshots and do not represent a particular brand, grade, batch or ENFORD-owned facility. <a href="image-credits.html">View image credits</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalogue-cta">
+    <div class="wrap">
+      <div><div class="eyebrow">Have a non-listed requirement?</div><h2>Send us the product name, specification or application brief.</h2><p>ENFORD welcomes sourcing enquiries beyond the products shown here. Share the technical and commercial details so the requirement can be reviewed.</p></div>
+      <div class="catalogue-cta-actions"><a class="btn btn-gold" href="contact.html">Send an Enquiry</a><a class="btn btn-light" href="https://wa.me/917585870505?text=Hello%20ENFORD%20Team%2C%20I%20have%20a%20product%20or%20material%20requirement%20not%20listed%20in%20the%20catalogue." target="_blank" rel="noopener">WhatsApp ENFORD</a></div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div><strong>ENFORD GROUP</strong><br><span>Ingredients · Chemicals · Materials · Applications</span><br><small>Business identity of ENFORD Industries Private Limited.</small></div>
+    <div class="footlinks"><a href="group.html">The Group</a><a href="businesses.html">Businesses</a><a href="catalogue.html">Products</a><a href="applications.html">Applications</a><a href="consultancy.html">Consultancy</a><a href="industries.html">Industries</a><a href="image-credits.html">Image Credits</a><a href="contact.html">Contact</a></div>
+    <div>+91 75858 70505<br><a href="mailto:contact@enfordindustries.com">contact@enfordindustries.com</a><br><a href="https://wa.me/917585870505">WhatsApp ENFORD</a></div>
+    <small>© <span class="js-year">2026</span> ENFORD Industries Private Limited. All rights reserved.</small>
+  </div>
+</footer>
+<script src="assets/catalogue.js" defer></script><script src="assets/site.js" defer></script>
+</body></html>
