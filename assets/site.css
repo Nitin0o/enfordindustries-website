@@ -153,3 +153,81 @@ h3{font-size:18px;line-height:1.32}
 @media(max-width:850px){.nav{min-height:64px;padding:9px 18px}.nav .logo,.logo{width:108px!important;max-height:32px!important}.navlinks{gap:9px}.hero{min-height:510px}.hero .wrap{padding-top:68px;padding-bottom:70px}.trust-strip .wrap{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(3){border-right:1px solid var(--line)}.trust-item:nth-child(2n){border-right:0}.trust-item:nth-child(n+3){border-top:1px solid var(--line)}}
 @media(max-width:600px){.nav{min-height:60px;padding:8px 14px}.nav .logo,.logo{width:102px!important;max-height:30px!important}.nav>.btn{font-size:10px;padding:9px 11px}.hero{min-height:480px}.hero h1{font-size:39px}.hero .wrap{padding-top:58px;padding-bottom:62px}.hero:after{background:linear-gradient(90deg,rgba(9,28,48,.96),rgba(11,35,58,.74))}.section{padding:52px 0}.business-grid{grid-template-columns:1fr 1fr}.industry-card{min-height:175px}.industry-card h3{font-size:14px}.consultancy-band{padding:21px;grid-template-columns:1fr}.metric-band{display:none}.photo-card img,.photo-feature img,.image-card img{min-height:220px}.page-hero{padding:35px 0}}
 @media(prefers-reduced-motion:reduce){.hero:before{animation:none}.reveal{opacity:1;transform:none}}
+
+
+/* ENFORD brand system — parent group and business division pages */
+:root{
+  --navy:#001D4F;--navy-2:#082b62;--gold:#D98C11;--orange:#ED7D0B;
+  --ink:#14243c;--muted:#627087;--line:#e2e8f0;--soft:#f5f7fa;
+  --paper:#fff;--shadow:0 18px 55px rgba(0,29,79,.10);--radius:12px
+}
+h1,h2,h3{color:var(--navy)}
+.btn-primary{background:var(--navy);color:#fff}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-outline{border-color:rgba(0,29,79,.24);color:var(--navy)}
+.eyebrow{color:var(--gold)}
+.eyebrow:before{background:var(--gold)}
+.textlink{color:#9a5d00}
+.icon-box{background:#fff4e6;color:var(--orange)}
+.nav{min-height:76px}
+.nav .logo,.logo{width:150px!important;max-height:42px!important}
+.navlinks{font-size:12px;font-weight:650}
+.navlinks a:after{background:var(--gold)}
+.hero{background:var(--navy)}
+.hero:after{background:linear-gradient(90deg,rgba(0,18,52,.97) 0%,rgba(0,29,79,.86) 43%,rgba(0,29,79,.25) 100%),linear-gradient(0deg,rgba(0,20,50,.24),transparent 58%)}
+.hero .eyebrow{color:#f3d8ad!important}
+.hero .eyebrow:before{background:var(--gold)}
+.cta{background:linear-gradient(115deg,#001b4a,#0b3675)}
+.tile,.product-card,.service-card,.industry-card,.consult-card{border-radius:12px}
+.portfolio-grid .tile{padding:0;overflow:hidden}
+.photo-feature{height:185px;overflow:hidden;background:#e9edf2;margin:-1px -1px 20px}
+.photo-feature img{width:100%;height:100%;min-height:0;object-fit:cover;transition:transform .55s ease}
+.portfolio-grid .tile:hover .photo-feature img{transform:scale(1.04)}
+.portfolio-grid .tile>.eyebrow,.portfolio-grid .tile>h3,.portfolio-grid .tile>p,.portfolio-grid .tile>.textlink{margin-left:22px;margin-right:22px}
+.portfolio-grid .tile>.textlink{margin-bottom:22px}
+.division-hero{position:relative;isolation:isolate;overflow:hidden;min-height:480px;display:flex;align-items:center;background:var(--navy);color:#fff}
+.division-hero:before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--division-image);background-size:cover;background-position:center;opacity:.8}
+.division-hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,20,56,.96),rgba(0,29,79,.82) 48%,rgba(0,29,79,.32))}
+.division-hero .wrap{padding-top:72px;padding-bottom:78px}
+.division-hero .breadcrumbs{color:#d9e2ee}
+.division-hero .breadcrumbs a{color:#fff}
+.division-hero .eyebrow{color:#f4d9ae}
+.division-hero .eyebrow:before{background:var(--gold)}
+.division-hero h1{color:#fff;max-width:780px;font-size:clamp(38px,4.7vw,60px);line-height:1.08;margin:18px 0}
+.division-hero .lead{max-width:720px;color:#e7edf5}
+.division-hero .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.division-hero .btn-light{border-color:rgba(255,255,255,.55);color:#fff;background:rgba(255,255,255,.08)}
+.division-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.division-product-card{padding:24px}
+.division-product-card .eyebrow{font-size:9px}
+.division-category-links{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-top:30px}
+.division-category-links>span{font-size:12px;color:var(--muted);font-weight:700;margin-right:5px}
+.division-chip{border:1px solid var(--line);border-radius:100px;padding:8px 12px;font-size:11px;color:var(--navy);background:#fff}
+.division-chip:hover{border-color:var(--gold);background:#fffaf2}
+.division-checks{padding-left:19px;color:#3c4c60}
+.division-checks li{padding:4px 0}
+.usecase-tile{min-height:145px}
+.division-credits{margin-top:24px;font-size:11px;color:var(--muted)}
+.division-credits a{text-decoration:underline;text-underline-offset:3px}
+.division-hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+.division-hub-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.division-hub-card:hover{transform:translateY(-4px);border-color:rgba(217,140,17,.55);box-shadow:var(--shadow)}
+.division-hub-card>img{width:100%;height:185px;object-fit:cover;background:#e9edf2}
+.division-hub-copy{padding:21px 22px 23px;display:flex;flex-direction:column;flex:1}
+.division-hub-copy h3{margin:8px 0}
+.division-hub-copy p{font-size:13px;color:var(--muted);flex:1}
+.division-hub-copy .textlink{margin-top:5px}
+@media(max-width:850px){
+  .nav{min-height:66px}
+  .nav .logo,.logo{width:128px!important;max-height:36px!important}
+  .division-product-grid,.division-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .division-hero{min-height:430px}
+}
+@media(max-width:600px){
+  .nav .logo,.logo{width:116px!important;max-height:33px!important}
+  .division-product-grid,.division-hub-grid{grid-template-columns:1fr}
+  .division-hero{min-height:420px}
+  .division-hero .wrap{padding-top:55px;padding-bottom:60px}
+  .division-hero h1{font-size:38px}
+  .photo-feature{height:205px}
+}
