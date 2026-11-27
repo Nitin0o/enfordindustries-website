@@ -76,7 +76,7 @@ const imageMap={
     "alt": "Industrial metal processing"
   },
   "Polymers, Resins & Plastics": {
-    "src": "https://images.pexels.com/photos/14745095/pexels-photo-14745095.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/15019154/pexels-photo-15019154.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Close-up of polymer granules"
   },
   "Paints, Coatings & Construction": {
@@ -96,7 +96,7 @@ const imageMap={
     "alt": "Industrial process vessels and pipework"
   },
   "Rubber & Elastomer Chemicals": {
-    "src": "https://images.pexels.com/photos/14745095/pexels-photo-14745095.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/15019154/pexels-photo-15019154.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Industrial polymer and elastomer granules"
   },
   "Lubricants & Metalworking Fluids": {
@@ -108,7 +108,7 @@ const imageMap={
     "alt": "Heavy industrial material processing"
   },
   "Minerals, Fillers & Extenders": {
-    "src": "https://images.pexels.com/photos/14745095/pexels-photo-14745095.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "src": "https://images.pexels.com/photos/15019154/pexels-photo-15019154.jpeg?auto=compress&cs=tinysrgb&w=900",
     "alt": "Industrial granules and raw materials"
   },
   "Personal Care & Cosmetic Ingredients": {
