@@ -694,685 +694,685 @@
     "slug": "anhydrous-milk-fat-amf",
     "category": "Proteins & Dairy Ingredients",
     "description": "Concentrated milk fat ingredient for dairy, confectionery and bakery formulations; final grade and fat profile are confirmed per requirement.",
-    "detailPath": "product-detail.html?product=anhydrous-milk-fat-amf"
+    "detailPath": "products/anhydrous-milk-fat-amf.html"
   },
   {
     "name": "Buttermilk Powder",
     "slug": "buttermilk-powder",
     "category": "Proteins & Dairy Ingredients",
     "description": "Dried buttermilk ingredient used to contribute dairy solids, flavour and functionality in bakery and food formulations.",
-    "detailPath": "product-detail.html?product=buttermilk-powder"
+    "detailPath": "products/buttermilk-powder.html"
   },
   {
     "name": "Whey Permeate Powder",
     "slug": "whey-permeate-powder",
     "category": "Proteins & Dairy Ingredients",
     "description": "Whey-derived permeate powder supplied for food, beverage and feed applications subject to grade and specification.",
-    "detailPath": "product-detail.html?product=whey-permeate-powder"
+    "detailPath": "products/whey-permeate-powder.html"
   },
   {
     "name": "Milk Permeate Powder",
     "slug": "milk-permeate-powder",
     "category": "Proteins & Dairy Ingredients",
     "description": "Milk-derived permeate powder for dairy, bakery and food applications requiring milk solids and lactose.",
-    "detailPath": "product-detail.html?product=milk-permeate-powder"
+    "detailPath": "products/milk-permeate-powder.html"
   },
   {
     "name": "Casein",
     "slug": "casein",
     "category": "Proteins & Dairy Ingredients",
     "description": "Milk protein ingredient supplied in suitable acid or rennet casein grades for food and industrial formulation enquiries.",
-    "detailPath": "product-detail.html?product=casein"
+    "detailPath": "products/casein.html"
   },
   {
     "name": "Rennet Enzyme",
     "slug": "rennet-enzyme",
     "category": "Enzymes & Processing Aids",
     "description": "Milk-coagulating enzyme preparation for cheese manufacture; activity, source and application suitability are confirmed per brief.",
-    "detailPath": "product-detail.html?product=rennet-enzyme"
+    "detailPath": "products/rennet-enzyme.html"
   },
   {
     "name": "Cheese Starter Cultures",
     "slug": "cheese-starter-cultures",
     "category": "Enzymes & Processing Aids",
     "description": "Selected dairy starter cultures for acidification and flavour development in cheese-making applications.",
-    "detailPath": "product-detail.html?product=cheese-starter-cultures"
+    "detailPath": "products/cheese-starter-cultures.html"
   },
   {
     "name": "Vital Wheat Gluten",
     "slug": "vital-wheat-gluten",
     "category": "Bakery & Food Processing",
     "description": "Wheat-derived protein ingredient used to improve dough strength, elasticity and structure in bakery formulations.",
-    "detailPath": "product-detail.html?product=vital-wheat-gluten"
+    "detailPath": "products/vital-wheat-gluten.html"
   },
   {
     "name": "Instant Dry Yeast",
     "slug": "instant-dry-yeast",
     "category": "Bakery & Food Processing",
     "description": "Dried yeast preparation for bakery fermentation; strain, activity and pack specification are confirmed per requirement.",
-    "detailPath": "product-detail.html?product=instant-dry-yeast"
+    "detailPath": "products/instant-dry-yeast.html"
   },
   {
     "name": "Cocoa Powder",
     "slug": "cocoa-powder",
     "category": "Bakery & Food Processing",
     "description": "Cocoa ingredient for bakery, confectionery, beverage and food formulations with alkalisation and fat specifications confirmed per enquiry.",
-    "detailPath": "product-detail.html?product=cocoa-powder"
+    "detailPath": "products/cocoa-powder.html"
   },
   {
     "name": "Potato Starch",
     "slug": "potato-starch",
     "category": "Starches & Fibres",
     "description": "Potato-derived starch for thickening, binding and texture control in food and industrial applications.",
-    "detailPath": "product-detail.html?product=potato-starch"
+    "detailPath": "products/potato-starch.html"
   },
   {
     "name": "Pea Starch",
     "slug": "pea-starch",
     "category": "Starches & Fibres",
     "description": "Pulse-derived starch ingredient for texture, viscosity and formulation requirements in food applications.",
-    "detailPath": "product-detail.html?product=pea-starch"
+    "detailPath": "products/pea-starch.html"
   },
   {
     "name": "Rice Protein Concentrate",
     "slug": "rice-protein-concentrate",
     "category": "Plant Proteins",
     "description": "Rice-derived protein ingredient for plant-based and protein-fortification formulations; protein content and solubility are confirmed by grade.",
-    "detailPath": "product-detail.html?product=rice-protein-concentrate"
+    "detailPath": "products/rice-protein-concentrate.html"
   },
   {
     "name": "Calcium Propionate",
     "slug": "calcium-propionate",
     "category": "Food Acids, Salts & Preservatives",
     "description": "Preservative ingredient used in permitted bakery and food applications subject to applicable regulations and formulation limits.",
-    "detailPath": "product-detail.html?product=calcium-propionate"
+    "detailPath": "products/calcium-propionate.html"
   },
   {
     "name": "Sodium Citrate",
     "slug": "sodium-citrate",
     "category": "Food Acids, Salts & Preservatives",
     "description": "Citrate salt used as an acidity regulator, buffering agent and sequestrant in suitable food formulations.",
-    "detailPath": "product-detail.html?product=sodium-citrate"
+    "detailPath": "products/sodium-citrate.html"
   },
   {
     "name": "Glucono Delta Lactone (GDL)",
     "slug": "glucono-delta-lactone-gdl",
     "category": "Food Acids, Salts & Preservatives",
     "description": "Slow-release acidulant for controlled pH reduction and texture development in suitable food systems.",
-    "detailPath": "product-detail.html?product=glucono-delta-lactone-gdl"
+    "detailPath": "products/glucono-delta-lactone-gdl.html"
   },
   {
     "name": "Ascorbyl Palmitate",
     "slug": "ascorbyl-palmitate",
     "category": "Food Acids, Salts & Preservatives",
     "description": "Oil-dispersible antioxidant ingredient for suitable food and fat-based formulations.",
-    "detailPath": "product-detail.html?product=ascorbyl-palmitate"
+    "detailPath": "products/ascorbyl-palmitate.html"
   },
   {
     "name": "Inulin",
     "slug": "inulin",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Soluble prebiotic dietary fibre used for fibre enrichment, bulking and texture modification in food and nutrition products.",
-    "detailPath": "product-detail.html?product=inulin"
+    "detailPath": "products/inulin.html"
   },
   {
     "name": "Fructooligosaccharides (FOS)",
     "slug": "fructooligosaccharides-fos",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Prebiotic carbohydrate ingredient for selected nutrition, dairy and functional food formulations.",
-    "detailPath": "product-detail.html?product=fructooligosaccharides-fos"
+    "detailPath": "products/fructooligosaccharides-fos.html"
   },
   {
     "name": "Probiotic Premix",
     "slug": "probiotic-premix",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Blend of selected probiotic cultures for nutrition and functional food formulations; strains, counts and stability specifications are defined per brief.",
-    "detailPath": "product-detail.html?product=probiotic-premix"
+    "detailPath": "products/probiotic-premix.html"
   },
   {
     "name": "Electrolyte Premix",
     "slug": "electrolyte-premix",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Customised blend of selected electrolyte salts for beverage, nutrition and hydration formulations.",
-    "detailPath": "product-detail.html?product=electrolyte-premix"
+    "detailPath": "products/electrolyte-premix.html"
   },
   {
     "name": "Taurine",
     "slug": "taurine",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Amino sulfonic acid ingredient for selected nutrition, beverage and supplement formulations, subject to intended-use compliance.",
-    "detailPath": "product-detail.html?product=taurine"
+    "detailPath": "products/taurine.html"
   },
   {
     "name": "L-Carnitine",
     "slug": "l-carnitine",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Nutritional ingredient supplied to a defined assay and form for suitable supplement and nutrition applications.",
-    "detailPath": "product-detail.html?product=l-carnitine"
+    "detailPath": "products/l-carnitine.html"
   },
   {
     "name": "BCAA Blend",
     "slug": "bcaa-blend",
     "category": "Premixes & Nutraceutical Ingredients",
     "description": "Blend of branched-chain amino acids for sports nutrition and protein formulation enquiries.",
-    "detailPath": "product-detail.html?product=bcaa-blend"
+    "detailPath": "products/bcaa-blend.html"
   },
   {
     "name": "Pharmaceutical Grade Lactose",
     "slug": "pharmaceutical-grade-lactose",
     "category": "Pharmaceutical Excipients",
     "description": "Lactose excipient for pharmaceutical applications; compendial grade, particle size and documentation are confirmed per specification.",
-    "detailPath": "product-detail.html?product=pharmaceutical-grade-lactose"
+    "detailPath": "products/pharmaceutical-grade-lactose.html"
   },
   {
     "name": "Microcrystalline Cellulose (MCC)",
     "slug": "microcrystalline-cellulose-mcc",
     "category": "Pharmaceutical Excipients",
     "description": "Cellulose-based pharmaceutical excipient used as a binder, diluent and stabilising aid in suitable dosage forms.",
-    "detailPath": "product-detail.html?product=microcrystalline-cellulose-mcc"
+    "detailPath": "products/microcrystalline-cellulose-mcc.html"
   },
   {
     "name": "Povidone K30",
     "slug": "povidone-k30",
     "category": "Pharmaceutical Excipients",
     "description": "Polyvinylpyrrolidone excipient for selected pharmaceutical formulation functions; grade and compendial documents are confirmed per enquiry.",
-    "detailPath": "product-detail.html?product=povidone-k30"
+    "detailPath": "products/povidone-k30.html"
   },
   {
     "name": "Magnesium Stearate (Pharma Grade)",
     "slug": "magnesium-stearate-pharma-grade",
     "category": "Pharmaceutical Excipients",
     "description": "Lubricant excipient for pharmaceutical formulations; particle characteristics and applicable compendial requirements are confirmed per grade.",
-    "detailPath": "product-detail.html?product=magnesium-stearate-pharma-grade"
+    "detailPath": "products/magnesium-stearate-pharma-grade.html"
   },
   {
     "name": "Croscarmellose Sodium",
     "slug": "croscarmellose-sodium",
     "category": "Pharmaceutical Excipients",
     "description": "Cross-linked cellulose disintegrant excipient for suitable solid dosage formulations.",
-    "detailPath": "product-detail.html?product=croscarmellose-sodium"
+    "detailPath": "products/croscarmellose-sodium.html"
   },
   {
     "name": "Sodium Starch Glycolate",
     "slug": "sodium-starch-glycolate",
     "category": "Pharmaceutical Excipients",
     "description": "Modified starch disintegrant excipient for pharmaceutical formulations requiring rapid tablet breakup.",
-    "detailPath": "product-detail.html?product=sodium-starch-glycolate"
+    "detailPath": "products/sodium-starch-glycolate.html"
   },
   {
     "name": "Crospovidone",
     "slug": "crospovidone",
     "category": "Pharmaceutical Excipients",
     "description": "Cross-linked povidone disintegrant excipient for suitable pharmaceutical solid dosage formulations.",
-    "detailPath": "product-detail.html?product=crospovidone"
+    "detailPath": "products/crospovidone.html"
   },
   {
     "name": "Colloidal Silicon Dioxide",
     "slug": "colloidal-silicon-dioxide",
     "category": "Pharmaceutical Excipients",
     "description": "Fine silica excipient used as a glidant and flow aid in suitable pharmaceutical and nutrition formulations.",
-    "detailPath": "product-detail.html?product=colloidal-silicon-dioxide"
+    "detailPath": "products/colloidal-silicon-dioxide.html"
   },
   {
     "name": "Sodium Lauryl Ether Sulphate (SLES 70%)",
     "slug": "sodium-lauryl-ether-sulphate-sles-70",
     "category": "Home Care & Institutional Cleaning",
     "description": "Anionic surfactant concentrate used in suitable liquid cleaning and personal-care formulations; active matter and salt profile are specified by grade.",
-    "detailPath": "product-detail.html?product=sodium-lauryl-ether-sulphate-sles-70"
+    "detailPath": "products/sodium-lauryl-ether-sulphate-sles-70.html"
   },
   {
     "name": "Linear Alkylbenzene Sulphonic Acid (LABSA)",
     "slug": "linear-alkylbenzene-sulphonic-acid-labsa",
     "category": "Home Care & Institutional Cleaning",
     "description": "Anionic surfactant acid for detergent and cleaning formulations; active matter and neutralisation requirements are confirmed per specification.",
-    "detailPath": "product-detail.html?product=linear-alkylbenzene-sulphonic-acid-labsa"
+    "detailPath": "products/linear-alkylbenzene-sulphonic-acid-labsa.html"
   },
   {
     "name": "Cocamidopropyl Betaine (CAPB)",
     "slug": "cocamidopropyl-betaine-capb",
     "category": "Home Care & Institutional Cleaning",
     "description": "Amphoteric surfactant used in selected household, institutional and personal-care cleansing formulations.",
-    "detailPath": "product-detail.html?product=cocamidopropyl-betaine-capb"
+    "detailPath": "products/cocamidopropyl-betaine-capb.html"
   },
   {
     "name": "Alpha Olefin Sulphonate (AOS)",
     "slug": "alpha-olefin-sulphonate-aos",
     "category": "Home Care & Institutional Cleaning",
     "description": "Anionic surfactant supplied for suitable detergent and cleaning formulations.",
-    "detailPath": "product-detail.html?product=alpha-olefin-sulphonate-aos"
+    "detailPath": "products/alpha-olefin-sulphonate-aos.html"
   },
   {
     "name": "Alcohol Ethoxylates",
     "slug": "alcohol-ethoxylates",
     "category": "Home Care & Institutional Cleaning",
     "description": "Nonionic surfactant family for cleaning, wetting and emulsification applications; chain length and ethoxylation level are defined per brief.",
-    "detailPath": "product-detail.html?product=alcohol-ethoxylates"
+    "detailPath": "products/alcohol-ethoxylates.html"
   },
   {
     "name": "Sodium Metasilicate",
     "slug": "sodium-metasilicate",
     "category": "Home Care & Institutional Cleaning",
     "description": "Alkaline builder and cleaning ingredient for suitable industrial and institutional cleaning formulations.",
-    "detailPath": "product-detail.html?product=sodium-metasilicate"
+    "detailPath": "products/sodium-metasilicate.html"
   },
   {
     "name": "Sodium Tripolyphosphate (STPP)",
     "slug": "sodium-tripolyphosphate-stpp",
     "category": "Home Care & Institutional Cleaning",
     "description": "Builder and sequestrant ingredient used in suitable detergent and industrial formulations where permitted.",
-    "detailPath": "product-detail.html?product=sodium-tripolyphosphate-stpp"
+    "detailPath": "products/sodium-tripolyphosphate-stpp.html"
   },
   {
     "name": "Soda Ash Light",
     "slug": "soda-ash-light",
     "category": "Home Care & Institutional Cleaning",
     "description": "Light sodium carbonate grade for alkalinity adjustment and detergent-builder applications.",
-    "detailPath": "product-detail.html?product=soda-ash-light"
+    "detailPath": "products/soda-ash-light.html"
   },
   {
     "name": "Ferric Chloride",
     "slug": "ferric-chloride",
     "category": "Water & Wastewater Treatment",
     "description": "Inorganic coagulant for industrial and municipal water or wastewater treatment; concentration and application suitability are confirmed per brief.",
-    "detailPath": "product-detail.html?product=ferric-chloride"
+    "detailPath": "products/ferric-chloride.html"
   },
   {
     "name": "Aluminium Sulphate (Alum)",
     "slug": "aluminium-sulphate-alum",
     "category": "Water & Wastewater Treatment",
     "description": "Inorganic coagulant used in water clarification and wastewater treatment applications.",
-    "detailPath": "product-detail.html?product=aluminium-sulphate-alum"
+    "detailPath": "products/aluminium-sulphate-alum.html"
   },
   {
     "name": "Polyamine Coagulant",
     "slug": "polyamine-coagulant",
     "category": "Water & Wastewater Treatment",
     "description": "Organic coagulant for suspended-solids removal and clarification in suitable water and effluent systems.",
-    "detailPath": "product-detail.html?product=polyamine-coagulant"
+    "detailPath": "products/polyamine-coagulant.html"
   },
   {
     "name": "PolyDADMAC",
     "slug": "polydadmac",
     "category": "Water & Wastewater Treatment",
     "description": "Cationic polymer coagulant for clarification, solids separation and selected process-water applications.",
-    "detailPath": "product-detail.html?product=polydadmac"
+    "detailPath": "products/polydadmac.html"
   },
   {
     "name": "Sodium Aluminate",
     "slug": "sodium-aluminate",
     "category": "Water & Wastewater Treatment",
     "description": "Alkaline aluminium salt used in selected water treatment and industrial process applications.",
-    "detailPath": "product-detail.html?product=sodium-aluminate"
+    "detailPath": "products/sodium-aluminate.html"
   },
   {
     "name": "Wastewater Defoamer",
     "slug": "wastewater-defoamer",
     "category": "Water & Wastewater Treatment",
     "description": "Foam-control formulation for selected effluent and wastewater operations; compatibility and dosage are confirmed by application.",
-    "detailPath": "product-detail.html?product=wastewater-defoamer"
+    "detailPath": "products/wastewater-defoamer.html"
   },
   {
     "name": "Bacterial Nutrient Blend for Effluent",
     "slug": "bacterial-nutrient-blend-effluent",
     "category": "Water & Wastewater Treatment",
     "description": "Nutrient blend for supporting biological wastewater treatment processes, selected according to influent and process conditions.",
-    "detailPath": "product-detail.html?product=bacterial-nutrient-blend-effluent"
+    "detailPath": "products/bacterial-nutrient-blend-effluent.html"
   },
   {
     "name": "Polyethylene Wax",
     "slug": "polyethylene-wax",
     "category": "Polymers, Resins & Plastics",
     "description": "Polyethylene wax additive for selected plastics, masterbatch, coating and processing applications.",
-    "detailPath": "product-detail.html?product=polyethylene-wax"
+    "detailPath": "products/polyethylene-wax.html"
   },
   {
     "name": "Silicone Oil",
     "slug": "silicone-oil",
     "category": "Polymers, Resins & Plastics",
     "description": "Silicone fluid supplied in defined viscosity grades for industrial, polymer, release and formulation applications.",
-    "detailPath": "product-detail.html?product=silicone-oil"
+    "detailPath": "products/silicone-oil.html"
   },
   {
     "name": "PVC Processing Aid",
     "slug": "pvc-processing-aid",
     "category": "Polymers, Resins & Plastics",
     "description": "Processing additive for PVC compounding and extrusion applications; compatibility and performance requirements are confirmed per formulation.",
-    "detailPath": "product-detail.html?product=pvc-processing-aid"
+    "detailPath": "products/pvc-processing-aid.html"
   },
   {
     "name": "Organic Peroxides",
     "slug": "organic-peroxides",
     "category": "Polymers, Resins & Plastics",
     "description": "Initiator and crosslinking chemical family for selected polymerisation and polymer-processing applications; handling and transport controls apply.",
-    "detailPath": "product-detail.html?product=organic-peroxides"
+    "detailPath": "products/organic-peroxides.html"
   },
   {
     "name": "Polycarboxylate Ether (PCE) Superplasticizer",
     "slug": "polycarboxylate-ether-pce-superplasticizer",
     "category": "Construction & Industrial Additives",
     "description": "High-range water-reducing admixture chemistry for suitable concrete formulations; solids content and performance are specified by grade.",
-    "detailPath": "product-detail.html?product=polycarboxylate-ether-pce-superplasticizer"
+    "detailPath": "products/polycarboxylate-ether-pce-superplasticizer.html"
   },
   {
     "name": "Calcium Formate",
     "slug": "calcium-formate",
     "category": "Construction & Industrial Additives",
     "description": "Calcium salt used in selected construction, dry-mix and process applications.",
-    "detailPath": "product-detail.html?product=calcium-formate"
+    "detailPath": "products/calcium-formate.html"
   },
   {
     "name": "Palm Olein",
     "slug": "palm-olein",
     "category": "Oils, Fats & Bakery",
     "description": "Refined palm oil fraction for food manufacturing and frying applications; quality parameters and packaging are confirmed per requirement.",
-    "detailPath": "product-detail.html?product=palm-olein"
+    "detailPath": "products/palm-olein.html"
   },
   {
     "name": "Palm Stearin",
     "slug": "palm-stearin",
     "category": "Oils, Fats & Bakery",
     "description": "Higher-melting palm fraction for selected bakery, confectionery and fat-blend applications.",
-    "detailPath": "product-detail.html?product=palm-stearin"
+    "detailPath": "products/palm-stearin.html"
   },
   {
     "name": "Bakery Margarine",
     "slug": "bakery-margarine",
     "category": "Oils, Fats & Bakery",
     "description": "Specialty bakery fat system for lamination, pastry and dough applications; plasticity and performance requirements are confirmed per brief.",
-    "detailPath": "product-detail.html?product=bakery-margarine"
+    "detailPath": "products/bakery-margarine.html"
   },
   {
     "name": "Cocoa Butter Equivalent (CBE)",
     "slug": "cocoa-butter-equivalent-cbe",
     "category": "Oils, Fats & Bakery",
     "description": "Specialty confectionery fat for selected chocolate and compound-coating applications; compatibility and regulatory requirements are confirmed per formulation.",
-    "detailPath": "product-detail.html?product=cocoa-butter-equivalent-cbe"
+    "detailPath": "products/cocoa-butter-equivalent-cbe.html"
   },
   {
     "name": "MBTS Rubber Accelerator",
     "slug": "mbts-rubber-accelerator",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Thiazole-based rubber accelerator for suitable vulcanisation systems; grade and cure profile are confirmed per formulation.",
-    "detailPath": "product-detail.html?product=mbts-rubber-accelerator"
+    "detailPath": "products/mbts-rubber-accelerator.html"
   },
   {
     "name": "CBS Rubber Accelerator",
     "slug": "cbs-rubber-accelerator",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Delayed-action sulfenamide accelerator for rubber compounding applications.",
-    "detailPath": "product-detail.html?product=cbs-rubber-accelerator"
+    "detailPath": "products/cbs-rubber-accelerator.html"
   },
   {
     "name": "TMTD Rubber Accelerator",
     "slug": "tmtd-rubber-accelerator",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Thiuram accelerator for selected rubber vulcanisation systems; usage is determined by compound design and applicable safety requirements.",
-    "detailPath": "product-detail.html?product=tmtd-rubber-accelerator"
+    "detailPath": "products/tmtd-rubber-accelerator.html"
   },
   {
     "name": "6PPD Rubber Antioxidant",
     "slug": "6ppd-rubber-antioxidant",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Rubber antioxidant and antiozonant for selected elastomer formulations; regulatory and environmental suitability should be assessed.",
-    "detailPath": "product-detail.html?product=6ppd-rubber-antioxidant"
+    "detailPath": "products/6ppd-rubber-antioxidant.html"
   },
   {
     "name": "TMQ Rubber Antioxidant",
     "slug": "tmq-rubber-antioxidant",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Polymerised quinoline antioxidant for selected rubber and elastomer compounds.",
-    "detailPath": "product-detail.html?product=tmq-rubber-antioxidant"
+    "detailPath": "products/tmq-rubber-antioxidant.html"
   },
   {
     "name": "Zinc Oxide (Rubber Grade)",
     "slug": "zinc-oxide-rubber-grade",
     "category": "Rubber & Elastomer Chemicals",
     "description": "Zinc oxide grade used as an activator in suitable rubber compounding and vulcanisation formulations.",
-    "detailPath": "product-detail.html?product=zinc-oxide-rubber-grade"
+    "detailPath": "products/zinc-oxide-rubber-grade.html"
   },
   {
     "name": "Potassium Amyl Xanthate (PAX)",
     "slug": "potassium-amyl-xanthate-pax",
     "category": "Mining & Mineral Processing",
     "description": "Collector reagent for selected sulphide mineral flotation systems; dosage and suitability depend on ore and process conditions.",
-    "detailPath": "product-detail.html?product=potassium-amyl-xanthate-pax"
+    "detailPath": "products/potassium-amyl-xanthate-pax.html"
   },
   {
     "name": "Sodium Isopropyl Xanthate (SIPX)",
     "slug": "sodium-isopropyl-xanthate-sipx",
     "category": "Mining & Mineral Processing",
     "description": "Xanthate collector for selected mineral flotation applications; product handling and process controls are required.",
-    "detailPath": "product-detail.html?product=sodium-isopropyl-xanthate-sipx"
+    "detailPath": "products/sodium-isopropyl-xanthate-sipx.html"
   },
   {
     "name": "MIBC Frother",
     "slug": "mibc-frother",
     "category": "Mining & Mineral Processing",
     "description": "Frother used in selected mineral flotation circuits; performance depends on ore characteristics and operating conditions.",
-    "detailPath": "product-detail.html?product=mibc-frother"
+    "detailPath": "products/mibc-frother.html"
   },
   {
     "name": "Drilling Grade Barite",
     "slug": "drilling-grade-barite",
     "category": "Oilfield & Drilling Chemicals",
     "description": "Weighting mineral for drilling fluid formulations; specific gravity, particle size and impurity limits are confirmed per requirement.",
-    "detailPath": "product-detail.html?product=drilling-grade-barite"
+    "detailPath": "products/drilling-grade-barite.html"
   },
   {
     "name": "PAC-LV",
     "slug": "pac-lv",
     "category": "Oilfield & Drilling Chemicals",
     "description": "Low-viscosity polyanionic cellulose for selected water-based drilling fluid applications.",
-    "detailPath": "product-detail.html?product=pac-lv"
+    "detailPath": "products/pac-lv.html"
   },
   {
     "name": "Oilfield Corrosion Inhibitor",
     "slug": "oilfield-corrosion-inhibitor",
     "category": "Oilfield & Drilling Chemicals",
     "description": "Corrosion inhibitor chemistry for selected oilfield production and process systems; compatibility and field conditions determine product selection.",
-    "detailPath": "product-detail.html?product=oilfield-corrosion-inhibitor"
+    "detailPath": "products/oilfield-corrosion-inhibitor.html"
   },
   {
     "name": "Oilfield Demulsifier",
     "slug": "oilfield-demulsifier",
     "category": "Oilfield & Drilling Chemicals",
     "description": "Demulsifier formulation for separation of water-in-oil or oil-in-water emulsions in selected oilfield operations.",
-    "detailPath": "product-detail.html?product=oilfield-demulsifier"
+    "detailPath": "products/oilfield-demulsifier.html"
   },
   {
     "name": "Textile Levelling Agent",
     "slug": "textile-levelling-agent",
     "category": "Textile & Leather Chemicals",
     "description": "Dye-bath additive used to support even dye distribution in selected textile processing applications.",
-    "detailPath": "product-detail.html?product=textile-levelling-agent"
+    "detailPath": "products/textile-levelling-agent.html"
   },
   {
     "name": "Dye Fixing Agent",
     "slug": "dye-fixing-agent",
     "category": "Textile & Leather Chemicals",
     "description": "Fixing agent for improving wet fastness in suitable textile dyeing processes.",
-    "detailPath": "product-detail.html?product=dye-fixing-agent"
+    "detailPath": "products/dye-fixing-agent.html"
   },
   {
     "name": "Paper Defoamer",
     "slug": "paper-defoamer",
     "category": "Paper, Pulp & Process Chemicals",
     "description": "Foam-control additive for selected pulp, paper and paperboard process stages.",
-    "detailPath": "product-detail.html?product=paper-defoamer"
+    "detailPath": "products/paper-defoamer.html"
   },
   {
     "name": "Paper Biocide",
     "slug": "paper-biocide",
     "category": "Paper, Pulp & Process Chemicals",
     "description": "Microbiological control chemistry for selected paper mill process-water and stock systems, subject to applicable regulations.",
-    "detailPath": "product-detail.html?product=paper-biocide"
+    "detailPath": "products/paper-biocide.html"
   },
   {
     "name": "Chelated Zinc EDTA",
     "slug": "chelated-zinc-edta",
     "category": "Agricultural & Fertilizer Inputs",
     "description": "Chelated zinc micronutrient source for suitable crop nutrition and fertiliser formulations; assay and solubility are confirmed by grade.",
-    "detailPath": "product-detail.html?product=chelated-zinc-edta"
+    "detailPath": "products/chelated-zinc-edta.html"
   },
   {
     "name": "Chelated Iron EDTA",
     "slug": "chelated-iron-edta",
     "category": "Agricultural & Fertilizer Inputs",
     "description": "Chelated iron micronutrient source for suitable crop nutrition and fertiliser formulations.",
-    "detailPath": "product-detail.html?product=chelated-iron-edta"
+    "detailPath": "products/chelated-iron-edta.html"
   },
   {
     "name": "Micronutrient Premix",
     "slug": "agricultural-micronutrient-premix",
     "category": "Agricultural & Fertilizer Inputs",
     "description": "Customised blend of selected trace elements for crop nutrition programmes, subject to crop, application and local registration requirements.",
-    "detailPath": "product-detail.html?product=agricultural-micronutrient-premix"
+    "detailPath": "products/agricultural-micronutrient-premix.html"
   },
   {
     "name": "Water-Soluble NPK Blend",
     "slug": "water-soluble-npk-blend",
     "category": "Agricultural & Fertilizer Inputs",
     "description": "Water-soluble NPK fertiliser blend for fertigation and foliar nutrition; nutrient ratio and regulatory requirements are defined per application.",
-    "detailPath": "product-detail.html?product=water-soluble-npk-blend"
+    "detailPath": "products/water-soluble-npk-blend.html"
   },
   {
     "name": "Acid Pickling Inhibitor",
     "slug": "acid-pickling-inhibitor",
     "category": "Metal Treatment & Surface Finishing",
     "description": "Inhibitor additive for selected metal pickling baths to manage base-metal attack and process performance.",
-    "detailPath": "product-detail.html?product=acid-pickling-inhibitor"
+    "detailPath": "products/acid-pickling-inhibitor.html"
   },
   {
     "name": "Rust Preventive Chemicals",
     "slug": "rust-preventive-chemicals",
     "category": "Metal Treatment & Surface Finishing",
     "description": "Temporary corrosion-protection formulations for metal parts during storage, handling and transit; film type and removal method are specified per application.",
-    "detailPath": "product-detail.html?product=rust-preventive-chemicals"
+    "detailPath": "products/rust-preventive-chemicals.html"
   },
   {
     "name": "Choline Chloride",
     "slug": "choline-chloride",
     "category": "Animal Nutrition",
     "description": "Choline source for selected poultry, livestock and aquaculture feed formulations; concentration, carrier and feed-grade documentation are specified per requirement.",
-    "detailPath": "product-detail.html?product=choline-chloride"
+    "detailPath": "products/choline-chloride.html"
   },
   {
     "name": "DL-Methionine",
     "slug": "dl-methionine",
     "category": "Animal Nutrition",
     "description": "Essential amino acid ingredient for feed formulation; assay, physical form and intended species/application are confirmed per enquiry.",
-    "detailPath": "product-detail.html?product=dl-methionine"
+    "detailPath": "products/dl-methionine.html"
   },
   {
     "name": "L-Lysine HCl",
     "slug": "l-lysine-hcl",
     "category": "Animal Nutrition",
     "description": "Feed-grade lysine source for amino-acid balancing in suitable livestock and poultry feed formulations.",
-    "detailPath": "product-detail.html?product=l-lysine-hcl"
+    "detailPath": "products/l-lysine-hcl.html"
   },
   {
     "name": "L-Threonine",
     "slug": "l-threonine",
     "category": "Animal Nutrition",
     "description": "Feed-grade essential amino acid ingredient for balanced animal nutrition formulations.",
-    "detailPath": "product-detail.html?product=l-threonine"
+    "detailPath": "products/l-threonine.html"
   },
   {
     "name": "Feed Vitamin & Mineral Premix",
     "slug": "feed-vitamin-mineral-premix",
     "category": "Animal Nutrition",
     "description": "Customised vitamin and trace-mineral blend for livestock, poultry or aquaculture feed, based on species, life stage and formulation brief.",
-    "detailPath": "product-detail.html?product=feed-vitamin-mineral-premix"
+    "detailPath": "products/feed-vitamin-mineral-premix.html"
   },
   {
     "name": "Dicalcium Phosphate (DCP)",
     "slug": "dicalcium-phosphate-dcp",
     "category": "Animal Nutrition",
     "description": "Phosphate and calcium source for animal feed formulations; phosphorus, calcium and fluorine specifications are confirmed by grade.",
-    "detailPath": "product-detail.html?product=dicalcium-phosphate-dcp"
+    "detailPath": "products/dicalcium-phosphate-dcp.html"
   },
   {
     "name": "Sodium Sulphate Anhydrous",
     "slug": "sodium-sulphate-anhydrous",
     "category": "Glass & Ceramics",
     "description": "Industrial inorganic salt used in selected glass, detergent and chemical process applications.",
-    "detailPath": "product-detail.html?product=sodium-sulphate-anhydrous"
+    "detailPath": "products/sodium-sulphate-anhydrous.html"
   },
   {
     "name": "Borax Pentahydrate",
     "slug": "borax-pentahydrate",
     "category": "Glass & Ceramics",
     "description": "Boron compound used as a flux and functional raw material in selected glass, ceramic and industrial formulations.",
-    "detailPath": "product-detail.html?product=borax-pentahydrate"
+    "detailPath": "products/borax-pentahydrate.html"
   },
   {
     "name": "Feldspar Powder",
     "slug": "feldspar-powder",
     "category": "Glass & Ceramics",
     "description": "Aluminosilicate mineral used as a fluxing raw material in glass, ceramic and tile manufacturing.",
-    "detailPath": "product-detail.html?product=feldspar-powder"
+    "detailPath": "products/feldspar-powder.html"
   },
   {
     "name": "Kaolin (China Clay)",
     "slug": "kaolin-china-clay",
     "category": "Glass & Ceramics",
     "description": "Refined clay mineral for ceramic, paper, paint, rubber and filler applications; brightness, particle size and purity are specified by grade.",
-    "detailPath": "product-detail.html?product=kaolin-china-clay"
+    "detailPath": "products/kaolin-china-clay.html"
   },
   {
     "name": "Zirconium Silicate",
     "slug": "zirconium-silicate",
     "category": "Glass & Ceramics",
     "description": "Mineral opacifier and functional raw material for selected ceramic glaze and surface-finish applications.",
-    "detailPath": "product-detail.html?product=zirconium-silicate"
+    "detailPath": "products/zirconium-silicate.html"
   },
   {
     "name": "Soda Ash Dense",
     "slug": "soda-ash-dense",
     "category": "Glass & Ceramics",
     "description": "Dense sodium carbonate grade used in glass manufacturing and selected industrial processes.",
-    "detailPath": "product-detail.html?product=soda-ash-dense"
+    "detailPath": "products/soda-ash-dense.html"
   },
   {
     "name": "Stearic Acid",
     "slug": "stearic-acid",
     "category": "Soap & Oleochemicals",
     "description": "Fatty acid raw material for soaps, rubber, candles, plastics and other oleochemical formulations; grade and origin are confirmed per enquiry.",
-    "detailPath": "product-detail.html?product=stearic-acid"
+    "detailPath": "products/stearic-acid.html"
   },
   {
     "name": "Coconut Fatty Acid",
     "slug": "coconut-fatty-acid",
     "category": "Soap & Oleochemicals",
     "description": "Coconut-derived fatty acid blend for soap, surfactant and oleochemical manufacturing applications.",
-    "detailPath": "product-detail.html?product=coconut-fatty-acid"
+    "detailPath": "products/coconut-fatty-acid.html"
   },
   {
     "name": "Palm Fatty Acid Distillate (PFAD)",
     "slug": "palm-fatty-acid-distillate-pfad",
     "category": "Soap & Oleochemicals",
     "description": "Palm-oil refining by-product used as a feedstock in selected oleochemical, soap and industrial applications.",
-    "detailPath": "product-detail.html?product=palm-fatty-acid-distillate-pfad"
+    "detailPath": "products/palm-fatty-acid-distillate-pfad.html"
   },
   {
     "name": "Soap Noodles",
     "slug": "soap-noodles",
     "category": "Soap & Oleochemicals",
     "description": "Saponified fatty-acid base material for toilet and laundry soap manufacturing; total fatty matter and formulation characteristics are confirmed per grade.",
-    "detailPath": "product-detail.html?product=soap-noodles"
+    "detailPath": "products/soap-noodles.html"
   },
   {
     "name": "Fatty Alcohols",
     "slug": "fatty-alcohols",
     "category": "Soap & Oleochemicals",
     "description": "Fatty alcohol raw materials for surfactants, emulsifiers, personal-care and industrial formulation applications.",
-    "detailPath": "product-detail.html?product=fatty-alcohols"
+    "detailPath": "products/fatty-alcohols.html"
   },
   {
     "name": "Methyl Ester Sulphonate (MES)",
     "slug": "methyl-ester-sulphonate-mes",
     "category": "Soap & Oleochemicals",
     "description": "Anionic surfactant derived from fatty acid methyl esters for suitable detergent and cleaning formulations.",
-    "detailPath": "product-detail.html?product=methyl-ester-sulphonate-mes"
+    "detailPath": "products/methyl-ester-sulphonate-mes.html"
   }
 ]
